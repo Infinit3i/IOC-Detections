@@ -34,7 +34,9 @@ Fake Captcha are being use gather end user credentials. Main expliot path for US
 
 Lumma Stealer (aka LummaC2 Stealer) is an information stealer that has been available through a Malware-as-a-Service (MaaS) model on Russian-speaking forums since at least August 2022. Once the targeted data is obtained, it is exfiltrated to a C2 server.
 
-###
+### Peaklight [2]
+
+Mandiant identified a new memory-only dropper using a complex, multi-stage infection process. This memory-only dropper decrypts and executes a PowerShell-based downloader. This PowerShell-based downloader is being tracked as PEAKLIGHT.
 
 
 # user training
@@ -66,3 +68,4 @@ Lumma Stealer (aka LummaC2 Stealer) is an information stealer that has been avai
 
 
 
+[2]: https://cloud.google.com/blog/topics/threat-intelligence/peaklight-decoding-stealthy-memory-only-malware/
