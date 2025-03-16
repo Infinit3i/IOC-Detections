@@ -3,6 +3,7 @@
 # Executive Summary
 Fake Captcha are being use gather end user credentials. Main expliot path for USMC is phishing.
 
+![Lumma Stealer Attack Path](InfoStealers/Pictures/Lumma_stealer_attack_path.png)
 
 -----
 
