@@ -1,13 +1,23 @@
 # InfoStealers
 
-
+### Stage 1
 - https://attack.mitre.org/techniques/T0882/
 - https://attack.mitre.org/techniques/T1204/002/
+
+### Stage 2
 - https://attack.mitre.org/techniques/T1115
 - https://attack.mitre.org/techniques/T1112
 - https://attack.mitre.org/techniques/T1010
 - https://attack.mitre.org/techniques/T1012
 - https://attack.mitre.org/techniques/T1129
+
+### Stage 3
+- https://attack.mitre.org/techniques/T1129
+- https://attack.mitre.org/techniques/T1497/001
+- https://attack.mitre.org/techniques/T1055/003
+- https://attack.mitre.org/techniques/T1027
+- https://attack.mitre.org/techniques/T1140
+
 
 ### Lumma
 
