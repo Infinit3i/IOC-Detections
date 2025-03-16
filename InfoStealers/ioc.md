@@ -75,6 +75,15 @@ bbf7154f14d736f0c8491fb9fb44d2f179cdb02d34ab54c04466fa0702ea7d55, Malware Sample
 fa58022d69ca123cbc1bef13467d6853b2d55b12563afdbb81fc64b0d8a1d511, Malware Samples HTA,,,
 ```
 
+## IPs
+
+```
+77.73.134.68, Lumma Stealer,,,
+144.76.173.247, Lumma Stealer,,,
+157.90.248.179, Lumma Stealer,,,
+213.252.244.62, Lumma Stealer,,,
+```
+
 
 ## Domains
 
@@ -149,36 +158,31 @@ Groups.google.com/g/hogwarts-legacy-crack-empress, Websites Containing Malicious
 By.tribuna.com/extreme/blogs/3143511-black-myth-wukong-full-unlock/, Websites Containing Malicious URLs Info Stealers,,,
 https://human-check.b-cdn.net/verify-captcha-v7.html, Lumma Stealer CAPTCHA,,,
 https://poko.b-cdn.net/poko,Lumma Stealer Mshta,,,
-hxxps://fatodex.b-cdn[.]net/fatodex, PEAKLIGHT NBIs Info Stealer,,,
-hxxps://matodown.b-cdn[.]net/matodown, PEAKLIGHT NBIs Info Stealer,,,
-hxxps://potexo.b-cdn[.]net/potexo, PEAKLIGHT NBIs Info Stealer,,,
-relaxtionflouwerwi[.]shop, LUMMAC.V2 C2s,,,
-deprivedrinkyfaiir[.]shop, LUMMAC.V2 C2s,,,
-detailbaconroollyws[.]shop, LUMMAC.V2 C2s,,,
-messtimetabledkolvk[.]shop, LUMMAC.V2 C2s,,,
-considerrycurrentyws[.]shop, LUMMAC.V2 C2s,,,
-understanndtytonyguw[.]shop, LUMMAC.V2 C2s,,,
-patternapplauderw[.]shop, LUMMAC.V2 C2s,,,
-horsedwollfedrwos[.]shop, LUMMAC.V2 C2s,,,
-tropicalironexpressiw[.]shop, LUMMAC.V2 C2s,,,
-hxxp://gceight8vt[.]top/upload.php,CRYPTBOT C2s,,,
-hxxps://brewdogebar[.]com/code.vue,CRYPTBOT C2s,,,
-hxxp://62.133.61[.]56/Downloads/Full%20Video%20HD%20(1080p).lnk,SHADOWLADDER,,,
-hxxps://fatodex.b-cdn[.]net/K1.zip,SHADOWLADDER,,,
-hxxps://fatodex.b-cdn[.]net/K2.zip,SHADOWLADDER,,,
-hxxps://forikabrof[.]click/flkhfaiouwrqkhfasdrhfsa.png,SHADOWLADDER,,,
-hxxps://matodown.b-cdn[.]net/K1.zip,SHADOWLADDER,,,
-hxxps://matodown.b-cdn[.]net/K2.zip,SHADOWLADDER,,,
-hxxps://nextomax.b-cdn[.]net/L1.zip,SHADOWLADDER,,,
-hxxps://nextomax.b-cdn[.]net/L2.zip,SHADOWLADDER,,,
-hxxps://potexo.b-cdn[.]net/K1.zip,SHADOWLADDER,,,
-hxxps://potexo.b-cdn[.]net/K2.zip,SHADOWLADDER,,,
+https://fatodex.b-cdn.net/fatodex, PEAKLIGHT NBIs Info Stealer,,,
+https://matodown.b-cdn.net/matodown, PEAKLIGHT NBIs Info Stealer,,,
+https://potexo.b-cdn.net/potexo, PEAKLIGHT NBIs Info Stealer,,,
+relaxtionflouwerwi.shop, LUMMAC.V2 C2s,,,
+deprivedrinkyfaiir.shop, LUMMAC.V2 C2s,,,
+detailbaconroollyws.shop, LUMMAC.V2 C2s,,,
+messtimetabledkolvk.shop, LUMMAC.V2 C2s,,,
+considerrycurrentyws.shop, LUMMAC.V2 C2s,,,
+understanndtytonyguw.shop, LUMMAC.V2 C2s,,,
+patternapplauderw.shop, LUMMAC.V2 C2s,,,
+horsedwollfedrwos.shop, LUMMAC.V2 C2s,,,
+tropicalironexpressiw.shop, LUMMAC.V2 C2s,,,
+hxxp://gceight8vt.top/upload.php,CRYPTBOT C2s,,,
+https://brewdogebar.com/code.vue,CRYPTBOT C2s,,,
+hxxp://62.133.61.56/Downloads/Full%20Video%20HD%20(1080p).lnk,SHADOWLADDER,,,
+https://fatodex.b-cdn.net/K1.zip,SHADOWLADDER,,,
+https://fatodex.b-cdn.net/K2.zip,SHADOWLADDER,,,
+https://forikabrof.click/flkhfaiouwrqkhfasdrhfsa.png,SHADOWLADDER,,,
+https://matodown.b-cdn.net/K1.zip,SHADOWLADDER,,,
+https://matodown.b-cdn.net/K2.zip,SHADOWLADDER,,,
+https://nextomax.b-cdn.net/L1.zip,SHADOWLADDER,,,
+https://nextomax.b-cdn.net/L2.zip,SHADOWLADDER,,,
+https://potexo.b-cdn.net/K1.zip,SHADOWLADDER,,,
+https://potexo.b-cdn.net/K2.zip,SHADOWLADDER,,,
 ```
-
-
-
-
-
 
 [1]
 [2]
