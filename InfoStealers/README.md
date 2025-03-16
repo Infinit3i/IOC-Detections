@@ -59,7 +59,7 @@ Mandiant identified a new memory-only dropper using a complex, multi-stage infec
 
 # Detections - DCO
 
-see ![DCO Detections](https
+see ![DCO Detections](https://github.com/Infinit3i/8DCO-IDM-Detections/blob/6681c47a600d7ff34db7e964836de473c7ecc76a/InfoStealers/rules.md)
 
 
 
