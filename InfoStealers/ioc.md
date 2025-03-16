@@ -129,7 +129,7 @@ Runkit.com/masterposte/dying-light-2-crack-on-pc-denuvo-fix, Websites Containing
 Runkit.com/dz4583276/monster-hunter-rise-crack-codex-pc/1.0.0/clone, Websites Containing Malicious URLs Info Stealers,,,
 Groups.google.com/g/hogwarts-legacy-crack-empress, Websites Containing Malicious URLs Info Stealers,,,
 By.tribuna.com/extreme/blogs/3143511-black-myth-wukong-full-unlock/, Websites Containing Malicious URLs Info Stealers,,,
-https://human-check.b-cdn.net/verify-captcha-v7.html
+https://human-check.b-cdn.net/verify-captcha-v7.html, Lumma Stealer CAPTCHA,,,
 ```
 [1]
 [2]
