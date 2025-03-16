@@ -134,6 +134,7 @@ https://human-check.b-cdn.net/verify-captcha-v7.html
 [1]
 [2]
 [3]
+[4]
 
 
 
@@ -141,3 +142,4 @@ https://human-check.b-cdn.net/verify-captcha-v7.html
 [1]: https://securelist.com/angry-likho-apt-attacks-with-lumma-stealer/115663/
 [2]: https://0xmrmagnezi.github.io/malware%20analysis/LummaStealer/
 [3]: https://www.mcafee.com/blogs/other-blogs/mcafee-labs/behind-the-captcha-a-clever-gateway-of-malware/
+[4]: https://denwp.com/dissecting-lumma-malware/
