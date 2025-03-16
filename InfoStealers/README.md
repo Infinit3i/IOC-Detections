@@ -1,7 +1,7 @@
 # InfoStealers
 
 # Executive Summary
-Fake Captcha are being use gather end user credentials
+Fake Captcha are being use gather end user credentials. Main expliot path for USMC is phishing.
 
 
 -----
@@ -25,6 +25,8 @@ Fake Captcha are being use gather end user credentials
 - https://attack.mitre.org/techniques/T1055/003
 - https://attack.mitre.org/techniques/T1027
 - https://attack.mitre.org/techniques/T1140
+
+
 
 
 ### Lumma
