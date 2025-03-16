@@ -1,5 +1,13 @@
 # InfoStealers
 
+# Executive Summary
+Fake Captcha are being use gather end user credentials
+
+
+-----
+
+
+
 ### Stage 1
 - https://attack.mitre.org/techniques/T0882/
 - https://attack.mitre.org/techniques/T1204/002/
