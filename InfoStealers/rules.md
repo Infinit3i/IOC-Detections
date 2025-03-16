@@ -54,9 +54,7 @@ detection:
 ```
 
 ```
-`sysmon`
-  (process_name="mshta.exe" OR command_line="*mshta*")
-  AND (command_line="*http://*" OR command_line="*https://*")
+`sysmon` (process_name="mshta.exe" OR command_line="*mshta*") AND (command_line="*http://*" OR command_line="*https://*")
 ```
 
 ALL T1204.002 already added
