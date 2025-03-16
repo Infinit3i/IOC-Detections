@@ -59,6 +59,14 @@ detection:
 
 ALL T1204.002 already added
 
+```
+`powershell` EventCode="4103" 
+| where CommandLine LIKE "%Get-Process%" AND CommandLine LIKE "%mainWindowTitle%"
+```
+
+```
+```
+
 
 
 ## References
