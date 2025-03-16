@@ -46,6 +46,18 @@ b832096cf669ff4d66e04b252cb1a1dc, Lumma Stealer,,,
 ```
 
 
+## Sha256
+```
+b6a016ef240d94f86e20339c0093a8fa377767094276730acd96d878e0e1d624, Malware Samples PS,,,
+cc29f33c1450e19b9632ec768ad4c8c6adbf35adaa3e1de5e19b2213d5cc9a54, Malware Samples PS,,,
+632816db4e3642c8f0950250180dfffe3d37dca7219492f9557faf0ed78ced7c, Malware Samples ZIP,,,
+19d04a09e2b691f4fb3c2111d308dcfa2651328dfddef701d86c726dce4a334a, Malware Samples ZIP,,,
+d737637ee5f121d11a6f3295bf0d51b06218812b5ec04fe9ea484921e905a207, Malware Samples EXE,,,
+bbf7154f14d736f0c8491fb9fb44d2f179cdb02d34ab54c04466fa0702ea7d55, Malware Samples EXE,,,
+fa58022d69ca123cbc1bef13467d6853b2d55b12563afdbb81fc64b0d8a1d511, Malware Samples HTA,,,
+```
+
+
 ## Domains
 
 ```
@@ -90,6 +102,47 @@ mennyudosirso.shop, Lumma Stealer,,,
 languagedscie.shop, Lumma Stealer,,,
 complaintsipzzx.shop, Lumma Stealer,,,
 quialitsuzoxm.shop, Lumma Stealer,,,
+Ofsetvideofre[.]click/, Fake Captcha Websites,,,
+Newvideozones[.]click/veri[.]html, Fake Captcha Websites,,,
+Clickthistogo[.]com/go/67fe87ca-a2d4-48ae-9352-c5453156df67?var_3=F60A0050-6F56-11EF-AA98-FFC33B7D3D59, Fake Captcha Websites,,,
+Downloadstep[.]com/go/08a742f2-0a36-4a00-a979-885700e3028c, Fake Captcha Websites,,,
+Betterdirectit[.]com/, Fake Captcha Websites,,,
+Betterdirectit[.]com/go/67fe87ca-a2d4-48ae-9352-c5453156df67, Fake Captcha Websites,,,
+heroic-genie-2b372e[.]netlify[.]app/please-verify-z[.]html, Fake Captcha Websites,,,
+Downloadstep[.]com/go/79553157-f8b8-440b-ae81-0d81d8fa17c4, Fake Captcha Websites,,,
+Downloadsbeta[.]com/go/08a742f2-0a36-4a00-a979-885700e3028c, Fake Captcha Websites,,,
+Streamingsplays[.]com/go/6754805d-41c5-46b7-929f-6655b02fce2c, Fake Captcha Websites,,,
+Streamingsplays[.]com/go/b11f973d-01d4-4a5b-8af3-139daaa5443f, Fake Captcha Websites,,,
+Streamingszone[.]com/go/b3ddd860-89c0-448c-937d-acf02f7a766f?c=AOsl62afSQUAEX4CAEJPFwASAAAAAABQ, Fake Captcha Websites,,,
+Streamingsplays[.]com/go/1c406539-b787-4493-a61b-f4ea31ffbd56, Fake Captcha Websites,,,
+github-scanner[.]shop/, Fake Captcha Websites,,,
+github-scanner[.]com/, Fake Captcha Websites,,,
+botcheck.b-cdn[.]net/captcha-verify-v7.html, Fake Captcha Websites,,,
+Rungamepc[.]ru/?load=Black-Myth-Wukong-crack, Redirecting InfoStealer Websites,,,
+game02-com[.]ru/?load=Cities-Skylines-2-Crack-Setup, Redirecting InfoStealer Websites,,,
+Rungamepc[.]ru/?load=Dragons-Dogma-2-Crack, Redirecting InfoStealer Websites,,,
+Rungamepc[.]ru/?load=Dying-Light-2-Crack, Redirecting InfoStealer Websites,,,
+Rungamepc[.]ru/?load=Monster-Hunter-Rise-Crack, Redirecting InfoStealer Websites,,,
+Runkit[.]com/wukong/black-myth-wukong-crack-pc, Websites Containing Malicious URLs Info Stealers,,,
+Runkit[.]com/skylinespc/cities-skylines-ii-crack-pc-full-setup, Websites Containing Malicious URLs Info Stealers,,,
+Runkit[.]com/masterposte/dying-light-2-crack-on-pc-denuvo-fix, Websites Containing Malicious URLs Info Stealers,,,
+Runkit[.]com/dz4583276/monster-hunter-rise-crack-codex-pc/1.0.0/clone, Websites Containing Malicious URLs Info Stealers,,,
+Groups[.]google[.]com/g/hogwarts-legacy-crack-empress, Websites Containing Malicious URLs Info Stealers,,,
+By[.]tribuna[.]com/extreme/blogs/3143511-black-myth-wukong-full-unlock/, Websites Containing Malicious URLs Info Stealers,,,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ```
 [1]
 [2]
