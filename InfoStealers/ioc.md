@@ -130,23 +130,14 @@ Runkit[.]com/dz4583276/monster-hunter-rise-crack-codex-pc/1.0.0/clone, Websites 
 Groups[.]google[.]com/g/hogwarts-legacy-crack-empress, Websites Containing Malicious URLs Info Stealers,,,
 By[.]tribuna[.]com/extreme/blogs/3143511-black-myth-wukong-full-unlock/, Websites Containing Malicious URLs Info Stealers,,,
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 ```
 [1]
 [2]
+[3]
+
+
 
 
 [1]: https://securelist.com/angry-likho-apt-attacks-with-lumma-stealer/115663/
 [2]: https://0xmrmagnezi.github.io/malware%20analysis/LummaStealer/
+[3]: https://www.mcafee.com/blogs/other-blogs/mcafee-labs/behind-the-captcha-a-clever-gateway-of-malware/
