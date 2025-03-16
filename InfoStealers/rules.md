@@ -65,6 +65,8 @@ ALL T1204.002 already added
 ```
 
 ```
+`sysmon` EventCode="1") OR (`windows-security` EventCode="4688") 
+| where CommandLine LIKE "%Get-Process%" AND CommandLine LIKE "%mainWindowTitle%"
 ```
 
 
