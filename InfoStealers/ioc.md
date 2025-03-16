@@ -43,6 +43,24 @@ fea50d3bb695f6ccc5ca13834cdfe298, Lumma Stealer,,,
 7b1f43deed8fc7e35f8394548e12dd81, Lumma Stealer,,,
 c39f64a31e9f15338f83411bb9fc0942, Lumma Stealer,,,
 b832096cf669ff4d66e04b252cb1a1dc, Lumma Stealer,,,
+d6ea5dcdb2f88a65399f87809f43f83c, erefgojgbu - CRYPTBOT,,,
+307f40ebc6d8a207455c96d34759f1f3, L2.zip - CRYPTBOT,,,
+d8e21ac76b228ec144217d1e85df2693, Sеtup.exe - CRYPTBOT,,,
+43939986a671821203bf9b6ba52a51b4, oqnhustu - LUMMAC.V2,,,
+58c4ba9385139785e9700898cb097538, WebView2Loader.dll - LUMMAC.V2,,,
+95361f5f264e58d6ca4538e7b436ab67, Downloader - PEAKLIGHT,,,
+b716a1d24c05c6adee11ca7388b728d3, Downloader - PEAKLIGHT,,,
+b15bac961f62448c872e1dc6d3931016, Aaaa.exe - SHADOWLADDER,,,
+e7c43dc3ec4360374043b872f934ec9e, bentonite.cfg - SHADOWLADDER,,,
+f98e0d9599d40ed032ff16de242987ca, cymophane.doc - SHADOWLADDER,,,
+b6b8164feca728db02e6b636162a2960, K1.zip - SHADOWLADDER,,,
+bb9641e3035ae8c0ab6117ecc82b65a1, K1.zip - SHADOWLADDER,,,
+236c709bbcb92aa30b7e67705ef7f55a, K2.zip - SHADOWLADDER,,, 
+d7aff07e7cd20a5419f2411f6330f530, K2.zip - SHADOWLADDER,,, 
+a6c4d2072961e9a8c98712c46be588f8, L1.zip - SHADOWLADDER,,,
+059d94e8944eca4056e92d60f7044f14, LiteSkinUtils.dll - SHADOWLADDER,,,
+dfdc331e575dae6660d6ed3c03d214bd, toughie.txt - SHADOWLADDER,,,
+47eee41b822d953c47434377006e01fe, WCLDll.dll - SHADOWLADDER,,,
 ```
 
 
@@ -131,11 +149,42 @@ Groups.google.com/g/hogwarts-legacy-crack-empress, Websites Containing Malicious
 By.tribuna.com/extreme/blogs/3143511-black-myth-wukong-full-unlock/, Websites Containing Malicious URLs Info Stealers,,,
 https://human-check.b-cdn.net/verify-captcha-v7.html, Lumma Stealer CAPTCHA,,,
 https://poko.b-cdn.net/poko,Lumma Stealer Mshta,,,
+hxxps://fatodex.b-cdn[.]net/fatodex, PEAKLIGHT NBIs Info Stealer,,,
+hxxps://matodown.b-cdn[.]net/matodown, PEAKLIGHT NBIs Info Stealer,,,
+hxxps://potexo.b-cdn[.]net/potexo, PEAKLIGHT NBIs Info Stealer,,,
+relaxtionflouwerwi[.]shop, LUMMAC.V2 C2s,,,
+deprivedrinkyfaiir[.]shop, LUMMAC.V2 C2s,,,
+detailbaconroollyws[.]shop, LUMMAC.V2 C2s,,,
+messtimetabledkolvk[.]shop, LUMMAC.V2 C2s,,,
+considerrycurrentyws[.]shop, LUMMAC.V2 C2s,,,
+understanndtytonyguw[.]shop, LUMMAC.V2 C2s,,,
+patternapplauderw[.]shop, LUMMAC.V2 C2s,,,
+horsedwollfedrwos[.]shop, LUMMAC.V2 C2s,,,
+tropicalironexpressiw[.]shop, LUMMAC.V2 C2s,,,
+hxxp://gceight8vt[.]top/upload.php,CRYPTBOT C2s,,,
+hxxps://brewdogebar[.]com/code.vue,CRYPTBOT C2s,,,
+hxxp://62.133.61[.]56/Downloads/Full%20Video%20HD%20(1080p).lnk,SHADOWLADDER,,,
+hxxps://fatodex.b-cdn[.]net/K1.zip,SHADOWLADDER,,,
+hxxps://fatodex.b-cdn[.]net/K2.zip,SHADOWLADDER,,,
+hxxps://forikabrof[.]click/flkhfaiouwrqkhfasdrhfsa.png,SHADOWLADDER,,,
+hxxps://matodown.b-cdn[.]net/K1.zip,SHADOWLADDER,,,
+hxxps://matodown.b-cdn[.]net/K2.zip,SHADOWLADDER,,,
+hxxps://nextomax.b-cdn[.]net/L1.zip,SHADOWLADDER,,,
+hxxps://nextomax.b-cdn[.]net/L2.zip,SHADOWLADDER,,,
+hxxps://potexo.b-cdn[.]net/K1.zip,SHADOWLADDER,,,
+hxxps://potexo.b-cdn[.]net/K2.zip,SHADOWLADDER,,,
 ```
+
+
+
+
+
+
 [1]
 [2]
 [3]
 [4]
+[5]
 
 
 
@@ -144,3 +193,4 @@ https://poko.b-cdn.net/poko,Lumma Stealer Mshta,,,
 [2]: https://0xmrmagnezi.github.io/malware%20analysis/LummaStealer/
 [3]: https://www.mcafee.com/blogs/other-blogs/mcafee-labs/behind-the-captcha-a-clever-gateway-of-malware/
 [4]: https://denwp.com/dissecting-lumma-malware/
+[5]: https://cloud.google.com/blog/topics/threat-intelligence/peaklight-decoding-stealthy-memory-only-malware/
