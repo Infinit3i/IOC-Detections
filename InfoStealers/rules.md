@@ -5,16 +5,13 @@
 ### SPL/Sysmon - Suspicious File Access and Modifications
 
 ```
-EventID=11  # File creation event
-TargetFilename IN ("*\\Chrome\\User Data\\Default\\Cookies", "*\\Edge\\User Data\\Default\\Cookies")
+`sysmon` EventID=11 TargetFilename IN ("*\\Chrome\\User Data\\Default\\Cookies", "*\\Edge\\User Data\\Default\\Cookies")
 ```
 
 ### SPL/Sysmon - Suspicious Process Execution
 
 ```
-EventID=1  # Process creation event
-Image="*python.exe" # Detect Python scripts execution
-CommandLine="*decrypt_value*"
+`sysmon` EventID=1 Image="*python.exe" CommandLine="*decrypt_value*"
 ```
 
 ### Sigma - Decryption Detection
@@ -36,9 +33,7 @@ detection:
 
 ### SPL/Sysmon - Browser History and Autofill Data Exfiltration
 ```
-EventID=11  # File modification or access event
-TargetFilename IN ("*\\Chrome\\User Data\\Default\\History", "*\\Edge\\User Data\\Default\\History")
-
+`sysmon` EventID=11 TargetFilename IN ("*\\Chrome\\User Data\\Default\\History", "*\\Edge\\User Data\\Default\\History")
 ```
 
 ### SPL/Sysmon - Encoded Powershell command [1]
@@ -63,6 +58,9 @@ TargetFilename IN ("*\\Chrome\\User Data\\Default\\History", "*\\Edge\\User Data
   (process_name="mshta.exe" OR command_line="*mshta*")
   AND (command_line="*http://*" OR command_line="*https://*")
 ```
+
+ALL T1204.002 already added
+
 
 
 ## References
