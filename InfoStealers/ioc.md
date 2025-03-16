@@ -38,6 +38,11 @@ a3f4e422aecd0547692d172000e4b9b9, Info Stealer Bait File,,,
 47765d12f259325af8acda48b1cbad48, Info Stealer Bait File,,,
 3e6cf927c0115f76ccf507d2f5913e02, Info Stealer Bait File,,,
 32da6c4a44973a5847c4a969950fa4c4, Info Stealer Bait File,,,
+fea50d3bb695f6ccc5ca13834cdfe298, Lumma Stealer,,,
+83ae58dd03f33d1fae6771e859200be6, Lumma Stealer,,,
+7b1f43deed8fc7e35f8394548e12dd81, Lumma Stealer,,,
+c39f64a31e9f15338f83411bb9fc0942, Lumma Stealer,,,
+b832096cf669ff4d66e04b252cb1a1dc, Lumma Stealer,,,
 ```
 
 
@@ -72,8 +77,23 @@ stronggemateraislw.shop, samples - Info Stealers,,,
 willingyhollowsk.shop, samples - Info Stealers,,,
 handsomelydicrwop.shop, samples - Info Stealers,,,
 softcallousdmykw.shop, samples - Info Stealers,,,
+https://ch3.dlvideosfre.click/human-verify-system.html, Lumma Stealer,,,
+https://verif.dlvideosfre.click/2ndhsoru, Lumma Stealer,,,
+https://verif.dlvideosfre.click/K1.zip, Lumma Stealer,,,
+https://verif.dlvideosfre.click/K2.zip, Lumma Stealer,,,
+https://verif.dlvideosfre.click, Lumma Stealer,,,
+celebratioopz.shop, Lumma Stealer,,,
+writerospzm.shop, Lumma Stealer,,,
+deallerospfosu.shop, Lumma Stealer,,,
+bassizcellskz.shop, Lumma Stealer,,,
+mennyudosirso.shop, Lumma Stealer,,,
+languagedscie.shop, Lumma Stealer,,,
+complaintsipzzx.shop, Lumma Stealer,,,
+quialitsuzoxm.shop, Lumma Stealer,,,
 ```
 [1]
+[2]
 
 
 [1]: https://securelist.com/angry-likho-apt-attacks-with-lumma-stealer/115663/
+[2]: https://0xmrmagnezi.github.io/malware%20analysis/LummaStealer/
