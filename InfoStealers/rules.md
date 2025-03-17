@@ -207,17 +207,62 @@ https://attack.mitre.org/techniques/T1010/
 | collect `jarvis_index`
 ```
 
-T1010 - Analytic 1 - Suspicious Commands
+(CHECK) T1010 - Analytic 1 - Suspicious Commands
 ```
 sourcetype="WinEventLog:Microsoft-Windows-PowerShell/Operational" EventCode="4103" 
 | where CommandLine LIKE "%Get-Process%" AND CommandLine LIKE "%mainWindowTitle%"
 
 ```
-T1010 - Analytic 1 - Suspicious Processes
+(CHECK) T1010 - Analytic 1 - Suspicious Processes
 ```
 (`sysmon` EventCode="1") OR (`windows-security` EventCode="4688") 
 | where CommandLine LIKE "%Get-Process%" AND CommandLine LIKE "%mainWindowTitle%"
 ```
+
+
+(CHECK) T1012 - Analytic 1 - Suspicious Commands
+
+```
+(sourcetype="WinEventLog:Microsoft-Windows-Powershell/Operational" EventCode="4103") | WHERE CommandLine LIKE "%New-PSDrive%" AND (CommandLine LIKE "%Registry%" OR CommandLine LIKE "%HKEY_CLASSES_ROOT%" OR CommandLine LIKE "%HKCR%")
+```
+
+(CHECK) T1012 - Analytic 1 - Suspicious Processes with Registry keys
+```
+(sourcetype="WinEventLog:Microsoft-Windows-Sysmon/Operational" EventCode="1") OR (sourcetype="WinEventLog:Security" EventCode="4688") | search (CommandLine LIKE "%reg%" AND CommandLine LIKE "%query%") OR (CommandLine LIKE "%Registry%" AND (CommandLine LIKE "%HKEY_CLASSES_ROOT%" OR CommandLine "%HKCR%"))
+```
+
+(CHECK) T1012 - Analytic 2 - reg.exe spawned from suspicious cmd.exe
+```
+((sourcetype="WinEventLog:Microsoft-Windows-Sysmon/Operational" EventCode="1") OR (sourcetype="WinEventLog:Security" EventCode="4688") 
+| where (Image LIKE "%reg.exe%" AND ParentImage LIKE "%cmd.exe%")| rename ProcessParentGuid as guid| join type=inner guid[ 
+| search ((source="WinEventLog:Microsoft-Windows-Sysmon/Operational" EventCode="1") OR (`windows-security` EventCode="4688") AND (Image LIKE "%cmd.exe%" AND ParentImage NOT LIKE "%explorer.exe%")
+| rename ProcessGuid as guid ]
+```
+(CHECK) T1012 - Analytic 3 - Rare LolBAS command lines
+```
+((sourcetype="WinEventLog:Microsoft-Windows-Sysmon/Operational" EventCode="1") OR (sourcetype="WinEventLog:Security" EventCode="4688") AND Image IN ('FilePathToLolbasProcess01.exe','FilePathToLolbasProcess02.exe') AND number_standard_deviations = 1.5| select Image, ProcessCount, AVG(ProcessCount) Over() - STDEV(ProcessCount) Over() * number_standard_deviations AS LowerBound | WHERE ProcessCount < LowerBound
+```
+
+(CHECK) T1012 - Analytic 1 - Suspicious Registry
+```
+(sourcetype="WinEventLog:Security" EventCode IN (4663, 4656)) AND ObjectType="Key" 
+| where ObjectName LIKE "%SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall%" AND (UserAccessList LIKE "%4435%" OR UserAccessList LIKE "%Enumerate sub-keys%" OR UserAccessList LIKE "%4432%" OR UserAccessList LIKE "%Query key value%") AND Image NOT IN ('FilePathToExpectedProcess01.exe','FilePathToExpectedProcess02.exe')
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
