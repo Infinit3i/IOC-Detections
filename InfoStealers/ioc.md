@@ -73,6 +73,42 @@ cc29f33c1450e19b9632ec768ad4c8c6adbf35adaa3e1de5e19b2213d5cc9a54, Malware Sample
 d737637ee5f121d11a6f3295bf0d51b06218812b5ec04fe9ea484921e905a207, Malware Samples EXE,,,
 bbf7154f14d736f0c8491fb9fb44d2f179cdb02d34ab54c04466fa0702ea7d55, Malware Samples EXE,,,
 fa58022d69ca123cbc1bef13467d6853b2d55b12563afdbb81fc64b0d8a1d511, Malware Samples HTA,,,
+ed062c189419bca7d8c816bcdb1a150c7ca7dd1ad6e30e1f46fae0c10ab062ef, AntiSpam.exe,Credential harvester version 1.,,
+d512bf205fb9d1c429a7f11f3b720c74680ea88b62dda83372be8f0de1073a08, AntiSpam.exe,Credential harvester version 2.,,
+dc5c9310a2e6297caa4304002cdfb6fbf7d6384ddbd58574f77a411f936fab0b, AntiSpam.exe,Credential harvester version 3.,,
+24b6ddd3028c28d0a13da0354333d19cbc8fd12d4351f083c8cb3a93ec3ae793
+9c1e0c8c5b9b9fe9d0aa533fb7d9d1b57db98fd70c4f66a26a3ed9e06ac132a7
+ac22ab152ed2e4e7b4cd1fc3025b58cbcd8d3d3ae3dbc447223dd4eabb17c45c, update6.exe	Used to attempt exploitation of CVE-2022-26923 for privilege escalation.
+ab1f101f6cd7c0cffc65df720b92bc8272f82a1e13f207dff21caaff7675029f,update7.exe Original filename: KLDW.exe. SystemBC malware.
+9ED2B4D88B263F5078003EF35654ED5C205AC2F2C0E9225D4CDB4C24A5EA9AF2	update8.exe	Original filename: YandexDiskSetup.exe. SystemBC malware.
+ab3daec39332ddeeba64a2f1916e6336a36ffcc751554954511121bd699b0caa	update2.dll	Original filename: atiumdag.dll
+7d96ec8b72015515c4e0b5a1ae6c799801cf7b86861ade0298a372c7ced5fd93	update5.dll	Original filename: Log.dll. Socks proxy.
+9dc809b2e5fbf38fa01530609ca7b608e2e61bd713145f84cf22c68809aec372	update7.ps1	Socks proxy script.
+fb4fa180a0eee68c06c85e1e755f423a64aa92a3ec6cf76912606ac253973506	AntiSpam.exe	Not analyzed in this blog, likely cred harvester.
+fcf59559731574c845e42cd414359067e73fca108878af3ace99df779d48cbc3	AntiSpam.exe	Not analyzed in this blog, likely cred harvester.
+949faad2c2401eb854b9c32a6bb6e514ad075e5cbe96154c172f5f6628af43ed	update5.dll	Not analyzed in this blog, likely socks proxy.
+b92cf617a952f0dd2c011d30d8532d895c0cfbfd9556f7595f5b220e99d14d64, update2.dll	Not analyzed in this blog, likely Golang HTTP beacon.
+cff5c6694d8925a12ce13a85e969bd468e28313af2fb46797bdcf77092012732, APEXScan.exe	Not analyzed in this blog, likely socks proxy.
+cb03b206d63be966ddffa7a2115ea99f9fec50d351dce03dff1240bb073b5b50, unnamed	Not analyzed in this blog, likely the same BOF contained within update6.exe.
+ccaa8c8b39cb4a4de4944200936bcd4796367c16421a89e6a7d5476ae2da78cd, update1.exe	Not analyzed in this blog, likely Golang HTTP beacon.
+1ade6a15ebcbe8cb9bda1e232d7e4111b808fd4128e0d5db15bfafafc3ec7b8e, update4.exe	Not analyzed in this blog, likely socks proxy.
+ce1f44a677d9b7d1d62373175f5583d9e8c04e16ebd94656e21aa296e00e93d7, lu2.exe	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ```
 
 ## IPs
@@ -82,6 +118,17 @@ fa58022d69ca123cbc1bef13467d6853b2d55b12563afdbb81fc64b0d8a1d511, Malware Sample
 144.76.173.247, Lumma Stealer,,,
 157.90.248.179, Lumma Stealer,,,
 213.252.244.62, Lumma Stealer,,,
+45.155.249.97,Cobalt Strike C2 IP address,,,
+77.238.224.56,C2 address,,,
+77.238.229.63,C2 address,,,
+77.238.250.123,C2 address,,,
+77.238.245.233,C2 address,,,
+91.142.74.28,C2 address,,,
+191.142.74.28,C2 address,,,
+195.2.70.38,C2 address,,,
+37.221.126.202,C2 address used by the threat actor to connect via Anydesk,,,
+91.196.70.160, Socks proxy server,,,
+217.15.175.191, SystemBC C2 IP address
 ```
 
 
@@ -182,14 +229,20 @@ https://nextomax.b-cdn.net/L1.zip,SHADOWLADDER,,,
 https://nextomax.b-cdn.net/L2.zip,SHADOWLADDER,,,
 https://potexo.b-cdn.net/K1.zip,SHADOWLADDER,,,
 https://potexo.b-cdn.net/K2.zip,SHADOWLADDER,,,
+spamicrosoft.com,Used to make external Microsoft Teams calls after email bombing users.
+halagifts.com,SystemBC C2 domain
+preservedmoment.com,Cobalt Strike domain
+falseaudiencekd.shop,Lumma C2 domain
+feighminoritsjda.shop,Lumma C2 domain
+justifycanddidatewd.shop,Lumma C2 domain
+marathonbeedksow.shop,Lumma C2 domain
+pleasurenarrowsdla.shop,Lumma C2 domain
+raiseboltskdlwpow.shop,Lumma C2 domain
+richardflorespoew.shop,Lumma C2 domain
+strwawrunnygjwu.shop,Lumma C2 domain
 ```
 
-[1]
-[2]
-[3]
-[4]
-[5]
-
+[1][2][3][4][5][6]
 
 
 
@@ -198,3 +251,4 @@ https://potexo.b-cdn.net/K2.zip,SHADOWLADDER,,,
 [3]: https://www.mcafee.com/blogs/other-blogs/mcafee-labs/behind-the-captcha-a-clever-gateway-of-malware/
 [4]: https://denwp.com/dissecting-lumma-malware/
 [5]: https://cloud.google.com/blog/topics/threat-intelligence/peaklight-decoding-stealthy-memory-only-malware/
+[6]: https://www.rapid7.com/blog/post/2024/08/12/ongoing-social-engineering-campaign-refreshes-payloads/
