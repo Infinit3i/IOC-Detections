@@ -17,14 +17,11 @@ Fake Captcha are being use gather end user credentials. Main expliot path for US
 - [x] https://attack.mitre.org/techniques/T1010
 - [x] https://attack.mitre.org/techniques/T1012
 - [x] https://attack.mitre.org/techniques/T1129
-- https://attack.mitre.org/techniques/T1129
-- https://attack.mitre.org/techniques/T1497/001
-- https://attack.mitre.org/techniques/T1055/003
-- https://attack.mitre.org/techniques/T1027
-- https://attack.mitre.org/techniques/T1140
-
-
-
+- [x] https://attack.mitre.org/techniques/T1129
+- [x] https://attack.mitre.org/techniques/T1497/001
+- [x] https://attack.mitre.org/techniques/T1055/003
+- [x] https://attack.mitre.org/techniques/T1027
+- [x] https://attack.mitre.org/techniques/T1140
 
 ### Lumma
 
