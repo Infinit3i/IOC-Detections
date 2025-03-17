@@ -207,6 +207,19 @@ https://attack.mitre.org/techniques/T1010/
 | collect `jarvis_index`
 ```
 
+T1010 - Analytic 1 - Suspicious Commands
+```
+sourcetype="WinEventLog:Microsoft-Windows-PowerShell/Operational" EventCode="4103" 
+| where CommandLine LIKE "%Get-Process%" AND CommandLine LIKE "%mainWindowTitle%"
+
+```
+T1010 - Analytic 1 - Suspicious Processes
+```
+(`sysmon` EventCode="1") OR (`windows-security` EventCode="4688") 
+| where CommandLine LIKE "%Get-Process%" AND CommandLine LIKE "%mainWindowTitle%"
+```
+
+
 
 
 ## References
