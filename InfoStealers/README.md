@@ -9,18 +9,14 @@ Fake Captcha are being use gather end user credentials. Main expliot path for US
 
 
 
-### Stage 1
+### T-Codes
 - [x] https://attack.mitre.org/techniques/T0882/
 - [x] https://attack.mitre.org/techniques/T1204/002/
-
-### Stage 2
 - [x] https://attack.mitre.org/techniques/T1115
 - [x] https://attack.mitre.org/techniques/T1112
 - [x] https://attack.mitre.org/techniques/T1010
 - [x] https://attack.mitre.org/techniques/T1012
-- https://attack.mitre.org/techniques/T1129
-
-### Stage 3
+- [x] https://attack.mitre.org/techniques/T1129
 - https://attack.mitre.org/techniques/T1129
 - https://attack.mitre.org/techniques/T1497/001
 - https://attack.mitre.org/techniques/T1055/003
