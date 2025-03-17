@@ -41,13 +41,19 @@ Mandiant identified a new memory-only dropper using a complex, multi-stage infec
 
 # Mitigations - G6
 - Organizations should implement advanced endpoint detection and response (EDR) solutions that use behavior-based detection techniques to identify and block malicious activities. Ensure AV and/or EDR perform sandboxing of the executable files downloaded from the internet.
-- Organizations should implement MFA for accessing sensitive systems and data.
+- Implement multi-factor authentication (MFA) across all account types, including default, local, domain, and cloud accounts, to prevent unauthorized access, even if credentials are compromised. MFA provides a critical layer of security by requiring multiple forms of verification beyond just a password. This measure significantly reduces the risk of adversaries abusing valid accounts to gain initial access, escalate privileges, maintain persistence, or evade defenses within your network.
 - Organizations should conduct regular training sessions to educate users about social engineering tactics and new phishing schemes.
 - Organizations should implement robust email filtering to block phishing emails and malicious attachments.
 - Organizations should apply a strict software execution policy to prevent users from downloading malware disguised as fake software installers.
 - Organization should implement application whitelisting solutions to allow only legitimate applications or scripts to run via the mshta.exe process.
 - Organizations should deploy Group Policy to enforce the firewall rule across all endpoints to prevent outbound connection over 443 or 80 ports established by the mshta.exe process (Ensure that no legitimate business processes rely on mshta.exe to make network connections over port 443/80).
 - Organizations should block IOCs shared by threat intelligence service providers.
+- Use conditional access policies to block logins from non-compliant devices or from outside defined organization IP ranges.
+- Applications and appliances that utilize default username and password should be changed immediately after the installation, and before deployment to a production environment.[83] When possible, applications that use SSH keys should be updated periodically and properly secured. Policies should minimize (if not eliminate) reuse of passwords between different user accounts, especially employees using the same credentials for personal accounts that may not be defended by enterprise security resources.
+- Audit domain and local accounts as well as their permission levels routinely to look for situations that could allow an adversary to gain wide access by obtaining credentials of a privileged account. These audits should also include if default accounts have been enabled, or if new local accounts are created that have not been authorized. Follow best practices for design and administration of an enterprise network to limit privileged account use across administrative tiers.
+- Data loss prevention can be detect and block sensitive data being uploaded to web services via web browsers.
+- Web proxies can be used to enforce an external network communication policy that prevents use of unauthorized external services.
+- Network intrusion detection and prevention systems that use network signatures to identify traffic for specific adversary malware or unusual data transfer over known protocols like FTP can be used to mitigate activity at the network level. Signatures are often for unique indicators within protocols and may be based on the specific obfuscation technique used by a particular adversary or tool, and will likely be different across various malware families and versions. Adversaries will likely change tool C2 signatures over time or construct protocols in such a way as to avoid detection by common defensive tools.
 
 
 # Detections - DCO
