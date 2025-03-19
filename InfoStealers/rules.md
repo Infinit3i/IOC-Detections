@@ -74,14 +74,34 @@ detection:
 ### SPL/Sysmon - Browser History and Autofill Data Exfiltration
 ```
 `sysmon` EventID=11 TargetFilename IN ("*\\Chrome\\User Data\\Default\\History", "*\\Edge\\User Data\\Default\\History")
+| eval hash_sha256=lower(hash_sha256),
+    hunting_trigger="INFOSTEALER - Encoded PowerShell command detected",
+    mitre_category="Defense_Evasion",
+    mitre_technique="Browser History and Autofill Data Exfiltration",
+    mitre_technique_id="XXXXX",
+    mitre_subtechnique="",
+    mitre_subtechnique_id="",
+    apt="",
+    mitre_link="",
+    creator="Cpl Iverson",
+    last_tested="",
+    upload_date="2025-03-10",
+    last_modify_date="2025-03-10"),
+    mitre_version="v16",
+    priority="High"
+| `process_create_whitelist`
+| eval indextime = _indextime
+| convert ctime(indextime)
+| table _time indextime event_description hash_sha256 host_fqdn user_name original_file_name process_path process_guid process_parent_path process_id process_parent_id process_command_line process_parent_command_line process_parent_guid mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority
+| collect `jarvis_index`
 ```
 
 ### SPL/Sysmon - Encoded Powershell command [1]
 
 ```
-`idnextime` `powershell` (process_name="powershell.exe" OR command_line="*powershell.exe*") AND (command_line="*-enc *" OR command_line="*-EncodedCommand *")
+`indextime` `powershell` (process_name="powershell.exe" OR command_line="*powershell.exe*") AND (command_line="*-enc *" OR command_line="*-EncodedCommand *")
 | eval hash_sha256=lower(hash_sha256),
-    hunting_trigger="Encoded PowerShell command detected",
+    hunting_trigger="INFOSTEALER - Encoded PowerShell command detected",
     mitre_category="Defense_Evasion",
     mitre_technique="Obfuscated Files or Information",
     mitre_technique_id="T1027",
@@ -102,14 +122,14 @@ detection:
 | collect `jarvis_index`
 ```
 
-
+[TXXXX] Hidden Powershell
 ```
-`indextim` `powershell` (process_name="powershell.exe" OR command_line="*powershell.exe*")
+`indextime` `powershell` (process_name="powershell.exe" OR command_line="*powershell.exe*")
     AND command_line="*-W Hidden*"
     AND command_line="*Invoke-WebRequest*"
     AND command_line="*/uploads/*"
 | eval hash_sha256=lower(hash_sha256),
-    hunting_trigger="Suspicious PowerShell web download with hidden window",
+    hunting_trigger="INFOSTEALER - Suspicious PowerShell web download with hidden window",
     mitre_category="Command and Control",
     mitre_technique="Ingress Tool Transfer",
     mitre_technique_id="T1105",
@@ -130,10 +150,11 @@ detection:
 | collect `jarvis_index`
 ```
 
+
 ```
 `indextime` `sysmon` (process_name="mshta.exe" OR command_line="*mshta*") AND (command_line="*http://*" OR command_line="*https://*")
 | eval hash_sha256=lower(hash_sha256),
-    hunting_trigger="Suspicious mshta execution with remote URL detected",
+    hunting_trigger="INFOSTEALER - Suspicious mshta execution with remote URL detected",
     mitre_category="Execution",
     mitre_technique="Mshta",
     mitre_technique_id="T1218.005",
@@ -161,7 +182,7 @@ https://attack.mitre.org/techniques/T1010/
 `indextime` `powershell` EventCode="4103" 
 | where CommandLine LIKE "%Get-Process%" AND CommandLine LIKE "%mainWindowTitle%"
 | eval hash_sha256=lower(hash_sha256),
-    hunting_trigger="PowerShell enumeration using Get-Process and mainWindowTitle",
+    hunting_trigger="INFOSTEALER - PowerShell enumeration using Get-Process and mainWindowTitle",
     mitre_category="Discovery",
     mitre_technique="System Information Discovery",
     mitre_technique_id="T1082",
@@ -179,7 +200,6 @@ https://attack.mitre.org/techniques/T1010/
 | convert ctime(indextime)
 | table _time indextime event_description hash_sha256 host_fqdn user_name original_file_name process_path process_guid process_parent_path process_id process_parent_id process_command_line process_parent_command_line process_parent_guid mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority
 | collect `jarvis_index`
-
 ```
 
 https://attack.mitre.org/techniques/T1010/
@@ -187,7 +207,7 @@ https://attack.mitre.org/techniques/T1010/
 `indextime` (`sysmon` EventCode="1") OR (`windows-security` EventCode="4688")
 | where CommandLine LIKE "%Get-Process%" AND CommandLine LIKE "%mainWindowTitle%"
 | eval hash_sha256=lower(hash_sha256),
-    hunting_trigger="Suspicious process enumeration using Get-Process and mainWindowTitle",
+    hunting_trigger="INFOSTEALER - Suspicious process enumeration using Get-Process and mainWindowTitle",
     mitre_category="Discovery",
     mitre_technique="System Information Discovery",
     mitre_technique_id="T1082",
@@ -209,44 +229,182 @@ https://attack.mitre.org/techniques/T1010/
 
 (CHECK) T1010 - Analytic 1 - Suspicious Commands
 ```
-sourcetype="WinEventLog:Microsoft-Windows-PowerShell/Operational" EventCode="4103" 
+`indextime` `powershell` EventCode="4103" 
 | where CommandLine LIKE "%Get-Process%" AND CommandLine LIKE "%mainWindowTitle%"
-
+| eval hash_sha256=lower(hash_sha256),
+    hunting_trigger="INFOSTEALER - Analytic 1 - Suspicious Commands",
+    mitre_category="Discovery",
+    mitre_technique="",
+    mitre_technique_id="TXXXX",
+    mitre_subtechnique="",
+    mitre_subtechnique_id="",
+    apt="",
+    mitre_link="https://attack.mitre.org/techniques/T1082/",
+    creator="Cpl Iverson",
+    last_tested="",
+    upload_date="2025-03-16",
+    last_modify_date="2025-03-16",
+    mitre_version="v16",
+    priority="Medium"
+| eval indextime = _indextime
+| convert ctime(indextime)
+| table _time indextime event_description hash_sha256 host_fqdn user_name original_file_name process_path process_guid process_parent_path process_id process_parent_id process_command_line process_parent_command_line process_parent_guid mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority
+| collect `jarvis_index`
 ```
 (CHECK) T1010 - Analytic 1 - Suspicious Processes
 ```
-(`sysmon` EventCode="1") OR (`windows-security` EventCode="4688") 
+`indextime` (`sysmon` EventCode="1") OR (`windows-security` EventCode="4688") 
 | where CommandLine LIKE "%Get-Process%" AND CommandLine LIKE "%mainWindowTitle%"
+| eval hash_sha256=lower(hash_sha256),
+    hunting_trigger="INFOSTEALER - Analytic 1 - Suspicious Processes",
+    mitre_category="Discovery",
+    mitre_technique="",
+    mitre_technique_id="TXXXX",
+    mitre_subtechnique="",
+    mitre_subtechnique_id="",
+    apt="",
+    mitre_link="https://attack.mitre.org/techniques/T1082/",
+    creator="Cpl Iverson",
+    last_tested="",
+    upload_date="2025-03-16",
+    last_modify_date="2025-03-16",
+    mitre_version="v16",
+    priority="Medium"
+| eval indextime = _indextime
+| convert ctime(indextime)
+| table _time indextime event_description hash_sha256 host_fqdn user_name original_file_name process_path process_guid process_parent_path process_id process_parent_id process_command_line process_parent_command_line process_parent_guid mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority
+| collect `jarvis_index`
 ```
 
 
 (CHECK) T1012 - Analytic 1 - Suspicious Commands
 
 ```
-(sourcetype="WinEventLog:Microsoft-Windows-Powershell/Operational" EventCode="4103") | WHERE CommandLine LIKE "%New-PSDrive%" AND (CommandLine LIKE "%Registry%" OR CommandLine LIKE "%HKEY_CLASSES_ROOT%" OR CommandLine LIKE "%HKCR%")
+`indextime` ('powershell' EventCode="4103") 
+| where CommandLine LIKE "%New-PSDrive%" AND (CommandLine LIKE "%Registry%" OR CommandLine LIKE "%HKEY_CLASSES_ROOT%" OR CommandLine LIKE "%HKCR%")
+| eval hash_sha256=lower(hash_sha256),
+    hunting_trigger="INFOSTEALER - T1012 - Analytic 1 - Suspicious Commands",
+    mitre_category="Discovery",
+    mitre_technique="",
+    mitre_technique_id="T1012",
+    mitre_subtechnique="",
+    mitre_subtechnique_id="",
+    apt="",
+    mitre_link="https://attack.mitre.org/techniques/T1012/",
+    creator="Cpl Iverson",
+    last_tested="",
+    upload_date="2025-03-16",
+    last_modify_date="2025-03-16",
+    mitre_version="v16",
+    priority="Medium"
+| eval indextime = _indextime
+| convert ctime(indextime)
+| table _time indextime event_description hash_sha256 host_fqdn user_name original_file_name process_path process_guid process_parent_path process_id process_parent_id process_command_line process_parent_command_line process_parent_guid mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority
+| collect `jarvis_index`
 ```
 
 (CHECK) T1012 - Analytic 1 - Suspicious Processes with Registry keys
 ```
-(sourcetype="WinEventLog:Microsoft-Windows-Sysmon/Operational" EventCode="1") OR (sourcetype="WinEventLog:Security" EventCode="4688") | search (CommandLine LIKE "%reg%" AND CommandLine LIKE "%query%") OR (CommandLine LIKE "%Registry%" AND (CommandLine LIKE "%HKEY_CLASSES_ROOT%" OR CommandLine "%HKCR%"))
+`indextime` (`sysmon` EventCode="1") OR (`windows-security` EventCode="4688") 
+| search (CommandLine LIKE "%reg%" AND CommandLine LIKE "%query%") OR (CommandLine LIKE "%Registry%" AND (CommandLine LIKE "%HKEY_CLASSES_ROOT%" OR CommandLine "%HKCR%"))
+| eval hash_sha256=lower(hash_sha256),
+    hunting_trigger="INFOSTEALER - T1012 - Analytic 1 - Suspicious Commands",
+    mitre_category="Discovery",
+    mitre_technique="",
+    mitre_technique_id="T1012",
+    mitre_subtechnique="",
+    mitre_subtechnique_id="",
+    apt="",
+    mitre_link="https://attack.mitre.org/techniques/T1012/",
+    creator="Cpl Iverson",
+    last_tested="",
+    upload_date="2025-03-16",
+    last_modify_date="2025-03-16",
+    mitre_version="v16",
+    priority="Medium"
+| eval indextime = _indextime
+| convert ctime(indextime)
+| table _time indextime event_description hash_sha256 host_fqdn user_name original_file_name process_path process_guid process_parent_path process_id process_parent_id process_command_line process_parent_command_line process_parent_guid mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority
+| collect `jarvis_index`
 ```
 
 (CHECK) T1012 - Analytic 2 - reg.exe spawned from suspicious cmd.exe
 ```
-((sourcetype="WinEventLog:Microsoft-Windows-Sysmon/Operational" EventCode="1") OR (sourcetype="WinEventLog:Security" EventCode="4688") 
-| where (Image LIKE "%reg.exe%" AND ParentImage LIKE "%cmd.exe%")| rename ProcessParentGuid as guid| join type=inner guid[ 
-| search ((source="WinEventLog:Microsoft-Windows-Sysmon/Operational" EventCode="1") OR (`windows-security` EventCode="4688") AND (Image LIKE "%cmd.exe%" AND ParentImage NOT LIKE "%explorer.exe%")
+`indextime` ((`sysmon` EventCode="1") OR (`windows-security` EventCode="4688") 
+| where (Image LIKE "%reg.exe%" AND ParentImage LIKE "%cmd.exe%")
+| rename ProcessParentGuid as guid
+| join type=inner guid[ 
+| search ((`sysmon` EventCode="1") OR (`windows-security` EventCode="4688") AND (Image LIKE "%cmd.exe%" AND ParentImage NOT LIKE "%explorer.exe%")
 | rename ProcessGuid as guid ]
+| eval hash_sha256=lower(hash_sha256),
+    hunting_trigger="INFOSTEALER - T1012 - Analytic 2 - reg.exe spawned from suspicious cmd.exe",
+    mitre_category="Discovery",
+    mitre_technique="",
+    mitre_technique_id="T1012",
+    mitre_subtechnique="",
+    mitre_subtechnique_id="",
+    apt="",
+    mitre_link="https://attack.mitre.org/techniques/T1012/",
+    creator="Cpl Iverson",
+    last_tested="",
+    upload_date="2025-03-16",
+    last_modify_date="2025-03-16",
+    mitre_version="v16",
+    priority="Medium"
+| eval indextime = _indextime
+| convert ctime(indextime)
+| table _time indextime event_description hash_sha256 host_fqdn user_name original_file_name process_path process_guid process_parent_path process_id process_parent_id process_command_line process_parent_command_line process_parent_guid mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority
+| collect `jarvis_index`
 ```
 (CHECK) T1012 - Analytic 3 - Rare LolBAS command lines
 ```
-((sourcetype="WinEventLog:Microsoft-Windows-Sysmon/Operational" EventCode="1") OR (sourcetype="WinEventLog:Security" EventCode="4688") AND Image IN ('FilePathToLolbasProcess01.exe','FilePathToLolbasProcess02.exe') AND number_standard_deviations = 1.5| select Image, ProcessCount, AVG(ProcessCount) Over() - STDEV(ProcessCount) Over() * number_standard_deviations AS LowerBound | WHERE ProcessCount < LowerBound
+`indextime` ((`sysmon` EventCode="1") OR (`windows-security` EventCode="4688") AND Image IN ('FilePathToLolbasProcess01.exe','FilePathToLolbasProcess02.exe') AND number_standard_deviations = 1.5
+| select Image, ProcessCount, AVG(ProcessCount) Over() - STDEV(ProcessCount) Over() * number_standard_deviations AS LowerBound 
+| WHERE ProcessCount < LowerBound
+| eval hash_sha256=lower(hash_sha256),
+    hunting_trigger="INFOSTEALER - T1012 - Analytic 1 - Suspicious Commands",
+    mitre_category="Discovery",
+    mitre_technique="",
+    mitre_technique_id="T1012",
+    mitre_subtechnique="",
+    mitre_subtechnique_id="",
+    apt="",
+    mitre_link="https://attack.mitre.org/techniques/T1012/",
+    creator="Cpl Iverson",
+    last_tested="",
+    upload_date="2025-03-16",
+    last_modify_date="2025-03-16",
+    mitre_version="v16",
+    priority="Medium"
+| eval indextime = _indextime
+| convert ctime(indextime)
+| table _time indextime event_description hash_sha256 host_fqdn user_name original_file_name process_path process_guid process_parent_path process_id process_parent_id process_command_line process_parent_command_line process_parent_guid mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority
+| collect `jarvis_index`
 ```
 
 (CHECK) T1012 - Analytic 1 - Suspicious Registry
 ```
-(sourcetype="WinEventLog:Security" EventCode IN (4663, 4656)) AND ObjectType="Key" 
+`indextime` (`windows-security` EventCode IN (4663, 4656)) AND ObjectType="Key" 
 | where ObjectName LIKE "%SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall%" AND (UserAccessList LIKE "%4435%" OR UserAccessList LIKE "%Enumerate sub-keys%" OR UserAccessList LIKE "%4432%" OR UserAccessList LIKE "%Query key value%") AND Image NOT IN ('FilePathToExpectedProcess01.exe','FilePathToExpectedProcess02.exe')
+| eval hash_sha256=lower(hash_sha256),
+    hunting_trigger="INFOSTEALER - T1012 - Analytic 1 - Suspicious Registry",
+    mitre_category="Discovery",
+    mitre_technique="",
+    mitre_technique_id="T1012",
+    mitre_subtechnique="",
+    mitre_subtechnique_id="",
+    apt="",
+    mitre_link="https://attack.mitre.org/techniques/T1012/",
+    creator="Cpl Iverson",
+    last_tested="",
+    upload_date="2025-03-16",
+    last_modify_date="2025-03-16",
+    mitre_version="v16",
+    priority="Medium"
+| eval indextime = _indextime
+| convert ctime(indextime)
+| table _time indextime event_description hash_sha256 host_fqdn user_name original_file_name process_path process_guid process_parent_path process_id process_parent_id process_command_line process_parent_command_line process_parent_guid mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority
+| collect `jarvis_index`
 ```
 
 
