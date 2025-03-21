@@ -3,7 +3,6 @@
 
 
 [] Suspicious File Access and Modifications
-
 ```
 `indextime` `sysmon` EventID=11 TargetFilename IN ("*\\Chrome\\User Data\\Default\\Cookies", "*\\Edge\\User Data\\Default\\Cookies", "*\\Chrome\\User Data\\Default\\History", "*\\Edge\\User Data\\Default\\History")
 | eval hash_sha256=lower(hash_sha256),
