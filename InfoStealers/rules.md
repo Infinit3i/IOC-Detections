@@ -5,7 +5,7 @@
 ### SPL/Sysmon - Suspicious File Access and Modifications
 
 ```
-`indextime` `sysmon` EventID=11 TargetFilename IN ("*\\Chrome\\User Data\\Default\\Cookies", "*\\Edge\\User Data\\Default\\Cookies")
+`indextime` `sysmon` EventID=11 TargetFilename IN ("*\\Chrome\\User Data\\Default\\Cookies", "*\\Edge\\User Data\\Default\\Cookies", "*\\Chrome\\User Data\\Default\\History", "*\\Edge\\User Data\\Default\\History")
 | eval hash_sha256=lower(hash_sha256),
     hunting_trigger="Python decryption routine detected",
     mitre_category="Defense_Evasion",
@@ -54,48 +54,6 @@
 | collect `jarvis_index`
 ```
 
-### Sigma - Decryption Detection
-
-```
-title: Suspicious Decryption Activity
-description: Detects potential use of decryption routines (win32crypt, AES)
-logsource:
-  product: windows
-  service: sysmon
-detection:
-  selection:
-    EventID: 1
-    CommandLine|contains:
-      - "CryptUnprotectData"
-      - "AESGCM"
-  condition: selection
-```
-
-### SPL/Sysmon - Browser History and Autofill Data Exfiltration
-```
-`sysmon` EventID=11 TargetFilename IN ("*\\Chrome\\User Data\\Default\\History", "*\\Edge\\User Data\\Default\\History")
-| eval hash_sha256=lower(hash_sha256),
-    hunting_trigger="INFOSTEALER - Encoded PowerShell command detected",
-    mitre_category="Defense_Evasion",
-    mitre_technique="Browser History and Autofill Data Exfiltration",
-    mitre_technique_id="XXXXX",
-    mitre_subtechnique="",
-    mitre_subtechnique_id="",
-    apt="",
-    mitre_link="",
-    creator="Cpl Iverson",
-    last_tested="",
-    upload_date="2025-03-10",
-    last_modify_date="2025-03-10"),
-    mitre_version="v16",
-    priority="High"
-| `process_create_whitelist`
-| eval indextime = _indextime
-| convert ctime(indextime)
-| table _time indextime event_description hash_sha256 host_fqdn user_name original_file_name process_path process_guid process_parent_path process_id process_parent_id process_command_line process_parent_command_line process_parent_guid mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority
-| collect `jarvis_index`
-```
-
 ### SPL/Sysmon - Encoded Powershell command [1]
 
 ```
@@ -124,10 +82,7 @@ detection:
 
 [TXXXX] Hidden Powershell
 ```
-`indextime` `powershell` (process_name="powershell.exe" OR command_line="*powershell.exe*")
-    AND command_line="*-W Hidden*"
-    AND command_line="*Invoke-WebRequest*"
-    AND command_line="*/uploads/*"
+`indextime` `powershell` (process_name="powershell.exe" OR command_line="*powershell.exe*") AND (command_line="*-W Hidden*" AND command_line="*Invoke-WebRequest*" AND command_line="*/uploads/*")
 | eval hash_sha256=lower(hash_sha256),
     hunting_trigger="INFOSTEALER - Suspicious PowerShell web download with hidden window",
     mitre_category="Command and Control",
@@ -174,8 +129,6 @@ detection:
 | table _time indextime event_description hash_sha256 host_fqdn user_name original_file_name process_path process_guid process_parent_path process_id process_parent_id process_command_line process_parent_command_line process_parent_guid mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority
 | collect `jarvis_index`
 ```
-
-ALL T1204.002 already added
 
 https://attack.mitre.org/techniques/T1010/
 ```
@@ -407,37 +360,100 @@ https://attack.mitre.org/techniques/T1010/
 | collect `jarvis_index`
 ```
 
-# Named Tunnel
+[I1570] Detection: Suspicious Named Pipe Creation (Cobalt Strike, Meterpreter, Impacket)
 ```
 ```
 Cobalt Strike (MSSE-*)
 Meterpreter (postex)
 Impacket (srvsvc)
 ```
-`sysmon` EventCode=17
+`indextime` `sysmon` EventCode=17
 | where match(Pipe, ".*\\\\pipe\\\\(msse-|postex|srvsvc).*")
+| eval hash_sha256=lower(hash_sha256),
+    hunting_trigger="INFOSTEALER - T1570 - Named Pipes Associated with C2",
+    mitre_category="Lateral Movement",
+    mitre_technique="Lateral Tool Transfer",
+    mitre_technique_id="T1570",
+    mitre_subtechnique="",
+    mitre_subtechnique_id="",
+    apt="",
+    mitre_link="https://attack.mitre.org/techniques/T1570/",
+    creator="Cpl Iverson",
+    last_tested="",
+    upload_date="2025-03-20",
+    last_modify_date="2025-03-20",
+    mitre_version="v16",
+    priority="Medium",
+    custom_category="infostealer"
+| eval indextime = _indextime
+| convert ctime(indextime)
+| table _time indextime event_description hash_sha256 host_fqdn user_name Pipe Image ProcessId ProcessGuid mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority custom_category
+| collect `jarvis_index`
+
 ```
 
 
-
+[I1012] Spike in Registry Access (Potential Pre-Reverse Shell Activity)
 ```
-`sysmon` EventCode=13
+`indextime` `sysmon` EventCode=13
 | timechart span=1m count by Image
 | eventstats avg(count) as avg_count, stdev(count) as stddev_count
 | eval threshold=(avg_count + (2 * stddev_count))
 | where count > threshold
+| eval hash_sha256=lower(hash_sha256),
+    hunting_trigger="INFOSTEALER - T1012 - Registry Spike (Anomaly)",
+    mitre_category="Discovery",
+    mitre_technique="Query Registry",
+    mitre_technique_id="T1012",
+    mitre_subtechnique="",
+    mitre_subtechnique_id="",
+    apt="",
+    mitre_link="https://attack.mitre.org/techniques/T1012/",
+    creator="Cpl Iverson",
+    last_tested="",
+    upload_date="2025-03-20",
+    last_modify_date="2025-03-20",
+    mitre_version="v16",
+    priority="Medium",
+    custom_category="infostealer"
+| eval indextime = _indextime
+| convert ctime(indextime)
+| table _time indextime count threshold Image mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority custom_category
+| collect `jarvis_index`
+
 ```
 
-
+[I1012] High Volume Registry Access (TargetObject Enumeration)
 ```
-index=sysmon_index EventCode=13
+`indextime` 
+`sysmon` EventCode=13
 | stats count by _time, TargetObject
 | where count > 5
-| table _time ComputerName User TargetObject count
+| eval hash_sha256=lower(hash_sha256),
+    hunting_trigger="INFOSTEALER - T1012 - High Volume Registry Enumeration",
+    mitre_category="Discovery",
+    mitre_technique="Query Registry",
+    mitre_technique_id="T1012",
+    mitre_subtechnique="",
+    mitre_subtechnique_id="",
+    apt="",
+    mitre_link="https://attack.mitre.org/techniques/T1012/",
+    creator="Cpl Iverson",
+    last_tested="",
+    upload_date="2025-03-20",
+    last_modify_date="2025-03-20",
+    mitre_version="v16",
+    priority="Medium",
+    custom_category="infostealer"
+| eval indextime = _indextime
+| convert ctime(indextime)
+| table _time indextime event_description hash_sha256 host_fqdn user_name TargetObject count mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority custom_category
+| collect `jarvis_index`
+
 ```
 
 
-Detect Execution of the Script (Sysmon Event ID 1)
+[] Detect Execution of the Script (Sysmon Event ID 1)
 ```
 `indextime` `sysmon` EventCode=1
 | search Image="*python*.exe" CommandLine="*results*"
@@ -462,7 +478,7 @@ Detect Execution of the Script (Sysmon Event ID 1)
 | collect `jarvis_index`
 ```
 
-Detect Registry Modification Spikes (Sysmon Event ID 13)
+[] Detect Registry Modification Spikes (Sysmon Event ID 13)
 ```
 `indextime` `sysmon` EventCode=13
 | stats count by _time, TargetObject
@@ -488,7 +504,7 @@ Detect Registry Modification Spikes (Sysmon Event ID 13)
 | collect `jarvis_index`
 ```
 
-Detect Named Pipe Creation (Sysmon Event ID 17)
+[] Detect Named Pipe Creation (Sysmon Event ID 17)
 ```
 `indextime` `sysmon` EventCode=17
 | where match(Pipe, ".*\\\\pipe\\\\(msse-|postex|srvsvc).*")
@@ -513,7 +529,7 @@ Detect Named Pipe Creation (Sysmon Event ID 17)
 | collect `jarvis_index`
 ```
 
-Detect SQLite Browser Data Access (Sysmon Event ID 10)
+[] Detect SQLite Browser Data Access (Sysmon Event ID 10)
 ```
 `indextime` `sysmon` EventCode=10
 | search TargetFilename="*Cookies" OR TargetFilename="*History" OR TargetFilename="*Web Data"
@@ -539,7 +555,7 @@ Detect SQLite Browser Data Access (Sysmon Event ID 10)
 | collect `jarvis_index`
 ```
 
-Detect Exfiltration Attempts (Sysmon Event ID 3 & 22)
+[] Detect Exfiltration Attempts (Sysmon Event ID 3 & 22)
 ```
 `indextime` `sysmon` EventCode=3
 | search DestinationPort=80 OR DestinationPort=443
@@ -567,6 +583,7 @@ Detect Exfiltration Attempts (Sysmon Event ID 3 & 22)
 | collect `jarvis_index`
 ```
 
+[] 
 ```
 `indextime` `sysmon` EventCode=17
 | search Pipe="*Chrome*" OR Pipe="*Edge*" OR Pipe="*sqlite*"
@@ -592,13 +609,192 @@ Detect Exfiltration Attempts (Sysmon Event ID 3 & 22)
 | collect `jarvis_index`
 ```
 
+[] Detect Execution of Python Infostealer (Event ID 4688)
 ```
-`indextime` `sysmon` EventCode=3
-| search DestinationPort=80 OR DestinationPort=443
-| stats count by DestinationIp Image
+`indextime` `windows` EventCode=4688
+| search NewProcessName="*python.exe" CommandLine="*results*"
+| eval hash_sha256=lower(hash_sha256),
+    hunting_trigger="INFOSTEALER - T1059.006 - Suspicious Python Execution",
+    mitre_category="Execution",
+    mitre_technique="Command and Scripting Interpreter",
+    mitre_technique_id="T1059",
+    mitre_subtechnique="Python",
+    mitre_subtechnique_id="T1059.006",
+    apt="",
+    mitre_link="https://attack.mitre.org/techniques/T1059/006/",
+    creator="Cpl Iverson",
+    last_tested="",
+    upload_date="2025-03-20",
+    last_modify_date="2025-03-20",
+    mitre_version="v16",
+    priority="High",
+    custom_category="infostealer"
+| eval indextime = _indextime
+| convert ctime(indextime)
+| table _time indextime event_description hash_sha256 host_fqdn user_name NewProcessName ProcessId ParentProcessName ParentProcessId CommandLine mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority custom_category
+| collect `jarvis_index`
+```
+
+[] Detect Access to Browser Credential Storage
+```
+`indextime` `windows` EventCode=4663
+| search ObjectName="*Cookies" OR ObjectName="*Login Data" OR ObjectName="*Web Data" OR ObjectName="*History"
+| eval hash_sha256=lower(hash_sha256),
+    hunting_trigger="INFOSTEALER - T1555.003 - Unauthorized Browser Credential Access",
+    mitre_category="Credential Access",
+    mitre_technique="Credentials from Password Stores",
+    mitre_technique_id="T1555",
+    mitre_subtechnique="Web Browsers",
+    mitre_subtechnique_id="T1555.003",
+    apt="",
+    mitre_link="https://attack.mitre.org/techniques/T1555/003/",
+    creator="Cpl Iverson",
+    last_tested="",
+    upload_date="2025-03-20",
+    last_modify_date="2025-03-20",
+    mitre_version="v16",
+    priority="High",
+    custom_category="infostealer"
+| eval indextime = _indextime
+| convert ctime(indextime)
+| table _time indextime event_description hash_sha256 host_fqdn user_name ObjectName ProcessName ProcessId Accesses mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority custom_category
+| collect `jarvis_index`
+```
+
+[] Detect Registry Modification for Browser Decryption Key
+```
+indextime 
+index=wineventlog EventCode=4657
+| search ObjectName="*os_crypt*"
+| eval hash_sha256=lower(hash_sha256),
+    hunting_trigger="INFOSTEALER - T1012 - Suspicious Registry Query (Master Key Extraction)",
+    mitre_category="Discovery",
+    mitre_technique="Query Registry",
+    mitre_technique_id="T1012",
+    mitre_subtechnique="",
+    mitre_subtechnique_id="",
+    apt="",
+    mitre_link="https://attack.mitre.org/techniques/T1012/",
+    creator="Cpl Iverson",
+    last_tested="",
+    upload_date="2025-03-20",
+    last_modify_date="2025-03-20",
+    mitre_version="v16",
+    priority="Medium",
+    custom_category="infostealer"
+| eval indextime = _indextime
+| convert ctime(indextime)
+| table _time indextime event_description hash_sha256 host_fqdn user_name ObjectName ProcessName ProcessId mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority custom_category
+| collect `jarvis_index`
+```
+
+[] Detection: File Renamed or Created as .py (Suspicious Python Script Drop)
+```
+`indextime` (`windows` EventCode=4663 ObjectName="*.py") OR (`sysmon` EventCode=11 TargetFilename="*.py")
+| eval hash_sha256=lower(hash_sha256),
+    hunting_trigger="INFOSTEALER - T1036.003 - File Renamed or Created as Python Script",
+    mitre_category="Defense Evasion",
+    mitre_technique="Masquerading",
+    mitre_technique_id="T1036",
+    mitre_subtechnique="Rename System Utilities",
+    mitre_subtechnique_id="T1036.003",
+    apt="",
+    mitre_link="https://attack.mitre.org/techniques/T1036/003/",
+    creator="Cpl Iverson",
+    last_tested="",
+    upload_date="2025-03-20",
+    last_modify_date="2025-03-20",
+    mitre_version="v16",
+    priority="Medium",
+    custom_category="infostealer"
+| eval indextime = _indextime
+| convert ctime(indextime)
+| table _time indextime event_description hash_sha256 host_fqdn user_name ObjectName TargetFilename ProcessName Image ProcessId mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority custom_category
+| collect `jarvis_index`
+```
+
+[] Python Script Execution (Suspicious Results File Usage)
+```
+`indextime` (`windows` EventCode=4688 NewProcessName="*python.exe" CommandLine="*results*") OR (`sysmon` EventCode=1 Image="*python.exe" CommandLine="*results*")
+| eval hash_sha256=lower(hash_sha256),
+    hunting_trigger="INFOSTEALER - T1059.006 - Suspicious Python Script Execution",
+    mitre_category="Execution",
+    mitre_technique="Command and Scripting Interpreter",
+    mitre_technique_id="T1059",
+    mitre_subtechnique="Python",
+    mitre_subtechnique_id="T1059.006",
+    apt="",
+    mitre_link="https://attack.mitre.org/techniques/T1059/006/",
+    creator="Cpl Iverson",
+    last_tested="",
+    upload_date="2025-03-20",
+    last_modify_date="2025-03-20",
+    mitre_version="v16",
+    priority="High",
+    custom_category="infostealer"
+| eval indextime = _indextime
+| convert ctime(indextime)
+| table _time indextime event_description hash_sha256 host_fqdn user_name NewProcessName Image ProcessId CommandLine ParentProcessName ParentProcessId mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority custom_category
+| collect `jarvis_index`
+```
+
+[] Browser Credential File Access
+```
+`indextime` (`windows` EventCode=4663 ObjectName="*Cookies" OR ObjectName="*Login Data" OR ObjectName="*Web Data" OR ObjectName="*History") OR (`sysmon` EventCode=10 TargetFilename="*Cookies" OR TargetFilename="*Login Data" OR TargetFilename="*Web Data" OR TargetFilename="*History")
+| eval hash_sha256=lower(hash_sha256),
+    hunting_trigger="INFOSTEALER - T1555.003 - Browser Credential File Access",
+    mitre_category="Credential Access",
+    mitre_technique="Credentials from Password Stores",
+    mitre_technique_id="T1555",
+    mitre_subtechnique="Web Browsers",
+    mitre_subtechnique_id="T1555.003",
+    apt="",
+    mitre_link="https://attack.mitre.org/techniques/T1555/003/",
+    creator="Cpl Iverson",
+    last_tested="",
+    upload_date="2025-03-20",
+    last_modify_date="2025-03-20",
+    mitre_version="v16",
+    priority="High",
+    custom_category="infostealer"
+| eval indextime = _indextime
+| convert ctime(indextime)
+| table _time indextime event_description hash_sha256 host_fqdn user_name ObjectName TargetFilename ProcessName Image ProcessId Accesses mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority custom_category
+| collect `jarvis_index`
+```
+
+[] Registry Key Access (Browser Master Key)
+```
+`indextime` (`windows` EventCode=4657 ObjectName="*os_crypt*") OR (`sysmon` EventCode=13 TargetObject="*os_crypt*")
+| eval hash_sha256=lower(hash_sha256),
+    hunting_trigger="INFOSTEALER - T1012 - Suspicious Registry Key Query",
+    mitre_category="Discovery",
+    mitre_technique="Query Registry",
+    mitre_technique_id="T1012",
+    mitre_subtechnique="",
+    mitre_subtechnique_id="",
+    apt="",
+    mitre_link="https://attack.mitre.org/techniques/T1012/",
+    creator="Cpl Iverson",
+    last_tested="",
+    upload_date="2025-03-20",
+    last_modify_date="2025-03-20",
+    mitre_version="v16",
+    priority="Medium",
+    custom_category="infostealer"
+| eval indextime = _indextime
+| convert ctime(indextime)
+| table _time indextime event_description hash_sha256 host_fqdn user_name ObjectName TargetObject ProcessName Image ProcessId mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority custom_category
+| collect `jarvis_index`
+```
+
+[] Exfiltration over Network (HTTP/HTTPS burst)
+```
+`indextime` (`windows` EventCode=5156 DestinationPort=80 OR DestinationPort=443) OR (`sysmon` EventCode=3 DestinationPort=80 OR DestinationPort=443)
+| stats count by DestinationIp ApplicationName Image
 | where count > 5
 | eval hash_sha256=lower(hash_sha256),
-    hunting_trigger="INFOSTEALER - T1041 - Data Exfiltration via C2",
+    hunting_trigger="INFOSTEALER - T1041 - High-Volume C2 Exfiltration",
     mitre_category="Exfiltration",
     mitre_technique="Exfiltration Over C2 Channel",
     mitre_technique_id="T1041",
@@ -615,7 +811,7 @@ Detect Exfiltration Attempts (Sysmon Event ID 3 & 22)
     custom_category="infostealer"
 | eval indextime = _indextime
 | convert ctime(indextime)
-| table _time indextime event_description hash_sha256 host_fqdn user_name original_file_name process_path process_guid process_parent_path process_id process_parent_id process_command_line process_parent_command_line process_parent_guid mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority custom_category
+| table _time indextime event_description hash_sha256 host_fqdn user_name ApplicationName Image DestinationIp DestinationPort mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority custom_category
 | collect `jarvis_index`
 ```
 
