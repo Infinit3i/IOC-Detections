@@ -2,7 +2,7 @@
 
 
 
-### SPL/Sysmon - Suspicious File Access and Modifications
+[] Suspicious File Access and Modifications
 
 ```
 `indextime` `sysmon` EventID=11 TargetFilename IN ("*\\Chrome\\User Data\\Default\\Cookies", "*\\Edge\\User Data\\Default\\Cookies", "*\\Chrome\\User Data\\Default\\History", "*\\Edge\\User Data\\Default\\History")
@@ -28,8 +28,7 @@
 | collect `jarvis_index`
 ```
 
-### SPL/Sysmon - Suspicious Process Execution
-
+[] Suspicious Process Execution
 ```
 `indextime` `sysmon` EventID=1 Image="*python.exe" CommandLine="*decrypt_value*"
 | eval hash_sha256=lower(hash_sha256),
@@ -54,8 +53,7 @@
 | collect `jarvis_index`
 ```
 
-### SPL/Sysmon - Encoded Powershell command [1]
-
+[] Encoded Powershell command [1]
 ```
 `indextime` `powershell` (process_name="powershell.exe" OR command_line="*powershell.exe*") AND (command_line="*-enc *" OR command_line="*-EncodedCommand *")
 | eval hash_sha256=lower(hash_sha256),
@@ -80,7 +78,7 @@
 | collect `jarvis_index`
 ```
 
-[TXXXX] Hidden Powershell
+[] Hidden Powershell
 ```
 `indextime` `powershell` (process_name="powershell.exe" OR command_line="*powershell.exe*") AND (command_line="*-W Hidden*" AND command_line="*Invoke-WebRequest*" AND command_line="*/uploads/*")
 | eval hash_sha256=lower(hash_sha256),
@@ -105,7 +103,7 @@
 | collect `jarvis_index`
 ```
 
-
+[] 
 ```
 `indextime` `sysmon` (process_name="mshta.exe" OR command_line="*mshta*") AND (command_line="*http://*" OR command_line="*https://*")
 | eval hash_sha256=lower(hash_sha256),
@@ -130,7 +128,7 @@
 | collect `jarvis_index`
 ```
 
-https://attack.mitre.org/techniques/T1010/
+[] 
 ```
 `indextime` `powershell` EventCode="4103" 
 | where CommandLine LIKE "%Get-Process%" AND CommandLine LIKE "%mainWindowTitle%"
@@ -155,7 +153,7 @@ https://attack.mitre.org/techniques/T1010/
 | collect `jarvis_index`
 ```
 
-https://attack.mitre.org/techniques/T1010/
+[] 
 ```
 `indextime` (`sysmon` EventCode="1") OR (`windows-security` EventCode="4688")
 | where CommandLine LIKE "%Get-Process%" AND CommandLine LIKE "%mainWindowTitle%"
@@ -425,8 +423,7 @@ Impacket (srvsvc)
 
 [I1012] High Volume Registry Access (TargetObject Enumeration)
 ```
-`indextime` 
-`sysmon` EventCode=13
+`indextime` `sysmon` EventCode=13
 | stats count by _time, TargetObject
 | where count > 5
 | eval hash_sha256=lower(hash_sha256),
@@ -449,11 +446,9 @@ Impacket (srvsvc)
 | convert ctime(indextime)
 | table _time indextime event_description hash_sha256 host_fqdn user_name TargetObject count mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority custom_category
 | collect `jarvis_index`
-
 ```
 
-
-[] Detect Execution of the Script (Sysmon Event ID 1)
+[T1059] Python Script Execution Logging to “results” File (Suspicious Scripting Activity)
 ```
 `indextime` `sysmon` EventCode=1
 | search Image="*python*.exe" CommandLine="*results*"
@@ -478,7 +473,7 @@ Impacket (srvsvc)
 | collect `jarvis_index`
 ```
 
-[] Detect Registry Modification Spikes (Sysmon Event ID 13)
+[T1012] Registry Modification Spike Indicative of Enumeration or Pre-Execution Behavior
 ```
 `indextime` `sysmon` EventCode=13
 | stats count by _time, TargetObject
@@ -504,7 +499,7 @@ Impacket (srvsvc)
 | collect `jarvis_index`
 ```
 
-[] Detect Named Pipe Creation (Sysmon Event ID 17)
+[T1570] Named Pipe Creation Linked to Post-Exploitation Frameworks (msse-, postex, srvsvc)
 ```
 `indextime` `sysmon` EventCode=17
 | where match(Pipe, ".*\\\\pipe\\\\(msse-|postex|srvsvc).*")
@@ -529,7 +524,7 @@ Impacket (srvsvc)
 | collect `jarvis_index`
 ```
 
-[] Detect SQLite Browser Data Access (Sysmon Event ID 10)
+[T1555.003] Unauthorized Access to Browser Credential Stores (SQLite: Cookies, History, Web Data)
 ```
 `indextime` `sysmon` EventCode=10
 | search TargetFilename="*Cookies" OR TargetFilename="*History" OR TargetFilename="*Web Data"
@@ -555,7 +550,7 @@ Impacket (srvsvc)
 | collect `jarvis_index`
 ```
 
-[] Detect Exfiltration Attempts (Sysmon Event ID 3 & 22)
+[T1041] High-Volume HTTP/S Exfiltration Attempt via Suspicious Process
 ```
 `indextime` `sysmon` EventCode=3
 | search DestinationPort=80 OR DestinationPort=443
@@ -583,7 +578,7 @@ Impacket (srvsvc)
 | collect `jarvis_index`
 ```
 
-[] 
+[T1570] Named Pipe Creation for Browser Data Exfiltration via Chrome, Edge, or SQLite
 ```
 `indextime` `sysmon` EventCode=17
 | search Pipe="*Chrome*" OR Pipe="*Edge*" OR Pipe="*sqlite*"
@@ -609,7 +604,7 @@ Impacket (srvsvc)
 | collect `jarvis_index`
 ```
 
-[] Detect Execution of Python Infostealer (Event ID 4688)
+[T1059.006] Detect Execution of Python Infostealer
 ```
 `indextime` `windows` EventCode=4688
 | search NewProcessName="*python.exe" CommandLine="*results*"
@@ -635,7 +630,7 @@ Impacket (srvsvc)
 | collect `jarvis_index`
 ```
 
-[] Detect Access to Browser Credential Storage
+[T1555.003] Detect Access to Browser Credential Storage
 ```
 `indextime` `windows` EventCode=4663
 | search ObjectName="*Cookies" OR ObjectName="*Login Data" OR ObjectName="*Web Data" OR ObjectName="*History"
@@ -661,7 +656,7 @@ Impacket (srvsvc)
 | collect `jarvis_index`
 ```
 
-[] Detect Registry Modification for Browser Decryption Key
+[T1012] Detect Registry Modification for Browser Decryption Key
 ```
 indextime 
 index=wineventlog EventCode=4657
@@ -688,7 +683,7 @@ index=wineventlog EventCode=4657
 | collect `jarvis_index`
 ```
 
-[] Detection: File Renamed or Created as .py (Suspicious Python Script Drop)
+[T1036.003] Detection: File Renamed or Created as .py (Suspicious Python Script Drop)
 ```
 `indextime` (`windows` EventCode=4663 ObjectName="*.py") OR (`sysmon` EventCode=11 TargetFilename="*.py")
 | eval hash_sha256=lower(hash_sha256),
@@ -713,7 +708,7 @@ index=wineventlog EventCode=4657
 | collect `jarvis_index`
 ```
 
-[] Python Script Execution (Suspicious Results File Usage)
+[T1059] Python Script Execution (Suspicious Results File Usage)
 ```
 `indextime` (`windows` EventCode=4688 NewProcessName="*python.exe" CommandLine="*results*") OR (`sysmon` EventCode=1 Image="*python.exe" CommandLine="*results*")
 | eval hash_sha256=lower(hash_sha256),
@@ -738,7 +733,7 @@ index=wineventlog EventCode=4657
 | collect `jarvis_index`
 ```
 
-[] Browser Credential File Access
+[T1555] Browser Credential File Access
 ```
 `indextime` (`windows` EventCode=4663 ObjectName="*Cookies" OR ObjectName="*Login Data" OR ObjectName="*Web Data" OR ObjectName="*History") OR (`sysmon` EventCode=10 TargetFilename="*Cookies" OR TargetFilename="*Login Data" OR TargetFilename="*Web Data" OR TargetFilename="*History")
 | eval hash_sha256=lower(hash_sha256),
@@ -763,7 +758,7 @@ index=wineventlog EventCode=4657
 | collect `jarvis_index`
 ```
 
-[] Registry Key Access (Browser Master Key)
+[T1012] Registry Key Access (Browser Master Key)
 ```
 `indextime` (`windows` EventCode=4657 ObjectName="*os_crypt*") OR (`sysmon` EventCode=13 TargetObject="*os_crypt*")
 | eval hash_sha256=lower(hash_sha256),
@@ -788,7 +783,7 @@ index=wineventlog EventCode=4657
 | collect `jarvis_index`
 ```
 
-[] Exfiltration over Network (HTTP/HTTPS burst)
+[T1041] Exfiltration over Network (HTTP/HTTPS burst)
 ```
 `indextime` (`windows` EventCode=5156 DestinationPort=80 OR DestinationPort=443) OR (`sysmon` EventCode=3 DestinationPort=80 OR DestinationPort=443)
 | stats count by DestinationIp ApplicationName Image
