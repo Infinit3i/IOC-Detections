@@ -592,6 +592,32 @@ Detect Exfiltration Attempts (Sysmon Event ID 3 & 22)
 | collect `jarvis_index`
 ```
 
+```
+`indextime` `sysmon` EventCode=3
+| search DestinationPort=80 OR DestinationPort=443
+| stats count by DestinationIp Image
+| where count > 5
+| eval hash_sha256=lower(hash_sha256),
+    hunting_trigger="INFOSTEALER - T1041 - Data Exfiltration via C2",
+    mitre_category="Exfiltration",
+    mitre_technique="Exfiltration Over C2 Channel",
+    mitre_technique_id="T1041",
+    mitre_subtechnique="",
+    mitre_subtechnique_id="",
+    apt="",
+    mitre_link="https://attack.mitre.org/techniques/T1041/",
+    creator="Cpl Iverson",
+    last_tested="",
+    upload_date="2025-03-20",
+    last_modify_date="2025-03-20",
+    mitre_version="v16",
+    priority="High",
+    custom_category="infostealer"
+| eval indextime = _indextime
+| convert ctime(indextime)
+| table _time indextime event_description hash_sha256 host_fqdn user_name original_file_name process_path process_guid process_parent_path process_id process_parent_id process_command_line process_parent_command_line process_parent_guid mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority custom_category
+| collect `jarvis_index`
+```
 
 
 ## References
