@@ -309,17 +309,12 @@
 | collect `jarvis_index`
 ```
 
-[I1570] Detection: Suspicious Named Pipe Creation (Cobalt Strike, Meterpreter, Impacket)
-```
-```
-Cobalt Strike (MSSE-*)
-Meterpreter (postex)
-Impacket (srvsvc)
+[T1570] Suspicious Named Pipe Creation (C2 / Browser Exfil)
 ```
 `indextime` `sysmon` EventCode=17
-| where match(Pipe, ".*\\\\pipe\\\\(msse-|postex|srvsvc).*")
+| where match(Pipe, ".*\\\\pipe\\\\(msse-|postex|srvsvc).*") OR Pipe="*Chrome*" OR Pipe="*Edge*" OR Pipe="*sqlite*"
 | eval hash_sha256=lower(hash_sha256),
-    hunting_trigger="INFOSTEALER - T1570 - Named Pipes Associated with C2",
+    hunting_trigger="INFOSTEALER - T1570 - Suspicious Named Pipe Activity (C2 / Browser Exfil)",
     mitre_category="Lateral Movement",
     mitre_technique="Lateral Tool Transfer",
     mitre_technique_id="T1570",
@@ -336,11 +331,9 @@ Impacket (srvsvc)
     custom_category="infostealer"
 | eval indextime = _indextime
 | convert ctime(indextime)
-| table _time indextime event_description hash_sha256 host_fqdn user_name Pipe Image ProcessId ProcessGuid mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority custom_category
+| table _time indextime event_description hash_sha256 host_fqdn user_name Pipe Image ProcessId ProcessGuid original_file_name process_path process_guid process_parent_path process_id process_parent_id process_command_line process_parent_command_line process_parent_guid mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority custom_category
 | collect `jarvis_index`
-
 ```
-
 
 [I1012] Spike in Registry Access (Potential Pre-Reverse Shell Activity)
 ```
@@ -450,30 +443,6 @@ Impacket (srvsvc)
 | collect `jarvis_index`
 ```
 
-[T1570] Named Pipe Creation Linked to Post-Exploitation Frameworks (msse-, postex, srvsvc)
-```
-`indextime` `sysmon` EventCode=17
-| where match(Pipe, ".*\\\\pipe\\\\(msse-|postex|srvsvc).*")
-| eval hash_sha256=lower(hash_sha256),
-    hunting_trigger="INFOSTEALER - T1570 - Analytic 1 - Suspicious Named Pipe Activity",
-    mitre_category="Lateral Movement",
-    mitre_technique="Lateral Tool Transfer",
-    mitre_technique_id="T1570",
-    mitre_subtechnique="",
-    mitre_subtechnique_id="",
-    apt="",
-    mitre_link="https://attack.mitre.org/techniques/T1570/",
-    creator="Cpl Iverson",
-    last_tested="",
-    upload_date="2025-03-16",
-    last_modify_date="2025-03-16",
-    mitre_version="v16",
-    priority="Medium"
-| eval indextime = _indextime
-| convert ctime(indextime)
-| table _time indextime event_description hash_sha256 host_fqdn user_name original_file_name process_path process_guid process_parent_path process_id process_parent_id process_command_line process_parent_command_line process_parent_guid mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority
-| collect `jarvis_index`
-```
 
 [T1555.003] Unauthorized Access to Browser Credential Stores (SQLite: Cookies, History, Web Data)
 ```
@@ -529,31 +498,6 @@ Impacket (srvsvc)
 | collect `jarvis_index`
 ```
 
-[T1570] Named Pipe Creation for Browser Data Exfiltration via Chrome, Edge, or SQLite
-```
-`indextime` `sysmon` EventCode=17
-| search Pipe="*Chrome*" OR Pipe="*Edge*" OR Pipe="*sqlite*"
-| eval hash_sha256=lower(hash_sha256),
-    hunting_trigger="INFOSTEALER - T1570 - Suspicious Named Pipe Activity",
-    mitre_category="Lateral Movement",
-    mitre_technique="Lateral Tool Transfer",
-    mitre_technique_id="T1570",
-    mitre_subtechnique="",
-    mitre_subtechnique_id="",
-    apt="",
-    mitre_link="https://attack.mitre.org/techniques/T1570/",
-    creator="Cpl Iverson",
-    last_tested="",
-    upload_date="2025-03-20",
-    last_modify_date="2025-03-20",
-    mitre_version="v16",
-    priority="Medium",
-    custom_category="infostealer"
-| eval indextime = _indextime
-| convert ctime(indextime)
-| table _time indextime event_description hash_sha256 host_fqdn user_name original_file_name process_path process_guid process_parent_path process_id process_parent_id process_command_line process_parent_command_line process_parent_guid mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority custom_category
-| collect `jarvis_index`
-```
 
 [T1059.006] Detect Execution of Python Infostealer
 ```
