@@ -407,19 +407,26 @@ https://attack.mitre.org/techniques/T1010/
 | collect `jarvis_index`
 ```
 
+# Named Tunnel
+```
+```
+Cobalt Strike (MSSE-*)
+Meterpreter (postex)
+Impacket (srvsvc)
+```
+`sysmon` EventCode=17
+| where match(Pipe, ".*\\\\pipe\\\\(msse-|postex|srvsvc).*")
+```
 
 
 
-
-
-
-
-
-
-
-
-
-
+```
+`sysmon` EventCode=13
+| timechart span=1m count by Image
+| eventstats avg(count) as avg_count, stdev(count) as stddev_count
+| eval threshold=(avg_count + (2 * stddev_count))
+| where count > threshold
+```
 
 
 
