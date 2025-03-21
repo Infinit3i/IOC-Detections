@@ -567,6 +567,31 @@ Detect Exfiltration Attempts (Sysmon Event ID 3 & 22)
 | collect `jarvis_index`
 ```
 
+```
+`indextime` `sysmon` EventCode=17
+| search Pipe="*Chrome*" OR Pipe="*Edge*" OR Pipe="*sqlite*"
+| eval hash_sha256=lower(hash_sha256),
+    hunting_trigger="INFOSTEALER - T1570 - Suspicious Named Pipe Activity",
+    mitre_category="Lateral Movement",
+    mitre_technique="Lateral Tool Transfer",
+    mitre_technique_id="T1570",
+    mitre_subtechnique="",
+    mitre_subtechnique_id="",
+    apt="",
+    mitre_link="https://attack.mitre.org/techniques/T1570/",
+    creator="Cpl Iverson",
+    last_tested="",
+    upload_date="2025-03-20",
+    last_modify_date="2025-03-20",
+    mitre_version="v16",
+    priority="Medium",
+    custom_category="infostealer"
+| eval indextime = _indextime
+| convert ctime(indextime)
+| table _time indextime event_description hash_sha256 host_fqdn user_name original_file_name process_path process_guid process_parent_path process_id process_parent_id process_command_line process_parent_command_line process_parent_guid mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority custom_category
+| collect `jarvis_index`
+```
+
 
 
 ## References
