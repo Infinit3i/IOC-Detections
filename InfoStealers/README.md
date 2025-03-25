@@ -7,7 +7,9 @@ Fake Captcha are being use gather end user credentials. Main expliot path for US
 
 -----
 
-
+- 208 IOCs
+- 30+ Spl Queries
+- 2 yara rules
 
 ### T-Codes
 - [x] https://attack.mitre.org/techniques/T0882/
