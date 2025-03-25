@@ -498,7 +498,7 @@
 ```
 
 
-[T1059.006] Detect Execution of Python Infostealer
+- [x] - [T1059.006] Detect Execution of Python Infostealer
 ```
 `indextime` `windows` EventCode=4688
 | search NewProcessName="*python.exe" CommandLine="*results*"
@@ -524,7 +524,7 @@
 | collect `jarvis_index`
 ```
 
-[T1555.003] Detect Access to Browser Credential Storage
+- [x] - [T1555.003] Detect Access to Browser Credential Storage
 ```
 `indextime` `windows` EventCode=4663
 | search ObjectName="*Cookies" OR ObjectName="*Login Data" OR ObjectName="*Web Data" OR ObjectName="*History"
@@ -550,7 +550,7 @@
 | collect `jarvis_index`
 ```
 
-[T1012] Detect Registry Modification for Browser Decryption Key
+- [x] - [T1012] Detect Registry Modification for Browser Decryption Key
 ```
 indextime 
 index=wineventlog EventCode=4657
@@ -577,7 +577,7 @@ index=wineventlog EventCode=4657
 | collect `jarvis_index`
 ```
 
-[T1036.003] Detection: File Renamed or Created as .py (Suspicious Python Script Drop)
+- [x] - [T1036.003] Detection: File Renamed or Created as .py (Suspicious Python Script Drop)
 ```
 `indextime` (`windows` EventCode=4663 ObjectName="*.py") OR (`sysmon` EventCode=11 TargetFilename="*.py")
 | eval hash_sha256=lower(hash_sha256),
@@ -602,7 +602,7 @@ index=wineventlog EventCode=4657
 | collect `jarvis_index`
 ```
 
-[T1059] Python Script Execution (Suspicious Results File Usage)
+[T1059] Python Script Execution (Suspicious Results File Usage) - X
 ```
 `indextime` (`windows` EventCode=4688 NewProcessName="*python.exe" CommandLine="*results*") OR (`sysmon` EventCode=1 Image="*python.exe" CommandLine="*results*")
 | eval hash_sha256=lower(hash_sha256),
@@ -627,7 +627,7 @@ index=wineventlog EventCode=4657
 | collect `jarvis_index`
 ```
 
-[T1555] Browser Credential File Access
+[T1555] Browser Credential File Access - X
 ```
 `indextime` (`windows` EventCode=4663 ObjectName="*Cookies" OR ObjectName="*Login Data" OR ObjectName="*Web Data" OR ObjectName="*History") OR (`sysmon` EventCode=10 TargetFilename="*Cookies" OR TargetFilename="*Login Data" OR TargetFilename="*Web Data" OR TargetFilename="*History")
 | eval hash_sha256=lower(hash_sha256),
@@ -652,7 +652,7 @@ index=wineventlog EventCode=4657
 | collect `jarvis_index`
 ```
 
-[T1012] Registry Key Access (Browser Master Key)
+[T1012] Registry Key Access (Browser Master Key) X
 ```
 `indextime` (`windows` EventCode=4657 ObjectName="*os_crypt*") OR (`sysmon` EventCode=13 TargetObject="*os_crypt*")
 | eval hash_sha256=lower(hash_sha256),
@@ -677,7 +677,7 @@ index=wineventlog EventCode=4657
 | collect `jarvis_index`
 ```
 
-[T1041] Exfiltration over Network (HTTP/HTTPS burst)
+[T1041] Exfiltration over Network (HTTP/HTTPS burst) X
 ```
 `indextime` (`windows` EventCode=5156 DestinationPort=80 OR DestinationPort=443) OR (`sysmon` EventCode=3 DestinationPort=80 OR DestinationPort=443)
 | stats count by DestinationIp ApplicationName Image
@@ -701,6 +701,35 @@ index=wineventlog EventCode=4657
 | eval indextime = _indextime
 | convert ctime(indextime)
 | table _time indextime event_description hash_sha256 host_fqdn user_name ApplicationName Image DestinationIp DestinationPort mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority custom_category
+| collect `jarvis_index`
+```
+
+[T1110.001] Reading Credentials
+```
+`indextime` (`windows-security` EventCode=5379)
+| bin _time span=1m
+| stats count by _time, host, user
+| where count > 30
+| eval hash_sha256=lower(hash_sha256),
+    hunting_trigger="INFOSTEALER - T1110.001 - Excessive Credential Validation (DPAPI Access)",
+    mitre_category="Credential Access",
+    mitre_technique="Brute Force",
+    mitre_technique_id="T1110",
+    mitre_subtechnique="Password Guessing",
+    mitre_subtechnique_id="T1110.001",
+    apt="",
+    mitre_link="https://attack.mitre.org/techniques/T1110/001/",
+    creator="Cpl Iverson",
+    last_tested="",
+    upload_date="2025-03-24",
+    last_modify_date="2025-03-24",
+    mitre_version="v16",
+    priority="Medium",
+    custom_category="infostealer"
+| eval indextime = _indextime
+| convert ctime(indextime)
+| eval event_description="Excessive DPAPI credential validation attempts via EventCode 5379"
+| table _time indextime event_description hash_sha256 host user mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority custom_category
 | collect `jarvis_index`
 ```
 
