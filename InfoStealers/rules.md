@@ -733,6 +733,32 @@ index=wineventlog EventCode=4657
 | collect `jarvis_index`
 ```
 
+[T1059.006] INFOSTEALER - Python Launcher Execution
+```
+`indextime` (`sysmon` Image="*\\Python\\Launcher\\py.exe")
+| eval hash_sha256=lower(hash_sha256),
+    hunting_trigger="INFOSTEALER - T1059.006 - Python Launcher Execution",
+    mitre_category="Execution",
+    mitre_technique="Command and Scripting Interpreter",
+    mitre_technique_id="T1059",
+    mitre_subtechnique="Python",
+    mitre_subtechnique_id="T1059.006",
+    apt="",
+    mitre_link="https://attack.mitre.org/techniques/T1059/006/",
+    creator="Cpl Iverson",
+    last_tested="",
+    upload_date="2025-03-24",
+    last_modify_date="2025-03-24",
+    mitre_version="v16",
+    priority="Medium",
+    custom_category="infostealer"
+| eval indextime = _indextime
+| convert ctime(indextime)
+| eval event_description="Execution of Python Launcher (py.exe) via Sysmon Image field"
+| table _time indextime event_description hash_sha256 host user Image CommandLine ParentImage ParentCommandLine mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority custom_category
+| collect `jarvis_index`
+```
+
 
 ## References
 [1]: https://www.group-ib.com/blog/clickfix-the-social-engineering-technique-hackers-use-to-manipulate-victims
