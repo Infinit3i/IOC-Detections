@@ -472,7 +472,7 @@ index=wineventlog EventCode=4657
 | collect `jarvis_index`
 ```
 
-[T1059] Python Script Execution (Suspicious Results File Usage) - X
+- [x] - [T1059] Python Script Execution (Suspicious Results File Usage)
 ```
 `indextime` (`windows` EventCode=4688 NewProcessName="*python.exe" CommandLine="*results*") OR (`sysmon` EventCode=1 Image="*python.exe" CommandLine="*results*")
 | eval hash_sha256=lower(hash_sha256),
@@ -497,7 +497,7 @@ index=wineventlog EventCode=4657
 | collect `jarvis_index`
 ```
 
-[T1555] Browser Credential File Access - X
+- [x] - [T1555] Browser Credential File Access
 ```
 `indextime` (`windows` EventCode=4663 ObjectName="*Cookies" OR ObjectName="*Login Data" OR ObjectName="*Web Data" OR ObjectName="*History") OR (`sysmon` EventCode=10 TargetFilename="*Cookies" OR TargetFilename="*Login Data" OR TargetFilename="*Web Data" OR TargetFilename="*History")
 | eval hash_sha256=lower(hash_sha256),
@@ -522,7 +522,7 @@ index=wineventlog EventCode=4657
 | collect `jarvis_index`
 ```
 
-[T1012] Registry Key Access (Browser Master Key) X
+- [x] - [T1012] Registry Key Access (Browser Master Key)
 ```
 `indextime` (`windows` EventCode=4657 ObjectName="*os_crypt*") OR (`sysmon` EventCode=13 TargetObject="*os_crypt*")
 | eval hash_sha256=lower(hash_sha256),
@@ -547,7 +547,7 @@ index=wineventlog EventCode=4657
 | collect `jarvis_index`
 ```
 
-[T1041] Exfiltration over Network (HTTP/HTTPS burst) X
+- [x] - [T1041] Exfiltration over Network (HTTP/HTTPS burst)
 ```
 `indextime` (`windows` EventCode=5156 DestinationPort=80 OR DestinationPort=443) OR (`sysmon` EventCode=3 DestinationPort=80 OR DestinationPort=443)
 | stats count by DestinationIp ApplicationName Image
