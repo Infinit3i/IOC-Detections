@@ -598,7 +598,6 @@ index=wineventlog EventCode=4657
     custom_category="infostealer"
 | eval indextime = _indextime
 | convert ctime(indextime)
-| eval event_description="Excessive DPAPI credential validation attempts via EventCode 5379"
 | table _time indextime event_description hash_sha256 host user mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority custom_category
 | collect `jarvis_index`
 ```
