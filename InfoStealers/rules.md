@@ -23,7 +23,7 @@
 | `process_create_whitelist` 
 | eval indextime = _indextime 
 | convert ctime(indextime) 
-| table _time indextime event_description hash_sha256 host_fqdn user_name original_file_name process_path process_guid process_parent_path process_id process_parent_id process_command_line process_parent_command_line process_parent_guid mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority
+| table _time indextime hash_sha256 host_fqdn user_name original_file_name process_path process_guid process_parent_path process_id process_parent_id process_command_line process_parent_command_line process_parent_guid mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority
 | collect `jarvis_index`
 ```
 
@@ -48,7 +48,7 @@
 | `process_create_whitelist` 
 | eval indextime = _indextime 
 | convert ctime(indextime) 
-| table _time indextime event_description hash_sha256 host_fqdn user_name original_file_name process_path process_guid process_parent_path process_id process_parent_id process_command_line process_parent_command_line process_parent_guid mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority
+| table _time indextime hash_sha256 host_fqdn user_name original_file_name process_path process_guid process_parent_path process_id process_parent_id process_command_line process_parent_command_line process_parent_guid mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority
 | collect `jarvis_index`
 ```
 
@@ -73,7 +73,7 @@
 | `process_create_whitelist`
 | eval indextime = _indextime
 | convert ctime(indextime)
-| table _time indextime event_description hash_sha256 host_fqdn user_name original_file_name process_path process_guid process_parent_path process_id process_parent_id process_command_line process_parent_command_line process_parent_guid mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority
+| table _time indextime hash_sha256 host_fqdn user_name original_file_name process_path process_guid process_parent_path process_id process_parent_id process_command_line process_parent_command_line process_parent_guid mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority
 | collect `jarvis_index`
 ```
 
@@ -98,7 +98,7 @@
 | `process_create_whitelist`
 | eval indextime = _indextime
 | convert ctime(indextime)
-| table _time indextime event_description hash_sha256 host_fqdn user_name original_file_name process_path process_guid process_parent_path process_id process_parent_id process_command_line process_parent_command_line process_parent_guid mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority
+| table _time indextime hash_sha256 host_fqdn user_name original_file_name process_path process_guid process_parent_path process_id process_parent_id process_command_line process_parent_command_line process_parent_guid mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority
 | collect `jarvis_index`
 ```
 
@@ -123,7 +123,7 @@
 | `process_create_whitelist`
 | eval indextime = _indextime
 | convert ctime(indextime)
-| table _time indextime event_description hash_sha256 host_fqdn user_name original_file_name process_path process_guid process_parent_path process_id process_parent_id process_command_line process_parent_command_line process_parent_guid mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority
+| table _time indextime hash_sha256 host_fqdn user_name original_file_name process_path process_guid process_parent_path process_id process_parent_id process_command_line process_parent_command_line process_parent_guid mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority
 | collect `jarvis_index`
 ```
 
@@ -148,7 +148,7 @@
     priority="Medium"
 | eval indextime = _indextime 
 | convert ctime(indextime)
-| table _time indextime event_description hash_sha256 host_fqdn user_name original_file_name process_path process_guid process_parent_path process_id process_parent_id process_command_line process_parent_command_line process_parent_guid mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority
+| table _time indextime hash_sha256 host_fqdn user_name original_file_name process_path process_guid process_parent_path process_id process_parent_id process_command_line process_parent_command_line process_parent_guid mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority
 | collect `jarvis_index`
 ```
 
@@ -174,7 +174,7 @@
     custom_category="infostealer"
 | eval indextime = _indextime
 | convert ctime(indextime)
-| table _time indextime event_description hash_sha256 host_fqdn user_name original_file_name process_path process_guid process_parent_path process_id process_parent_id process_command_line process_parent_command_line process_parent_guid mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority custom_category
+| table _time indextime hash_sha256 host_fqdn user_name original_file_name process_path process_guid process_parent_path process_id process_parent_id process_command_line process_parent_command_line process_parent_guid mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority custom_category
 | collect `jarvis_index`
 ```
 
@@ -200,7 +200,7 @@
     custom_category="infostealer"
 | eval indextime = _indextime
 | convert ctime(indextime)
-| table _time indextime event_description hash_sha256 host_fqdn user_name Pipe Image ProcessId ProcessGuid original_file_name process_path process_guid process_parent_path process_id process_parent_id process_command_line process_parent_command_line process_parent_guid mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority custom_category
+| table _time indextime hash_sha256 host_fqdn user_name Pipe Image ProcessId ProcessGuid original_file_name process_path process_guid process_parent_path process_id process_parent_id process_command_line process_parent_command_line process_parent_guid mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority custom_category
 | collect `jarvis_index`
 ```
 
@@ -257,7 +257,7 @@
     custom_category="infostealer"
 | eval indextime = _indextime
 | convert ctime(indextime)
-| table _time indextime event_description hash_sha256 host_fqdn user_name TargetObject count mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority custom_category
+| table _time indextime hash_sha256 host_fqdn user_name TargetObject count mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority custom_category
 | collect `jarvis_index`
 ```
 
@@ -282,7 +282,7 @@
     priority="Medium"
 | eval indextime = _indextime
 | convert ctime(indextime)
-| table _time indextime event_description hash_sha256 host_fqdn user_name original_file_name process_path process_guid process_parent_path process_id process_parent_id process_command_line process_parent_command_line process_parent_guid mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority
+| table _time indextime hash_sha256 host_fqdn user_name original_file_name process_path process_guid process_parent_path process_id process_parent_id process_command_line process_parent_command_line process_parent_guid mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority
 | collect `jarvis_index`
 ```
 
@@ -308,7 +308,7 @@
     priority="Medium"
 | eval indextime = _indextime
 | convert ctime(indextime)
-| table _time indextime event_description hash_sha256 host_fqdn user_name original_file_name process_path process_guid process_parent_path process_id process_parent_id process_command_line process_parent_command_line process_parent_guid mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority
+| table _time indextime hash_sha256 host_fqdn user_name original_file_name process_path process_guid process_parent_path process_id process_parent_id process_command_line process_parent_command_line process_parent_guid mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority
 | collect `jarvis_index`
 ```
 
@@ -335,7 +335,7 @@
     custom_category="infostealer",
 | eval indextime = _indextime
 | convert ctime(indextime)
-| table _time indextime event_description hash_sha256 host_fqdn user_name original_file_name process_path process_guid process_parent_path process_id process_parent_id process_command_line process_parent_command_line process_parent_guid mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority
+| table _time indextime hash_sha256 host_fqdn user_name original_file_name process_path process_guid process_parent_path process_id process_parent_id process_command_line process_parent_command_line process_parent_guid mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority
 | collect `jarvis_index`
 ```
 
@@ -363,7 +363,7 @@
     custom_category="infostealer",
 | eval indextime = _indextime
 | convert ctime(indextime)
-| table _time indextime event_description hash_sha256 host_fqdn user_name original_file_name process_path process_guid process_parent_path process_id process_parent_id process_command_line process_parent_command_line process_parent_guid mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority custom_category
+| table _time indextime hash_sha256 host_fqdn user_name original_file_name process_path process_guid process_parent_path process_id process_parent_id process_command_line process_parent_command_line process_parent_guid mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority custom_category
 | collect `jarvis_index`
 ```
 
@@ -390,7 +390,7 @@
     custom_category="infostealer"
 | eval indextime = _indextime
 | convert ctime(indextime)
-| table _time indextime event_description hash_sha256 host_fqdn user_name NewProcessName ProcessId ParentProcessName ParentProcessId CommandLine mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority custom_category
+| table _time indextime hash_sha256 host_fqdn user_name NewProcessName ProcessId ParentProcessName ParentProcessId CommandLine mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority custom_category
 | collect `jarvis_index`
 ```
 
@@ -416,7 +416,7 @@
     custom_category="infostealer"
 | eval indextime = _indextime
 | convert ctime(indextime)
-| table _time indextime event_description hash_sha256 host_fqdn user_name ObjectName ProcessName ProcessId Accesses mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority custom_category
+| table _time indextime hash_sha256 host_fqdn user_name ObjectName ProcessName ProcessId Accesses mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority custom_category
 | collect `jarvis_index`
 ```
 
@@ -443,7 +443,7 @@ index=wineventlog EventCode=4657
     custom_category="infostealer"
 | eval indextime = _indextime
 | convert ctime(indextime)
-| table _time indextime event_description hash_sha256 host_fqdn user_name ObjectName ProcessName ProcessId mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority custom_category
+| table _time indextime hash_sha256 host_fqdn user_name ObjectName ProcessName ProcessId mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority custom_category
 | collect `jarvis_index`
 ```
 
@@ -468,7 +468,7 @@ index=wineventlog EventCode=4657
     custom_category="infostealer"
 | eval indextime = _indextime
 | convert ctime(indextime)
-| table _time indextime event_description hash_sha256 host_fqdn user_name ObjectName TargetFilename ProcessName Image ProcessId mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority custom_category
+| table _time indextime hash_sha256 host_fqdn user_name ObjectName TargetFilename ProcessName Image ProcessId mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority custom_category
 | collect `jarvis_index`
 ```
 
@@ -493,7 +493,7 @@ index=wineventlog EventCode=4657
     custom_category="infostealer"
 | eval indextime = _indextime
 | convert ctime(indextime)
-| table _time indextime event_description hash_sha256 host_fqdn user_name NewProcessName Image ProcessId CommandLine ParentProcessName ParentProcessId mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority custom_category
+| table _time indextime  hash_sha256 host_fqdn user_name NewProcessName Image ProcessId CommandLine ParentProcessName ParentProcessId mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority custom_category
 | collect `jarvis_index`
 ```
 
@@ -518,7 +518,7 @@ index=wineventlog EventCode=4657
     custom_category="infostealer"
 | eval indextime = _indextime
 | convert ctime(indextime)
-| table _time indextime event_description hash_sha256 host_fqdn user_name ObjectName TargetFilename ProcessName Image ProcessId Accesses mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority custom_category
+| table _time indextime  hash_sha256 host_fqdn user_name ObjectName TargetFilename ProcessName Image ProcessId Accesses mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority custom_category
 | collect `jarvis_index`
 ```
 
@@ -543,7 +543,7 @@ index=wineventlog EventCode=4657
     custom_category="infostealer"
 | eval indextime = _indextime
 | convert ctime(indextime)
-| table _time indextime event_description hash_sha256 host_fqdn user_name ObjectName TargetObject ProcessName Image ProcessId mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority custom_category
+| table _time indextime  hash_sha256 host_fqdn user_name ObjectName TargetObject ProcessName Image ProcessId mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority custom_category
 | collect `jarvis_index`
 ```
 
@@ -570,7 +570,7 @@ index=wineventlog EventCode=4657
     custom_category="infostealer"
 | eval indextime = _indextime
 | convert ctime(indextime)
-| table _time indextime event_description hash_sha256 host_fqdn user_name ApplicationName Image DestinationIp DestinationPort mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority custom_category
+| table _time indextime  hash_sha256 host_fqdn user_name ApplicationName Image DestinationIp DestinationPort mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority custom_category
 | collect `jarvis_index`
 ```
 
@@ -594,11 +594,11 @@ index=wineventlog EventCode=4657
     upload_date="2025-03-24",
     last_modify_date="2025-03-24",
     mitre_version="v16",
-    priority="Medium",
+    priority="Critical",
     custom_category="infostealer"
 | eval indextime = _indextime
 | convert ctime(indextime)
-| table _time indextime event_description hash_sha256 host user mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority custom_category
+| table _time indextime hash_sha256 host user mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority custom_category
 | collect `jarvis_index`
 ```
 
@@ -623,8 +623,7 @@ index=wineventlog EventCode=4657
     custom_category="infostealer"
 | eval indextime = _indextime
 | convert ctime(indextime)
-| eval event_description="Execution of Python Launcher (py.exe) via Sysmon Image field"
-| table _time indextime event_description hash_sha256 host user Image CommandLine ParentImage ParentCommandLine mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority custom_category
+| table _time indextime hash_sha256 host user Image CommandLine ParentImage ParentCommandLine mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority custom_category
 | collect `jarvis_index`
 ```
 
@@ -649,8 +648,7 @@ index=wineventlog EventCode=4657
     custom_category="infostealer"
 | eval indextime = _indextime
 | convert ctime(indextime)
-| eval event_description="RDP (Port 3389) network connection detected via Sysmon message field"
-| table _time indextime event_description hash_sha256 host user SourceIp DestinationIp DestinationPort Image CommandLine mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority custom_category
+| table _time indextime hash_sha256 host user SourceIp DestinationIp DestinationPort Image CommandLine mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority custom_category
 | collect `jarvis_index`
 ```
 
@@ -677,19 +675,17 @@ index=wineventlog EventCode=4657
     upload_date="2025-03-24",
     last_modify_date="2025-03-24",
     mitre_version="v16",
-    priority="High",
+    priority="Critical",
     custom_category="infostealer"
 | eval indextime = _indextime
 | convert ctime(indextime)
-| eval event_description="More than 5 failed logons (4625) followed by a successful logon (4624)"
-| table _time indextime event_description hash_sha256 user host fail_count success_time mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority custom_category
+| table _time indextime hash_sha256 user host fail_count success_time mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority custom_category
 | collect `jarvis_index`
 ```
 
 [T1204.002] INFOSTEALER - Zone.Identifier ADS Write Detected
 ```
 `indextime` (`sysmon` EventCode=15 AND TargetFilename="*Zone.Identifier*")
-| stats count by _time host user Image TargetFilename ProcessId
 | eval hash_sha256=lower(hash_sha256),
     hunting_trigger="INFOSTEALER - T1204.002 - Zone.Identifier ADS Write Detected",
     mitre_category="Execution",
@@ -704,12 +700,11 @@ index=wineventlog EventCode=4657
     upload_date="2025-03-24",
     last_modify_date="2025-03-24",
     mitre_version="v16",
-    priority="Medium",
+    priority="Critical",
     custom_category="infostealer"
 | eval indextime = _indextime
 | convert ctime(indextime)
-| eval event_description="Zone.Identifier ADS write detected (Sysmon EventCode=15)"
-| table _time indextime event_description hash_sha256 host user Image TargetFilename ProcessId mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority custom_category
+| table _time indextime hash_sha256 host user Image TargetFilename ProcessId mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority custom_category
 | collect `jarvis_index`
 ```
 
@@ -725,7 +720,7 @@ index=wineventlog EventCode=4657
     | eval base_name=lower(replace(CommandLine, "^.*\\([^\\]+)\.py.*$", "\1"))
     | rename _time as exec_time, CommandLine as executed_cmd
 ]
-| where exec_time - last_seen <= 300  // executed within 5 minutes of rename
+| where exec_time - last_seen <= 300
 | eval hash_sha256=lower(hash_sha256),
     hunting_trigger="INFOSTEALER - T1059.006 - .txt File Renamed to .py and Executed",
     mitre_category="Execution",
@@ -744,15 +739,13 @@ index=wineventlog EventCode=4657
     custom_category="infostealer"
 | eval indextime = _indextime
 | convert ctime(first_seen) ctime(last_seen) ctime(exec_time) ctime(indextime)
-| eval event_description=".txt file was renamed or recreated as .py and executed shortly after"
-| table first_seen last_seen exec_time indextime event_description hash_sha256 host user files_created executed_cmd mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority custom_category
+| table first_seen last_seen exec_time indextime hash_sha256 host user files_created executed_cmd mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority custom_category
 | collect `jarvis_index`
 ```
 
 [T1059.006] INFOSTEALER - Python Script Output to Desktop
 ```
 `indextime` (`sysmon` EventCode=11 TargetFilename="*.txt" AND Image="*\\python.exe")
-| stats count by _time host user Image TargetFilename CommandLine ProcessId
 | eval hash_sha256=lower(hash_sha256),
     hunting_trigger="INFOSTEALER - T1059.006/T1005 - Python Script Output to Desktop File (results)",
     mitre_category="Execution / Collection",
@@ -772,7 +765,7 @@ index=wineventlog EventCode=4657
     custom_category="infostealer"
 | eval indextime = _indextime
 | convert ctime(_time) ctime(indextime)
-| table _time indextime event_description hash_sha256 host user Image CommandLine TargetFilename ProcessId mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link mitre_link_2 last_tested creator upload_date last_modify_date mitre_version priority custom_category
+| table _time indextime hash_sha256 host user Image CommandLine TargetFilename ProcessId mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link mitre_link_2 last_tested creator upload_date last_modify_date mitre_version priority custom_category
 | collect `jarvis_index`
 ```
 
@@ -798,8 +791,7 @@ index=wineventlog EventCode=4657
     custom_category="infostealer"
 | eval indextime = _indextime
 | convert ctime(_time) ctime(indextime)
-| eval event_description="Python HTTP server launched (likely for C2 or staging) using `-m http.server`"
-| table _time indextime event_description hash_sha256 host user Image CommandLine CurrentDirectory ProcessId mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority custom_category
+| table _time indextime hash_sha256 host user Image CommandLine CurrentDirectory ProcessId mitre_category mitre_technique mitre_technique_id hunting_trigger mitre_subtechnique mitre_subtechnique_id apt mitre_link last_tested creator upload_date last_modify_date mitre_version priority custom_category
 | collect `jarvis_index`
 ```
 
