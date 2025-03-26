@@ -21,7 +21,6 @@ FormBook
 LokiBot  
 RedLine Stealer  
 Raccoon  
-Vidar  
 Ursnif  
 Pony  
 Remcos  
