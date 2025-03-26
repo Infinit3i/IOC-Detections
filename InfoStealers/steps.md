@@ -11,3 +11,18 @@ file upload – T1105
 run py script (data staging) – T1074.001  
 exfil – T1048.002  
 remove files – T1070.004
+
+
+
+other apts that use info stealers
+
+Agent Tesla  
+FormBook  
+LokiBot  
+RedLine Stealer  
+Raccoon  
+Vidar  
+Ursnif  
+Pony  
+Remcos  
+NanoCore
