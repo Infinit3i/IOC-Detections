@@ -602,7 +602,7 @@ index=wineventlog EventCode=4657
 | collect `jarvis_index`
 ```
 
-[T1059.006] INFOSTEALER - Python Launcher Execution
+- [x] - [T1059.006] INFOSTEALER - Python Launcher Execution
 ```
 `indextime` (`sysmon` Image="*\\Python\\Launcher\\py.exe")
 | eval hash_sha256=lower(hash_sha256),
@@ -627,7 +627,7 @@ index=wineventlog EventCode=4657
 | collect `jarvis_index`
 ```
 
-
+- [x] - 
 ```
 `indextime` (`sysmon` Message="*Network connection detected*" AND "DestinationPort: 3389")
 | eval hash_sha256=lower(hash_sha256),
@@ -683,7 +683,7 @@ index=wineventlog EventCode=4657
 | collect `jarvis_index`
 ```
 
-[T1204.002] INFOSTEALER - Zone.Identifier ADS Write Detected
+- [x] - [T1204.002] INFOSTEALER - Zone.Identifier ADS Write Detected
 ```
 `indextime` (`sysmon` EventCode=15 AND TargetFilename="*Zone.Identifier*")
 | eval hash_sha256=lower(hash_sha256),
@@ -708,7 +708,7 @@ index=wineventlog EventCode=4657
 | collect `jarvis_index`
 ```
 
-[T1059.006] INFOSTEALER - .txt File Renamed to .py and Executed
+- [x] - [T1059.006] INFOSTEALER - .txt File Renamed to .py and Executed
 ```
 `indextime` (`sysmon` EventCode=11 (TargetFilename="*.txt" OR TargetFilename="*.py"))
 | eval file_ext=lower(replace(TargetFilename, "^.*\.", ""))
@@ -743,7 +743,7 @@ index=wineventlog EventCode=4657
 | collect `jarvis_index`
 ```
 
-[T1059.006] INFOSTEALER - Python Script Output to Desktop
+- [x] - [T1059.006] INFOSTEALER - Python Script Output to Desktop
 ```
 `indextime` (`sysmon` EventCode=11 TargetFilename="*.txt" AND Image="*\\python.exe")
 | eval hash_sha256=lower(hash_sha256),
@@ -769,7 +769,7 @@ index=wineventlog EventCode=4657
 | collect `jarvis_index`
 ```
 
-[T1071.001] INFOSTEALER - Python HTTP Server Launched
+- [x] - [T1071.001] INFOSTEALER - Python HTTP Server Launched
 ```
 `indextime` (`sysmon` EventCode=1 CommandLine="*http.server*")
 | stats count by _time host user Image CommandLine CurrentDirectory ProcessId
