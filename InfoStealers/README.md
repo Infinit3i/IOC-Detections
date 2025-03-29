@@ -9,17 +9,17 @@ Fake Captcha are being use gather end user credentials. Main expliot path for US
 
 ### T-Codes
 - [x] [T0882](https://attack.mitre.org/techniques/T0882/)
-- [x] https://attack.mitre.org/techniques/T1204/002/
-- [x] https://attack.mitre.org/techniques/T1115
-- [x] https://attack.mitre.org/techniques/T1112
-- [x] https://attack.mitre.org/techniques/T1010
-- [x] https://attack.mitre.org/techniques/T1012
-- [x] https://attack.mitre.org/techniques/T1129
-- [x] https://attack.mitre.org/techniques/T1129
-- [x] https://attack.mitre.org/techniques/T1497/001
-- [x] https://attack.mitre.org/techniques/T1055/003
-- [x] https://attack.mitre.org/techniques/T1027
-- [x] https://attack.mitre.org/techniques/T1140
+- [x] [T0882](https://attack.mitre.org/techniques/T1204/002/)
+- [x] [T0882](https://attack.mitre.org/techniques/T1115)
+- [x] [T0882](https://attack.mitre.org/techniques/T1112)
+- [x] [T0882](https://attack.mitre.org/techniques/T1010)
+- [x] [T0882](https://attack.mitre.org/techniques/T1012)
+- [x] [T0882](https://attack.mitre.org/techniques/T1129)
+- [x] [T0882](https://attack.mitre.org/techniques/T1129)
+- [x] [T0882](https://attack.mitre.org/techniques/T1497/001)
+- [x] [T0882](https://attack.mitre.org/techniques/T1055/003)
+- [x] [T0882](https://attack.mitre.org/techniques/T1027)
+- [x] [T0882](https://attack.mitre.org/techniques/T1140)
 
 ### Lumma
 
@@ -59,7 +59,7 @@ Mandiant identified a new memory-only dropper using a complex, multi-stage infec
 - 2 Rules hit on custom infostealers
 - 30+ Spl Queries
 - [DCO Rules](https://github.com/Infinit3i/8DCO-IDM-Detections/blob/6681c47a600d7ff34db7e964836de473c7ecc76a/InfoStealers/rules.md)
-- 672 IOCs
+- 604 IOCs
 - [DCO IOCs](https://github.com/Infinit3i/8DCO-IDM-Detections/blob/6681c47a600d7ff34db7e964836de473c7ecc76a/InfoStealers/ioc.md)
 - 9 yara rules
 - [DCO Yara](https://github.com/Infinit3i/8DCO-IDM-Detections/blob/6681c47a600d7ff34db7e964836de473c7ecc76a/InfoStealers/yara.md)
@@ -87,8 +87,8 @@ Mandiant identified a new memory-only dropper using a complex, multi-stage infec
 [14]: https://www.proofpoint.com/us/blog/threat-insight/clipboard-compromise-powershell-self-pwn
 [15]: https://www.virustotal.com/gui/collection/0d487b996555e03ea2853d24c805a473822fafd7da683ab2123d0f1e688001b8
 [16]: https://www.esentire.com/blog/fake-browser-updates-delivering-bitrat-and-lumma-stealer
-https://www.fortinet.com/blog/threat-research/lumma-variant-on-youtube
-https://outpost24.com/blog/lummac2-anti-sandbox-technique-trigonometry-human-detection/
-https://www.elastic.co/security-labs/ghostpulse-haunts-victims-using-defense-evasion-bag-o-tricks
-https://www.esentire.com/blog/the-case-of-lummac2-v4-0
-https://www.darktrace.com/blog/the-rise-of-the-lumma-info-stealer
+[17]: https://www.fortinet.com/blog/threat-research/lumma-variant-on-youtube
+[18]: https://outpost24.com/blog/lummac2-anti-sandbox-technique-trigonometry-human-detection/
+[19]: https://www.elastic.co/security-labs/ghostpulse-haunts-victims-using-defense-evasion-bag-o-tricks
+[20]: https://www.esentire.com/blog/the-case-of-lummac2-v4-0
+[21]: https://www.darktrace.com/blog/the-rise-of-the-lumma-info-stealer
