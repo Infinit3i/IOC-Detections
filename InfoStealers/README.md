@@ -7,9 +7,6 @@ Fake Captcha are being use gather end user credentials. Main expliot path for US
 
 -----
 
-### T-Codes
-[T0882](https://attack.mitre.org/techniques/T0882/) [T1204.002](https://attack.mitre.org/techniques/T1204/002/) [T1115](https://attack.mitre.org/techniques/T1115) [T1112](https://attack.mitre.org/techniques/T1112) [T1010](https://attack.mitre.org/techniques/T1010) [T1012](https://attack.mitre.org/techniques/T1012) [T1129](https://attack.mitre.org/techniques/T1129) [T1497.001](https://attack.mitre.org/techniques/T1497/001) [T1055.003](https://attack.mitre.org/techniques/T1055/003) [T1027](https://attack.mitre.org/techniques/T1027) [T1140](https://attack.mitre.org/techniques/T1140)
-
 ### Lumma
 
 Lumma Stealer (aka LummaC2 Stealer) is an information stealer that has been available through a Malware-as-a-Service (MaaS) model on Russian-speaking forums since at least August 2022. Once the targeted data is obtained, it is exfiltrated to a C2 server.
@@ -18,6 +15,11 @@ Lumma Stealer (aka LummaC2 Stealer) is an information stealer that has been avai
 
 Mandiant identified a new memory-only dropper using a complex, multi-stage infection process. This memory-only dropper decrypts and executes a PowerShell-based downloader. This PowerShell-based downloader is being tracked as PEAKLIGHT.
 
+[Virustotal IOC Collection](https://www.virustotal.com/gui/collection/67b55b4f6f82f6de268f57413f84efe849919c8a3241d3b1abaa54ad33742a3a/summary)
+
+
+### T-Codes
+[T0882](https://attack.mitre.org/techniques/T0882/) [T1204.002](https://attack.mitre.org/techniques/T1204/002/) [T1115](https://attack.mitre.org/techniques/T1115) [T1112](https://attack.mitre.org/techniques/T1112) [T1010](https://attack.mitre.org/techniques/T1010) [T1012](https://attack.mitre.org/techniques/T1012) [T1129](https://attack.mitre.org/techniques/T1129) [T1497.001](https://attack.mitre.org/techniques/T1497/001) [T1055.003](https://attack.mitre.org/techniques/T1055/003) [T1027](https://attack.mitre.org/techniques/T1027) [T1140](https://attack.mitre.org/techniques/T1140)
 
 # user training
 - Users should verify URLs in emails, especially from unknown or unexpected sources.
