@@ -90,3 +90,4 @@ https://www.fortinet.com/blog/threat-research/lumma-variant-on-youtube
 https://outpost24.com/blog/lummac2-anti-sandbox-technique-trigonometry-human-detection/
 https://www.elastic.co/security-labs/ghostpulse-haunts-victims-using-defense-evasion-bag-o-tricks
 https://www.esentire.com/blog/the-case-of-lummac2-v4-0
+https://www.darktrace.com/blog/the-rise-of-the-lumma-info-stealer
