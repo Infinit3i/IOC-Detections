@@ -15,7 +15,7 @@ Lumma Stealer (aka LummaC2 Stealer) is an information stealer that has been avai
 
 Mandiant identified a new memory-only dropper using a complex, multi-stage infection process. This memory-only dropper decrypts and executes a PowerShell-based downloader. This PowerShell-based downloader is being tracked as PEAKLIGHT.
 
-[Virustotal IOC Collection](https://www.virustotal.com/gui/collection/67b55b4f6f82f6de268f57413f84efe849919c8a3241d3b1abaa54ad33742a3a/summary)
+[Virustotal IOC Collection](https://www.virustotal.com/gui/collection/67b55b4f6f82f6de268f57413f84efe849919c8a3241d3b1abaa54ad33742a3a/iocs)
 
 
 ### T-Codes
