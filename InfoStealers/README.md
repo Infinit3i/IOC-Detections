@@ -73,8 +73,6 @@ Mandiant identified a new memory-only dropper using a complex, multi-stage infec
 
 
 TODO
-- https://www.rapid7.com/blog/post/2024/08/12/ongoing-social-engineering-campaign-refreshes-payloads/
-- https://research.checkpoint.com/2024/stargazers-ghost-network/
 - https://www.fortinet.com/blog/threat-research/exploiting-cve-2024-21412-stealer-campaign-unleashed
 - https://censys.com/a-beginners-guide-to-hunting-open-directories/
 - https://www.mcafee.com/blogs/other-blogs/mcafee-labs/clickfix-deception-a-social-engineering-tactic-to-deploy-malware/
