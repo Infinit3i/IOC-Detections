@@ -112,6 +112,17 @@ ce1f44a677d9b7d1d62373175f5583d9e8c04e16ebd94656e21aa296e00e93d7, sha256, lu2.ex
 37.221.126.202,ip_address,C2 address used by the threat actor to connect via Anydesk
 91.196.70.160,ip_address, Socks proxy server
 217.15.175.191,ip_address, SystemBC C2 IP address
+37.221.126[.]202, ip_address, C2 address used by the threat actor to connect via Anydesk
+91.196.70[.]160, ip_address, Socks proxy server
+217.15.175[.]191, ip_address, SystemBC C2 IP address
+45.155.249[.]97, ip_address,	Cobalt Strike C2 IP address
+77.238.224[.]56, ip_address,	C2 address.
+77.238.229[.]63, ip_address,	C2 address.
+77.238.250[.]123, ip_address,	C2 address.
+77.238.245[.]233, ip_address,	C2 address.
+91.142.74[.]28, ip_address,	C2 address.
+191.142.74[.]28, ip_address,	C2 address.
+195.2.70[.]38, ip_address,	C2 address.
 ```
 
 
@@ -222,6 +233,23 @@ https://potexo.b-cdn.net/K2.zip, domain,SHADOWLADDER, infoStealers
 spamicrosoft.com, domain,Used to make external Microsoft Teams calls after email bombing users., infoStealers
 halagifts.com, domain,SystemBC C2 domain, infoStealers
 preservedmoment.com, domain,Cobalt Strike domain, infoStealers
+
+
+spamicrosoft[.]com, domain,	Used to make external Microsoft Teams calls after email bombing users.
+halagifts[.]com, domain, SystemBC C2 domain
+preservedmoment[.]com, domain,	Cobalt Strike domain
+falseaudiencekd[.]shop, domain,	Lumma C2 domain
+feighminoritsjda[.]shop, domain,	Lumma C2 domain
+justifycanddidatewd[.]shop, domain,	Lumma C2 domain
+marathonbeedksow[.]shop, domain,	Lumma C2 domain
+pleasurenarrowsdla[.]shop, domain,	Lumma C2 domain
+raiseboltskdlwpow[.]shop, domain,	Lumma C2 domain
+richardflorespoew[.]shop, domain,	Lumma C2 domain
+strwawrunnygjwu[.]shop, domain,	Lumma C2 domain
+
+
+
+
 ```
 
 [1][2][3][4][5][6]
