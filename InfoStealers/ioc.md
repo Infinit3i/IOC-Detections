@@ -92,10 +92,17 @@ cb03b206d63be966ddffa7a2115ea99f9fec50d351dce03dff1240bb073b5b50, sha256, unname
 ccaa8c8b39cb4a4de4944200936bcd4796367c16421a89e6a7d5476ae2da78cd, sha256, update1.exe , nan, medium
 1ade6a15ebcbe8cb9bda1e232d7e4111b808fd4128e0d5db15bfafafc3ec7b8e, sha256, update4.exe , nan, medium
 ce1f44a677d9b7d1d62373175f5583d9e8c04e16ebd94656e21aa296e00e93d7, sha256, lu2.exe , nan, medium
-
-
-
-
+2B6C8AA2AC917D978DFEC53CEF70EACA36764A93D01D93786CC0D84DA47CE8E6, sha256, atlantida – HTA, nan, medium
+385EBE3D5BD22B6A5AE6314F33A7FA6AA24814005284C79EDAA5BDCF98E28492, sha256, Atlantida – MHTML, nan, medium
+2EBF051F6A61FA825C684F1D640BFB3BD79ADD0AFCFF698660F83F22E6544CBA, sha256, Atlantida – Powershell, nan, medium
+AB59A8412E4F8BF3A7E20CD656EDACF72E484246DFB6B7766D467C2A1E4CDAB0, sha256, Atlantida – .NET Injector, nan, medium
+060DE3B4CF3056F24DE882B4408020CEE0510CB1FF0E5007C621BC98E5B4BDF3, sha256, Rhadamanthys – GO downloader, nan, medium
+060DE3B4CF3056F24DE882B4408020CEE0510CB1FF0E5007C621BC98E5B4BDF3, sha256, Rhadamanthys – GO downloader, nan, medium
+64A49FF6862B2C924280D5E906BC36168112C85D9ACC2EB778B72EA1D4C17895, sha256, Rhadamanthys – GO Loader, nan, medium
+148C456E83E746A63E54EC5ABDA801731C42F3778E8EB0BF5A5C731B9A48C45D, sha256, Lumma Stealer, nan, medium
+2F5624DCDA1D58A45491028ACC63FF3F1F89F564015813C52EEBD80F51220383, sha256, Lumma Stealer, nan, medium
+98B7488B1A18CB0C5E360C06F0C94D19A5230B7B15D0616856354FB64929B388, sha256, Lumma Stealer, nan, medium
+A484FA09BE45608E23D8E67CD28675FA3E3C4111AF396501385256CE34FF1D95, sha256, Lumma Stealer, nan, medium
 ```
 
 
@@ -127,6 +134,13 @@ ce1f44a677d9b7d1d62373175f5583d9e8c04e16ebd94656e21aa296e00e93d7, sha256, lu2.ex
 91.142.74[.]28, ip_address,	C2 address.
 191.142.74[.]28, ip_address,	C2 address.
 195.2.70[.]38, ip_address,	C2 address.
+185.172.128[.]95 Atlantida – C&C
+	147.45.44[.]73[:]1488 Rhadamanthys – GO downloader – C&Cs
+89.23.98[.]116[:]1444 Rhadamanthys – GO downloader – C&Cs
+147.78.103[.]199[:]2529 Rhadamanthys – C&C	
+
+
+
 ```
 
 
@@ -239,6 +253,7 @@ halagifts.com, domain,SystemBC C2 domain, infoStealers
 preservedmoment.com, domain,Cobalt Strike domain, infoStealers
 
 
+
 spamicrosoft[.]com, domain,	Used to make external Microsoft Teams calls after email bombing users.
 halagifts[.]com, domain, SystemBC C2 domain
 preservedmoment[.]com, domain,	Cobalt Strike domain
@@ -252,6 +267,59 @@ richardflorespoew[.]shop, domain,	Lumma C2 domain
 strwawrunnygjwu[.]shop, domain,	Lumma C2 domain
 
 
+armoly/Discord-Bot
+armoly/Ds-Spm
+armoly/Email-Spm
+armoly/Tg-Spm
+armoly/Tg-SpmTg-Spm
+armoly/Twt-Spm
+bleblquck/FT-Vieww
+bleblquck/Kck-Vw
+bleblquck/Trv-Vws
+bleblquck/Tw-Vws
+dscvm/Discord-Vbot
+dscvm/Visoul-Grabber
+glassmuysa/Htlx-Gen-Check
+glassmuysa/Mail-Ac-Gen
+glassmuysa/TwT-Genr
+glassmuysa/Ytb-Dwnld
+gooles54/Rison-Raid-Bot
+gooles54/Rison-Trading-Bot
+gooles54/WPscn
+lzero121/TWT-vWS
+lzero121/Ytb-Vws
+lzero121/iNS-vWS
+lzero121/tK-vWS
+memekch/TWT-vWS
+memekch/Ytb-Vws
+memekch/iNS-vWS
+memekch/tK-vWS
+memo1l/ChatGpt-Turbo
+sokratso/KMSpic-Ac
+valiso0/Mail-Ac-Generator
+valiso0/TwT-Gen
+valiso0/Ytb-Dwnld
+
+
+hxxps://considerrycurrentyws[.]shop, domain, lumma c2
+hxxps://deprivedrinkyfaiir[.]shop, domain, lumma c2
+hxxps://detailbaconroollyws[.]shop, domain, lumma c2
+hxxps://distincttangyflippan[.]shop, domain, lumma c2
+hxxps://greentastellesqwm[.]shop, domain, lumma c2
+hxxps://horsedwollfedrwos[.]shop, domain, lumma c2
+hxxps://innerverdanytiresw[.]shop, domain, lumma c2
+hxxps://lamentablegapingkwaq[.]shop, domain, lumma c2
+hxxps://macabrecondfucews[.]shop, domain, lumma c2
+hxxps://messtimetabledkolvk[.]shop, domain, lumma c2
+hxxps://patternapplauderw[.]shop, domain, lumma c2
+hxxps://relaxtionflouwerwi[.]shop, domain, lumma c2
+hxxps://sideindexfollowragelrew[.]pw, domain, lumma c2
+hxxps://slamcopynammeks[.]shop, domain, lumma c2
+hxxps://standingcomperewhitwo[.]shop, domain, lumma c2
+hxxps://stickyyummyskiwffe[.]shop, domain, lumma c2
+hxxps://sturdyregularrmsnhw[.]shop, domain, lumma c2
+hxxps://understanndtytonyguw[.]shop, domain, lumma c2
+hxxps://vivaciousdqugilew[.]shop, domain, lumma c2
 
 
 ```
