@@ -84,3 +84,4 @@ Mandiant identified a new memory-only dropper using a complex, multi-stage infec
 [12]: https://www.0x1c.zip/0001-lummastealer/
 [13]: https://www.trellix.com/blogs/research/how-attackers-repackaged-a-threat-into-something-that-looked-benign/
 [14]: https://www.proofpoint.com/us/blog/threat-insight/clipboard-compromise-powershell-self-pwn
+[15]: https://www.virustotal.com/gui/collection/0d487b996555e03ea2853d24c805a473822fafd7da683ab2123d0f1e688001b8
