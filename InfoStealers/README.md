@@ -66,7 +66,16 @@ Mandiant identified a new memory-only dropper using a complex, multi-stage infec
 
 ---
 
+[1][2][3][4][5][6][7]
 
 
 
+[1]: https://securelist.com/angry-likho-apt-attacks-with-lumma-stealer/115663/
 [2]: https://cloud.google.com/blog/topics/threat-intelligence/peaklight-decoding-stealthy-memory-only-malware/
+[3]: https://www.mcafee.com/blogs/other-blogs/mcafee-labs/behind-the-captcha-a-clever-gateway-of-malware/
+[4]: https://denwp.com/dissecting-lumma-malware/
+[5]: https://cloud.google.com/blog/topics/threat-intelligence/peaklight-decoding-stealthy-memory-only-malware/
+[6]: https://www.rapid7.com/blog/post/2024/08/12/ongoing-social-engineering-campaign-refreshes-payloads/
+[7]: https://www.fortinet.com/blog/threat-research/exploiting-cve-2024-21412-stealer-campaign-unleashed
+[8]: https://www.mcafee.com/blogs/other-blogs/mcafee-labs/clickfix-deception-a-social-engineering-tactic-to-deploy-malware/
+[9]: https://0xmrmagnezi.github.io/malware%20analysis/LummaStealer/
