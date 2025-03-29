@@ -81,3 +81,4 @@ Mandiant identified a new memory-only dropper using a complex, multi-stage infec
 [9]: https://0xmrmagnezi.github.io/malware%20analysis/LummaStealer/
 [10]: https://github.com/bgd-cirt/LummaStealer-YARA-Rules/blob/main/README.md
 [11]: https://github.com/SEKOIA-IO/Community/blob/main/IOCs/stealc/yara_rules/infostealer_stealc_standalone.yar
+[12]: https://www.0x1c.zip/0001-lummastealer/
