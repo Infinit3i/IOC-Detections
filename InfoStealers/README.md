@@ -86,3 +86,7 @@ Mandiant identified a new memory-only dropper using a complex, multi-stage infec
 [14]: https://www.proofpoint.com/us/blog/threat-insight/clipboard-compromise-powershell-self-pwn
 [15]: https://www.virustotal.com/gui/collection/0d487b996555e03ea2853d24c805a473822fafd7da683ab2123d0f1e688001b8
 [16]: https://www.esentire.com/blog/fake-browser-updates-delivering-bitrat-and-lumma-stealer
+https://www.fortinet.com/blog/threat-research/lumma-variant-on-youtube
+https://outpost24.com/blog/lummac2-anti-sandbox-technique-trigonometry-human-detection/
+https://www.elastic.co/security-labs/ghostpulse-haunts-victims-using-defense-evasion-bag-o-tricks
+https://www.esentire.com/blog/the-case-of-lummac2-v4-0
