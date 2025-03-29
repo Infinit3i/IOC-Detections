@@ -8,18 +8,7 @@ Fake Captcha are being use gather end user credentials. Main expliot path for US
 -----
 
 ### T-Codes
-- [x] [T0882](https://attack.mitre.org/techniques/T0882/)
-- [x] [T0882](https://attack.mitre.org/techniques/T1204/002/)
-- [x] [T0882](https://attack.mitre.org/techniques/T1115)
-- [x] [T0882](https://attack.mitre.org/techniques/T1112)
-- [x] [T0882](https://attack.mitre.org/techniques/T1010)
-- [x] [T0882](https://attack.mitre.org/techniques/T1012)
-- [x] [T0882](https://attack.mitre.org/techniques/T1129)
-- [x] [T0882](https://attack.mitre.org/techniques/T1129)
-- [x] [T0882](https://attack.mitre.org/techniques/T1497/001)
-- [x] [T0882](https://attack.mitre.org/techniques/T1055/003)
-- [x] [T0882](https://attack.mitre.org/techniques/T1027)
-- [x] [T0882](https://attack.mitre.org/techniques/T1140)
+[T0882](https://attack.mitre.org/techniques/T0882/) [T1204.002](https://attack.mitre.org/techniques/T1204/002/) [T1115](https://attack.mitre.org/techniques/T1115) [T1112](https://attack.mitre.org/techniques/T1112) [T1010](https://attack.mitre.org/techniques/T1010) [T1012](https://attack.mitre.org/techniques/T1012) [T1129](https://attack.mitre.org/techniques/T1129) [T1497.001](https://attack.mitre.org/techniques/T1497/001) [T1055.003](https://attack.mitre.org/techniques/T1055/003) [T1027](https://attack.mitre.org/techniques/T1027) [T1140](https://attack.mitre.org/techniques/T1140)
 
 ### Lumma
 
