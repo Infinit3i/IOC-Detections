@@ -1,0 +1,118 @@
+100.28.29.44,ip_address,phishing,high
+102.165.16.161,ip_address,UNC5537 Targets Snowflake,high
+104.129.24.115,ip_address,UNC5537 Targets Snowflake,high
+104.129.24.124,ip_address,UNC5537 Targets Snowflake,high
+104.21.46.127,ip_address,phishing,high
+104.21.65.227,ip_address,phishing,high
+104.223.91.28,ip_address,UNC5537 Targets Snowflake,high
+104.26.15.41,ip_address,phishing,high
+139.99.16.105,ip_address,Info Stealer exploiting cisco webex,high
+141.193.213.11,ip_address,phishing,high
+142.250.138.136,ip_address,phishing,high
+144.76.173.247,ip_address,Lumma Stealer,high
+144.76.173[.]247,ip_address,Lumma C2 Infrastructure,high
+146.70.117.210,ip_address,UNC5537 Targets Snowflake,high
+146.70.117.56,ip_address,UNC5537 Targets Snowflake,high
+146.70.119.24,ip_address,UNC5537 Targets Snowflake,high
+146.70.124.216,ip_address,UNC5537 Targets Snowflake,high
+146.70.165.227,ip_address,UNC5537 Targets Snowflake,high
+146.70.166.176,ip_address,UNC5537 Targets Snowflake,high
+146.70.171.112,ip_address,UNC5537 Targets Snowflake,high
+146.70.171.99,ip_address,UNC5537 Targets Snowflake,high
+150.171.22.12,ip_address,phishing,high
+151.101.65.91,ip_address,phishing,high
+154.47.30.137,ip_address,UNC5537 Targets Snowflake,high
+154.47.30.150,ip_address,UNC5537 Targets Snowflake,high
+159.117.215.129,ip_address,phishing,high
+162.33.177.32,ip_address,UNC5537 Targets Snowflake,high
+169.150.201.25,ip_address,UNC5537 Targets Snowflake,high
+169.150.203.22,ip_address,UNC5537 Targets Snowflake,high
+169.150.223.208,ip_address,UNC5537 Targets Snowflake,high
+172.253.62.93,ip_address,phishing,high
+172.66.43.29,ip_address,phishing,high
+172.67.193.136,ip_address,phishing,high
+172.67.74.13,ip_address,phishing,high
+173.223.234.208,ip_address,phishing,high
+173.44.63.112,ip_address,UNC5537 Targets Snowflake,high
+176.113.115.224,ip_address,Lumma Stealer,high
+176.113.115.226,ip_address,Lumma Stealer,high
+176.113.115.227,ip_address,Lumma Stealer,high
+176.113.115.229,ip_address,Lumma Stealer,high
+176.113.115.232,ip_address,Lumma Stealer,high
+176.123.3.132,ip_address,UNC5537 Targets Snowflake,high
+176.123.6.193,ip_address,UNC5537 Targets Snowflake,high
+176.220.186.152,ip_address,UNC5537 Targets Snowflake,high
+18.154.110.102,ip_address,phishing,high
+18.154.110.41,ip_address,phishing,high
+18.154.110.83,ip_address,phishing,high
+18.238.25.42,ip_address,phishing,high
+184.147.100.29,ip_address,UNC5537 Targets Snowflake,high
+185.156.46.144,ip_address,UNC5537 Targets Snowflake,high
+185.156.46.163,ip_address,UNC5537 Targets Snowflake,high
+185.204.1.178,ip_address,UNC5537 Targets Snowflake,high
+185.213.155.241,ip_address,UNC5537 Targets Snowflake,high
+185.248.85.14,ip_address,UNC5537 Targets Snowflake,high
+185.248.85.59,ip_address,UNC5537 Targets Snowflake,high
+185.29.166.79,ip_address,c2,medium
+185[.]172.128.212,ip_address,Info Stealer exploiting cisco webex,high
+192.178.129.113,ip_address,phishing,high
+192.185.131.88,ip_address,phishing,high
+192.252.212.60,ip_address,UNC5537 Targets Snowflake,high
+192.40.165.109,ip_address,phishing,high
+193.32.126.233,ip_address,UNC5537 Targets Snowflake,high
+194.147.35[.]251,ip_address,Lumma Stealer,high
+194.230.144.126,ip_address,UNC5537 Targets Snowflake,high
+194.230.144.50,ip_address,UNC5537 Targets Snowflake,high
+194.230.145.67,ip_address,UNC5537 Targets Snowflake,high
+194.230.145.76,ip_address,UNC5537 Targets Snowflake,high
+194.230.147.127,ip_address,UNC5537 Targets Snowflake,high
+194.230.148.99,ip_address,UNC5537 Targets Snowflake,high
+194.230.158.107,ip_address,UNC5537 Targets Snowflake,high
+194.230.158.178,ip_address,UNC5537 Targets Snowflake,high
+194.230.160.237,ip_address,UNC5537 Targets Snowflake,high
+194.230.160.5,ip_address,UNC5537 Targets Snowflake,high
+198.44.129.82,ip_address,UNC5537 Targets Snowflake,high
+198.44.136.56,ip_address,UNC5537 Targets Snowflake,high
+198.44.136.82,ip_address,UNC5537 Targets Snowflake,high
+198.54.130.153,ip_address,UNC5537 Targets Snowflake,high
+198.54.131.152,ip_address,UNC5537 Targets Snowflake,high
+198.54.135.35,ip_address,UNC5537 Targets Snowflake,high
+198.54.135.67,ip_address,UNC5537 Targets Snowflake,high
+198.54.135.99,ip_address,UNC5537 Targets Snowflake,high
+204.152.216.105,ip_address,UNC5537 Targets Snowflake,high
+206.217.205.49,ip_address,UNC5537 Targets Snowflake,high
+206.217.206.108,ip_address,UNC5537 Targets Snowflake,high
+23.212.185.106,ip_address,phishing,high
+23.33.42.134,ip_address,phishing,high
+23.33.42.144,ip_address,phishing,high
+23.45.46.168,ip_address,phishing,high
+37.19.210.21,ip_address,UNC5537 Targets Snowflake,high
+37.19.210.34,ip_address,UNC5537 Targets Snowflake,high
+45.134.140.144,ip_address,UNC5537 Targets Snowflake,high
+45.134.142.200,ip_address,UNC5537 Targets Snowflake,high
+45.155.91.99,ip_address,UNC5537 Targets Snowflake,high
+45.27.26.205,ip_address,UNC5537 Targets Snowflake,high
+45.86.221.146,ip_address,UNC5537 Targets Snowflake,high
+45.9.74.78,ip_address,Lumma Stealer,high
+45.9.74[.]78,ip_address,Lumma C2 Infrastructure,high
+5.47.87.202,ip_address,UNC5537 Targets Snowflake,high
+50[.]7.22.10,ip_address,Info Stealer exploiting cisco webex,high
+52.7.178.67,ip_address,phishing,high
+66.115.189.247,ip_address,UNC5537 Targets Snowflake,high
+66.63.167.147,ip_address,UNC5537 Targets Snowflake,high
+77.73.134.68,ip_address,Lumma Stealer,high
+77.73.134[.]68,ip_address,Lumma C2 Infrastructure,high
+78.24.180[.]93,ip_address,Ghost pulse,medium
+78[.]47.78.87,ip_address,Info Stealer exploiting cisco webex,high
+79.127.217.44,ip_address,UNC5537 Targets Snowflake,high
+82.117.255.127,ip_address,Lumma Stealer,high
+82.117.255.80,ip_address,Lumma Stealer,high
+82.117.255[.]127,ip_address,Lumma C2 Infrastructure,high
+82.117.255[.]80,ip_address,Lumma C2 Infrastructure,high
+82.118.23.50,ip_address,Lumma Stealer,high
+82.118.23[.]50,ip_address,Lumma C2 Infrastructure,high
+87.249.134.11,ip_address,UNC5537 Targets Snowflake,high
+91.222.173[.]113,ip_address,DarkGate C1,high
+93.115.0.49,ip_address,UNC5537 Targets Snowflake,high
+95.164.5.41,ip_address,sigsega,high
+96.44.191.140,ip_address,UNC5537 Targets Snowflake,high
