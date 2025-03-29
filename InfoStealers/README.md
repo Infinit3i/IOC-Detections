@@ -56,11 +56,12 @@ Mandiant identified a new memory-only dropper using a complex, multi-stage infec
 
 # Detections - DCO
 
+- 2 Rules hit on custom infostealers
 - 30+ Spl Queries
 - [DCO Rules](https://github.com/Infinit3i/8DCO-IDM-Detections/blob/6681c47a600d7ff34db7e964836de473c7ecc76a/InfoStealers/rules.md)
-- 208 IOCs
+- 672 IOCs
 - [DCO IOCs](https://github.com/Infinit3i/8DCO-IDM-Detections/blob/6681c47a600d7ff34db7e964836de473c7ecc76a/InfoStealers/ioc.md)
-- 2 yara rules
+- 9 yara rules
 - [DCO Yara](https://github.com/Infinit3i/8DCO-IDM-Detections/blob/6681c47a600d7ff34db7e964836de473c7ecc76a/InfoStealers/yara.md)
 
 
