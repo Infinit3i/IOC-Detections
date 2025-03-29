@@ -103,6 +103,21 @@ AB59A8412E4F8BF3A7E20CD656EDACF72E484246DFB6B7766D467C2A1E4CDAB0, sha256, Atlant
 2F5624DCDA1D58A45491028ACC63FF3F1F89F564015813C52EEBD80F51220383, sha256, Lumma Stealer, nan, medium
 98B7488B1A18CB0C5E360C06F0C94D19A5230B7B15D0616856354FB64929B388, sha256, Lumma Stealer, nan, medium
 A484FA09BE45608E23D8E67CD28675FA3E3C4111AF396501385256CE34FF1D95, sha256, Lumma Stealer, nan, medium
+e15b200048fdddaedb24a84e99d6d7b950be020692c02b46902bf5af8fb50949
+547b6e08b0142b4f8d024bac78eb1ff399198a8d8505ce365b352e181fc4a544
+bd823f525c128149d70f633e524a06a0c5dc1ca14dd56ca7d2a8404e5a573078
+982338768465b79cc8acd873a1be2793fccbaa4f28933bcdf56b1d8aa6919b47
+bc6933a8fc324b907e6cf3ded3f76adc27a6ad2445b4f5db1723ac3ec86ed10d
+59d2c2ca389ab1ba1fefa4a06b14ae18a8f5b70644158d5ec4fb7a7eac4c0a08
+8568226767ac2748eccc7b9832fac33e8aa6bfdc03eafa6a34fb5d81e5992497
+4043aa37b5ba577dd99f6ca35c644246094f4f579415652895e6750fb9823bd9
+0604e7f0b4f7790053991c33359ad427c9bf74c62bec3e2d16984956d0fb9c19
+8c6d355a987bb09307e0af6ac8c3373c1c4cbfbceeeb1159a96a75f19230ede6
+de6960d51247844587a21cc0685276f966747e324eb444e6e975b0791556f34f
+6c779e427b8d861896eacdeb812f9f388ebd43f587c84a243c7dab9ef65d151c
+08c75c6a9582d49ea3fe780509b6f0c9371cfcd0be130bc561fae658b055a671
+abc54ff9f6823359071d755b151233c08bc2ed1996148ac61cfb99c7e8392bfe
+643dde3f461907a94f145b3cd8fe37dbad63aec85a4e5ed759fe843b9214a8d2
 ```
 
 
@@ -123,23 +138,24 @@ A484FA09BE45608E23D8E67CD28675FA3E3C4111AF396501385256CE34FF1D95, sha256, Lumma 
 37.221.126.202,ip_address,C2 address used by the threat actor to connect via Anydesk
 91.196.70.160,ip_address, Socks proxy server
 217.15.175.191,ip_address, SystemBC C2 IP address
-37.221.126[.]202, ip_address, C2 address used by the threat actor to connect via Anydesk
-91.196.70[.]160, ip_address, Socks proxy server
-217.15.175[.]191, ip_address, SystemBC C2 IP address
-45.155.249[.]97, ip_address,	Cobalt Strike C2 IP address
-77.238.224[.]56, ip_address,	C2 address.
-77.238.229[.]63, ip_address,	C2 address.
-77.238.250[.]123, ip_address,	C2 address.
-77.238.245[.]233, ip_address,	C2 address.
-91.142.74[.]28, ip_address,	C2 address.
-191.142.74[.]28, ip_address,	C2 address.
-195.2.70[.]38, ip_address,	C2 address.
-185.172.128[.]95 Atlantida – C&C
-	147.45.44[.]73[:]1488 Rhadamanthys – GO downloader – C&Cs
-89.23.98[.]116[:]1444 Rhadamanthys – GO downloader – C&Cs
-147.78.103[.]199[:]2529 Rhadamanthys – C&C	
-
-
+37.221.126.202, ip_address, C2 address used by the threat actor to connect via Anydesk
+91.196.70.160, ip_address, Socks proxy server
+217.15.175.191, ip_address, SystemBC C2 IP address
+45.155.249.97, ip_address,	Cobalt Strike C2 IP address
+77.238.224.56, ip_address,	C2 address.
+77.238.229.63, ip_address,	C2 address.
+77.238.250.123, ip_address,	C2 address.
+77.238.245.233, ip_address,	C2 address.
+91.142.74.28, ip_address,	C2 address.
+191.142.74.28, ip_address,	C2 address.
+195.2.70.38, ip_address,	C2 address.
+185.172.128.95, ip_address, Atlantida – C&C
+147.45.44.73[:]1488, ip_address, Rhadamanthys – GO downloader – C&Cs
+89.23.98.116[:]1444, ip_address, Rhadamanthys – GO downloader – C&Cs
+147.78.103.199[:]2529, ip_address, Rhadamanthys – C&C	
+62.133.61.26, ip_address,infostealers Exploiting CVE-2024-21412
+62.133.61.43, ip_address,infostealers Exploiting CVE-2024-21412
+5.42.107.78, ip_address,infostealers Exploiting CVE-2024-21412
 
 ```
 
@@ -236,9 +252,9 @@ https://poko.b-cdn.net/poko, domain,Lumma Stealer Mshta, infoStealers
 https://fatodex.b-cdn.net/fatodex, domain, PEAKLIGHT NBIsmd5, infoStealers
 https://matodown.b-cdn.net/matodown, domain, PEAKLIGHT NBIsmd5, infoStealers
 https://potexo.b-cdn.net/potexo, domain, PEAKLIGHT NBIsmd5, infoStealers
-hxxp://gceight8vt.top/upload.php, domain,CRYPTBOT C2s, infoStealers
+http://gceight8vt.top/upload.php, domain,CRYPTBOT C2s, infoStealers
 https://brewdogebar.com/code.vue, domain,CRYPTBOT C2s, infoStealers
-hxxp://62.133.61.56/Downloads/Full%20Video%20HD%20(1080p).lnk, domain,SHADOWLADDER, infoStealers
+http://62.133.61.56/Downloads/Full%20Video%20HD%20(1080p).lnk, domain,SHADOWLADDER, infoStealers
 https://fatodex.b-cdn.net/K1.zip, domain,SHADOWLADDER, infoStealers
 https://fatodex.b-cdn.net/K2.zip, domain,SHADOWLADDER, infoStealers
 https://forikabrof.click/flkhfaiouwrqkhfasdrhfsa.png, domain,SHADOWLADDER, infoStealers
@@ -251,80 +267,85 @@ https://potexo.b-cdn.net/K2.zip, domain,SHADOWLADDER, infoStealers
 spamicrosoft.com, domain,Used to make external Microsoft Teams calls after email bombing users., infoStealers
 halagifts.com, domain,SystemBC C2 domain, infoStealers
 preservedmoment.com, domain,Cobalt Strike domain, infoStealers
-
-
-
-spamicrosoft[.]com, domain,	Used to make external Microsoft Teams calls after email bombing users.
-halagifts[.]com, domain, SystemBC C2 domain
-preservedmoment[.]com, domain,	Cobalt Strike domain
-falseaudiencekd[.]shop, domain,	Lumma C2 domain
-feighminoritsjda[.]shop, domain,	Lumma C2 domain
-justifycanddidatewd[.]shop, domain,	Lumma C2 domain
-marathonbeedksow[.]shop, domain,	Lumma C2 domain
-pleasurenarrowsdla[.]shop, domain,	Lumma C2 domain
-raiseboltskdlwpow[.]shop, domain,	Lumma C2 domain
-richardflorespoew[.]shop, domain,	Lumma C2 domain
-strwawrunnygjwu[.]shop, domain,	Lumma C2 domain
-
-
-armoly/Discord-Bot
-armoly/Ds-Spm
-armoly/Email-Spm
-armoly/Tg-Spm
-armoly/Tg-SpmTg-Spm
-armoly/Twt-Spm
-bleblquck/FT-Vieww
-bleblquck/Kck-Vw
-bleblquck/Trv-Vws
-bleblquck/Tw-Vws
-dscvm/Discord-Vbot
-dscvm/Visoul-Grabber
-glassmuysa/Htlx-Gen-Check
-glassmuysa/Mail-Ac-Gen
-glassmuysa/TwT-Genr
-glassmuysa/Ytb-Dwnld
-gooles54/Rison-Raid-Bot
-gooles54/Rison-Trading-Bot
-gooles54/WPscn
-lzero121/TWT-vWS
-lzero121/Ytb-Vws
-lzero121/iNS-vWS
-lzero121/tK-vWS
-memekch/TWT-vWS
-memekch/Ytb-Vws
-memekch/iNS-vWS
-memekch/tK-vWS
-memo1l/ChatGpt-Turbo
-sokratso/KMSpic-Ac
-valiso0/Mail-Ac-Generator
-valiso0/TwT-Gen
-valiso0/Ytb-Dwnld
-
-
-hxxps://considerrycurrentyws[.]shop, domain, lumma c2
-hxxps://deprivedrinkyfaiir[.]shop, domain, lumma c2
-hxxps://detailbaconroollyws[.]shop, domain, lumma c2
-hxxps://distincttangyflippan[.]shop, domain, lumma c2
-hxxps://greentastellesqwm[.]shop, domain, lumma c2
-hxxps://horsedwollfedrwos[.]shop, domain, lumma c2
-hxxps://innerverdanytiresw[.]shop, domain, lumma c2
-hxxps://lamentablegapingkwaq[.]shop, domain, lumma c2
-hxxps://macabrecondfucews[.]shop, domain, lumma c2
-hxxps://messtimetabledkolvk[.]shop, domain, lumma c2
-hxxps://patternapplauderw[.]shop, domain, lumma c2
-hxxps://relaxtionflouwerwi[.]shop, domain, lumma c2
-hxxps://sideindexfollowragelrew[.]pw, domain, lumma c2
-hxxps://slamcopynammeks[.]shop, domain, lumma c2
-hxxps://standingcomperewhitwo[.]shop, domain, lumma c2
-hxxps://stickyyummyskiwffe[.]shop, domain, lumma c2
-hxxps://sturdyregularrmsnhw[.]shop, domain, lumma c2
-hxxps://understanndtytonyguw[.]shop, domain, lumma c2
-hxxps://vivaciousdqugilew[.]shop, domain, lumma c2
-
+spamicrosoft.com, domain,	Used to make external Microsoft Teams calls after email bombing users.
+halagifts.com, domain, SystemBC C2 domain
+preservedmoment.com, domain,	Cobalt Strike domain
+falseaudiencekd.shop, domain,	Lumma C2 domain
+feighminoritsjda.shop, domain,	Lumma C2 domain
+justifycanddidatewd.shop, domain,	Lumma C2 domain
+marathonbeedksow.shop, domain,	Lumma C2 domain
+pleasurenarrowsdla.shop, domain,	Lumma C2 domain
+raiseboltskdlwpow.shop, domain,	Lumma C2 domain
+richardflorespoew.shop, domain,	Lumma C2 domain
+strwawrunnygjwu.shop, domain,	Lumma C2 domain
+armoly/Discord-Bot, domain, infostealer
+armoly/Ds-Spm, domain, infostealer
+armoly/Email-Spm, domain, infostealer
+armoly/Tg-Spm, domain, infostealer
+armoly/Tg-SpmTg-Spm, domain, infostealer
+armoly/Twt-Spm, domain, infostealer
+bleblquck/FT-Vieww, domain, infostealer
+bleblquck/Kck-Vw, domain, infostealer
+bleblquck/Trv-Vws, domain, infostealer
+bleblquck/Tw-Vws, domain, infostealer
+dscvm/Discord-Vbot, domain, infostealer
+dscvm/Visoul-Grabber, domain, infostealer
+glassmuysa/Htlx-Gen-Check, domain, infostealer
+glassmuysa/Mail-Ac-Gen, domain, infostealer
+glassmuysa/TwT-Genr, domain, infostealer
+glassmuysa/Ytb-Dwnld, domain, infostealer
+gooles54/Rison-Raid-Bot, domain, infostealer
+gooles54/Rison-Trading-Bot, domain, infostealer
+gooles54/WPscn, domain, infostealer
+lzero121/TWT-vWS, domain, infostealer
+lzero121/Ytb-Vws, domain, infostealer
+lzero121/iNS-vWS, domain, infostealer
+lzero121/tK-vWS, domain, infostealer
+memekch/TWT-vWS, domain, infostealer
+memekch/Ytb-Vws, domain, infostealer
+memekch/iNS-vWS, domain, infostealer
+memekch/tK-vWS, domain, infostealer
+memo1l/ChatGpt-Turbo, domain, infostealer
+sokratso/KMSpic-Ac, domain, infostealer
+valiso0/Mail-Ac-Generator, domain, infostealer
+valiso0/TwT-Gen, domain, infostealer
+valiso0/Ytb-Dwnld, domain, infostealer
+https://considerrycurrentyws.shop, domain, lumma c2
+https://deprivedrinkyfaiir.shop, domain, lumma c2
+https://detailbaconroollyws.shop, domain, lumma c2
+https://distincttangyflippan.shop, domain, lumma c2
+https://greentastellesqwm.shop, domain, lumma c2
+https://horsedwollfedrwos.shop, domain, lumma c2
+https://innerverdanytiresw.shop, domain, lumma c2
+https://lamentablegapingkwaq.shop, domain, lumma c2
+https://macabrecondfucews.shop, domain, lumma c2
+https://messtimetabledkolvk.shop, domain, lumma c2
+https://patternapplauderw.shop, domain, lumma c2
+https://relaxtionflouwerwi.shop, domain, lumma c2
+https://sideindexfollowragelrew.pw, domain, lumma c2
+https://slamcopynammeks.shop, domain, lumma c2
+https://standingcomperewhitwo.shop, domain, lumma c2
+https://stickyyummyskiwffe.shop, domain, lumma c2
+https://sturdyregularrmsnhw.shop, domain, lumma c2
+https://understanndtytonyguw.shop, domain, lumma c2
+https://vivaciousdqugilew.shop, domain, lumma c2
+21centuryart.com, domain, infostealer Exploiting CVE-2024-21412
+scratchedcards.com, domain, infostealer Exploiting CVE-2024-21412
+proffyrobharborye.xyz, domain, infostealer Exploiting CVE-2024-21412
+answerrsdo.shop, domain, infostealer Exploiting CVE-2024-21412
+pcvcf.xyz, domain, infostealer Exploiting CVE-2024-21412
+pcvvf.xyz, domain, infostealer Exploiting CVE-2024-21412
+pdddk.xyz, domain, infostealer Exploiting CVE-2024-21412
+pdddj.xyz, domain, infostealer Exploiting CVE-2024-21412
+pddbj.xyz, domain, infostealer Exploiting CVE-2024-21412
+pbpbj.xyz, domain, infostealer Exploiting CVE-2024-21412
+pbdbj.xyz, domain, infostealer Exploiting CVE-2024-21412
+ptdrf.xyz, domain, infostealer Exploiting CVE-2024-21412
+pqdrf.xyz, domain, infostealer Exploiting CVE-2024-21412
 
 ```
 
-[1][2][3][4][5][6]
+[1][2][3][4][5][6][7]
 
 
 
@@ -334,3 +355,4 @@ hxxps://vivaciousdqugilew[.]shop, domain, lumma c2
 [4]: https://denwp.com/dissecting-lumma-malware/
 [5]: https://cloud.google.com/blog/topics/threat-intelligence/peaklight-decoding-stealthy-memory-only-malware/
 [6]: https://www.rapid7.com/blog/post/2024/08/12/ongoing-social-engineering-campaign-refreshes-payloads/
+[7]: https://www.fortinet.com/blog/threat-research/exploiting-cve-2024-21412-stealer-campaign-unleashed
