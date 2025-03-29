@@ -80,3 +80,4 @@ Mandiant identified a new memory-only dropper using a complex, multi-stage infec
 [8]: https://www.mcafee.com/blogs/other-blogs/mcafee-labs/clickfix-deception-a-social-engineering-tactic-to-deploy-malware/
 [9]: https://0xmrmagnezi.github.io/malware%20analysis/LummaStealer/
 [10]: https://github.com/bgd-cirt/LummaStealer-YARA-Rules/blob/main/README.md
+[11]: https://github.com/SEKOIA-IO/Community/blob/main/IOCs/stealc/yara_rules/infostealer_stealc_standalone.yar
