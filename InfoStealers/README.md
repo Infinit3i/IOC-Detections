@@ -83,3 +83,4 @@ Mandiant identified a new memory-only dropper using a complex, multi-stage infec
 [19]: https://www.elastic.co/security-labs/ghostpulse-haunts-victims-using-defense-evasion-bag-o-tricks
 [20]: https://www.esentire.com/blog/the-case-of-lummac2-v4-0
 [21]: https://www.darktrace.com/blog/the-rise-of-the-lumma-info-stealer
+[22]: https://any.run/malware-trends/lumma/
