@@ -18,6 +18,12 @@ Mandiant identified a new memory-only dropper using a complex, multi-stage infec
 [Virustotal IOC Collection](https://www.virustotal.com/gui/collection/67b55b4f6f82f6de268f57413f84efe849919c8a3241d3b1abaa54ad33742a3a/iocs)
 
 
+##### Redline
+##### [Formbook](https://any.run/malware-trends/formbook)
+##### [Vidar](https://any.run/malware-trends/vidar)
+##### [Agent Tesla](https://any.run/malware-trends/agenttesla)
+
+
 ### T-Codes
 [T0882](https://attack.mitre.org/techniques/T0882/) [T1204.002](https://attack.mitre.org/techniques/T1204/002/) [T1115](https://attack.mitre.org/techniques/T1115) [T1112](https://attack.mitre.org/techniques/T1112) [T1010](https://attack.mitre.org/techniques/T1010) [T1012](https://attack.mitre.org/techniques/T1012) [T1129](https://attack.mitre.org/techniques/T1129) [T1497.001](https://attack.mitre.org/techniques/T1497/001) [T1055.003](https://attack.mitre.org/techniques/T1055/003) [T1027](https://attack.mitre.org/techniques/T1027) [T1140](https://attack.mitre.org/techniques/T1140)
 
