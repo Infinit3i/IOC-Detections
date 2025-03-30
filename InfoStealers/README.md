@@ -59,7 +59,7 @@ Mandiant identified a new memory-only dropper using a complex, multi-stage infec
 - [DCO Rules](https://github.com/Infinit3i/8DCO-IDM-Detections/blob/6681c47a600d7ff34db7e964836de473c7ecc76a/InfoStealers/rules.md)
 - 816 IOCs
 - [DCO IOCs](https://github.com/Infinit3i/8DCO-IDM-Detections/blob/6681c47a600d7ff34db7e964836de473c7ecc76a/InfoStealers/ioc.md)
-- 9 yara rules
+- 11 yara rules
 - [DCO Yara](https://github.com/Infinit3i/8DCO-IDM-Detections/blob/6681c47a600d7ff34db7e964836de473c7ecc76a/InfoStealers/yara.md)
 
 
@@ -91,4 +91,4 @@ Mandiant identified a new memory-only dropper using a complex, multi-stage infec
 [20]: https://www.esentire.com/blog/the-case-of-lummac2-v4-0
 [21]: https://www.darktrace.com/blog/the-rise-of-the-lumma-info-stealer
 [22]: https://any.run/malware-trends/lumma/
-https://any.run/malware-trends/redline
+[23]: https://any.run/malware-trends/redline
