@@ -1,7 +1,7 @@
 MD5
 
 ```
-f8df6cf748cc3cf7c05ab18e798b3e91, Info Stealer Implants,,,
+f8df6cf748cc3cf7c05ab18e798b3e91, bad EA stuff Implants,,,
 ```
 
 
@@ -12,6 +12,6 @@ SHA256
 
 IPs
 ```
-77.73.134.68, Lumma Stealer,,,
+77.73.134.68, mspaint,,,
 ```
 
