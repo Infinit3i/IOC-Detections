@@ -1,0 +1,10 @@
+alert http any any -> any any (
+    msg:"Earth Alux - Potential Godzilla web shell indicator observed in HTTP payload";
+    flow:to_server,established;
+    content:"Godzilla";
+    nocase;
+    http_client_body;
+    classtype:trojan-activity;
+    sid:1000002;
+    rev:1;
+)

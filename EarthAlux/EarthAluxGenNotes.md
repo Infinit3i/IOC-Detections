@@ -18,35 +18,7 @@ title: goated article below
 https://www.trendmicro.com/en_us/research/25/c/the-espionage-toolkit-of-earth-alux.html
 ![[Fig-1 1.png]]
 
----
-```ad-warning
-title: raw suggested rules 
-```
 
-
-**yara detecting indicators from the trend micro article**
-
-```test
-rule Earth_Alux_Malware
-{
-    meta:
-        description = "Detect potential Earth Alux malware samples based on key components and loader strings"
-        author = "Your Name"
-        reference = "Trend Micro – The Espionage Toolkit of Earth Alux"
-        date = "2023-XX-XX"
-    strings:
-        // Indicators from the article
-        $godzilla   = "Godzilla" nocase
-        $vargeit    = "VARGEIT" nocase
-        $cobeacon   = "COBEACON" nocase
-        $masqloader = "MASQLOADER" nocase
-        $rsbinject  = "RSBINJECT" nocase
-        $railload   = "RAILLOAD" nocase
-        $railsetter = "RAILSETTER" nocase
-    condition:
-        any of ($godzilla, $vargeit, $cobeacon, $masqloader, $rsbinject, $railload, $railsetter)
-}
-```
 
 
 **sigma rule for sus graph api usage by non-outlook process**
@@ -102,22 +74,6 @@ level: high
 
 ```
 copl: This rule examines Sysmon network events to detect when `mspaint.exe`—a process not ordinarily involved in networking—is observed generating ICMP traffic. Since mspaint is generally not expected to perform network communications, such behavior is flagged as suspicious and may signal covert or fileless activity associated with adversary tools.
-
-**suricata detect godzilla web shell indicators from http traffic**
-```suricata
-alert http any any -> any any (
-    msg:"Earth Alux - Potential Godzilla web shell indicator observed in HTTP payload";
-    flow:to_server,established;
-    content:"Godzilla";
-    nocase;
-    http_client_body;
-    classtype:trojan-activity;
-    sid:1000002;
-    rev:1;
-)
-
-```
-copl: This rule inspects HTTP traffic for the presence of the keyword "Godzilla" within the client body, an indicator tied to the web shell deployed by Earth Alux. By alerting on these specific patterns, the rule aims to detect potential compromise or exploitation involving a web shell installed through vulnerable web applications
 
 
 ---

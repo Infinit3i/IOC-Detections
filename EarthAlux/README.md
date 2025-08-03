@@ -27,15 +27,15 @@ will invariably reference this article that did most of the work https://www.tre
 
 ---
 
-## Mitigations (G6 Recommendations)
+## Mitigations
 - 
 
 ---
 
-## Detections (DCO Rules)
-- [DCO Rules](<insert-detection-rules-link>)
-- [DCO IOCs](<insert-ioc-list-link>)
-- [DCO Yara](<insert-yara-rules-link>)
+## Detections
+- [Rules](<insert-detection-rules-link>)
+- [IOCs](<insert-ioc-list-link>)
+- [Yara](<insert-yara-rules-link>)
 
 ---
 

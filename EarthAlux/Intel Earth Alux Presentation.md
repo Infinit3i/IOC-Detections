@@ -1,1 +1,0 @@
-![[(U) Earth Alux.pptx]]
