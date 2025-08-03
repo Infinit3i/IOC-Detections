@@ -5,6 +5,13 @@
   <img src="https://github.com/Infinit3i/Custom-Detections/raw/579a4a5d0281b99bcd3311679cabb2aa1d109e6a/Images/f8df6cf748cc3cf7c05ab18e798b3e91.jpg" width="400px">
 </p>
 
+<p align="center">
+  <br><br>
+    <a title="Hits" target="_blank" href="https://github.com/infinit3i/IOC-Detections"><img src="https://hits.b3log.org/infinit3i/IOC-Detections.svg"></a>
+    <a title="Twitter" target="_blank" href="https://x.com/infinit3i"><img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/b3logos?label=Follow&style=social"></a>
+</p>
+
+
 * Tycoon 2FA
 * EvilProxy
 * Agent Tesla
