@@ -27,15 +27,17 @@
 
 ---
 
-## Mitigations (G6 Recommendations)
+## Mitigations
 - 
 
 ---
 
-## Detections (DCO Rules)
-- [DCO Rules](<insert-detection-rules-link>)
-- [DCO IOCs](<insert-ioc-list-link>)
-- [DCO Yara](<insert-yara-rules-link>)
+## Detections
+- [IOCs](<insert-ioc-list-link>)
+- [Yara](<insert-yara-rules-link>)
+- [Suricata](<insert-yara-rules-link>)
+- [Sigma](<insert-detection-rules-link>)
+- [Splunk](<insert-detection-rules-link>)
 
 ---
 
