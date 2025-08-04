@@ -15,8 +15,10 @@
 </p>
 
 
-
-
+## What this repo is
+- Curated, defanged **IOCs** and **detection rules** (YARA, Suricata, Sigma).
+- Focus on families that actually show up in the wild.
+- Simple structure. Easy to copy, diff, and automate.
 
 
 
