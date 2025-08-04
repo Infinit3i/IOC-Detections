@@ -15,7 +15,13 @@
 </p>
 
 
-* Tycoon 2FA
+
+
+
+
+
+### Next Malware Families
+
 * EvilProxy
 * Agent Tesla
 * Lumma
