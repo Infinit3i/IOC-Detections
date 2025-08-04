@@ -2,7 +2,7 @@
 
 ## Executive Summary
 
-Tycoon 2FA is an Adversary-in-the-Middle (AiTM) **phishing kit** sold as PhaaS. It proxies Microsoft 365/Gmail logins to intercept credentials and **session cookies**, enabling MFA bypass without exploiting CVEs.
+Tycoon 2FA is an Adversary-in-the-Middle (AiTM) **phishing kit** sold as PhaaS. It proxies Microsoft 365/Gmail logins to intercept credentials and **session cookies**, enabling MFA bypass without exploiting CVEs. sold on telegram for as low as $120
 
 ---
 
