@@ -49,11 +49,10 @@ Tycoon 2FA is an Adversary-in-the-Middle (AiTM) **phishing kit** sold as PhaaS. 
 * [MD5](https://github.com/Infinit3i/IOC-Detections/blob/2dcf0af99fb0258f2ae0b8549853588a4e49e5de/Phishingkit/Tycoon%202FA/Tycoon_2FA.md5)
 * [SHA1](https://github.com/Infinit3i/IOC-Detections/blob/2dcf0af99fb0258f2ae0b8549853588a4e49e5de/Phishingkit/Tycoon%202FA/Tycoon_2FA.sha1)
 * [SHA256](https://github.com/Infinit3i/IOC-Detections/blob/2dcf0af99fb0258f2ae0b8549853588a4e49e5de/Phishingkit/Tycoon%202FA/Tycoon_2FA.sha256)
-* []()
-* [Yara](insert-yara-rules-link)
-* [Suricata](insert-yara-rules-link)
-* [Sigma](insert-detection-rules-link)
-* [Splunk](insert-detection-rules-link)
+* [Domains](https://github.com/Infinit3i/IOC-Detections/blob/99805f299cd0daf438ab8926a1ef9a62176edd82/Phishingkit/Tycoon%202FA/Tycoon_2FA.domain)
+* [Urls](https://github.com/Infinit3i/IOC-Detections/blob/99805f299cd0daf438ab8926a1ef9a62176edd82/Phishingkit/Tycoon%202FA/Tycoon_2FA.url)
+* [Yara1](https://github.com/Infinit3i/IOC-Detections/blob/99805f299cd0daf438ab8926a1ef9a62176edd82/Phishingkit/Tycoon%202FA/Tycoon%202FA%20Yara/Tycoon2FA_Invisible_Unicode_Obfuscation.yar)
+* [Yara2](https://github.com/Infinit3i/IOC-Detections/blob/99805f299cd0daf438ab8926a1ef9a62176edd82/Phishingkit/Tycoon%202FA/Tycoon%202FA%20Yara/Tycoon_Phish_Landing_Page.yar)
 
 ---
 
@@ -78,3 +77,5 @@ Tycoon 2FA is an Adversary-in-the-Middle (AiTM) **phishing kit** sold as PhaaS. 
 <https://www.esentire.com/blog/phish-chips-serving-up-tycoon-2fas-secrets>
 <https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/tycoon2fa-new-evasion-technique-for-2025/>
 <https://github.com/eSentire/iocs/tree/main/Tycoon2FA>
+https://pastebin.com/dguFhccj
+https://github.com/NoMorePhish/Tycoon2FADomains/blob/main/MaliciousDomains
