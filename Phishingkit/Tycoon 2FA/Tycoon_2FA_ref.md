@@ -10,3 +10,4 @@
 https://any.run/cybersecurity-blog/tycoon2fa-evasion-analysis/
 https://www.esentire.com/blog/phish-chips-serving-up-tycoon-2fas-secrets
 https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/tycoon2fa-new-evasion-technique-for-2025/
+https://github.com/eSentire/iocs/tree/main/Tycoon2FA
