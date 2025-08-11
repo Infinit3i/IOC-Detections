@@ -1,5 +1,5 @@
-#editing these presently
-#Suspicious use of credential-harvesting tools
+editing these presently
+#Suspicious use of credential-harvesting tools (editing these presently)
 ```spl
 index=main OR index=endpoint sourcetype="WinEventLog:Security"
 (Process_Name="powershell.exe" OR Process_Name="regsvr32.exe" OR Process_Name="mshta.exe")
