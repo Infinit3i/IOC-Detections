@@ -8,7 +8,7 @@
 [T1113  
 [T1564.003  
 [T1568  
-
+!!!NO ANALYTICS!!! [T1050
   MITRE ANALYTIC PULLDOWN 
   replace with rules per tcode
 
