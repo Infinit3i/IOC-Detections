@@ -1,4 +1,4 @@
-# <MALWARE CATEGORY NAME>
+# <Agent Tesla>
 
 ## Executive Summary
 <Insert high-level summary of the malware type, attack vectors, and impact.>
@@ -43,3 +43,7 @@
 
 ## Research & References
 - [ ] <https://example.com/article-1>
+- [ ] https://any.run/malware-trends/agenttesla/
+- [ ] https://attack.mitre.org/software/S0331/
+- [ ] https://www.fortinet.com/blog/threat-research/agent-tesla-variant-spread-by-crafted-excel-document
+- [ ] https://malpedia.caad.fkie.fraunhofer.de/details/win.agent_tesla
