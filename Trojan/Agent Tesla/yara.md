@@ -114,7 +114,7 @@ rule win_agent_tesla_w0 {
 }
 ````
 
-
+```yara
 rule AgentTesla
 {
     meta:
@@ -169,5 +169,4 @@ rule AgentTesla
             $pdb
         )
 }
-
-Let me know if you'd like this exported into a modular format or integrated with a threat-hunting platform like Sigma or Elastic.
+```
