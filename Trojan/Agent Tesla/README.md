@@ -8,7 +8,27 @@
 ---
 
 ## MITRE ATT&CK Techniques
-- [x] <https://attack.mitre.org/techniques/TXXXX/>
+- [ ] <https://attack.mitre.org/techniques/T1087/001/>  
+- [ ] <https://attack.mitre.org/techniques/T1071/001/>  
+- [ ] <https://attack.mitre.org/techniques/T1071/003/>  
+- [ ] <https://attack.mitre.org/techniques/T1560/>  
+- [ ] <https://attack.mitre.org/techniques/T1547/001/>  
+- [ ] <https://attack.mitre.org/techniques/T1185/>  
+- [ ] <https://attack.mitre.org/techniques/T1115/>  
+- [ ] <https://attack.mitre.org/techniques/T1555/>  
+- [ ] <https://attack.mitre.org/techniques/T1555/003/>  
+- [ ] <https://attack.mitre.org/techniques/T1140/>  
+- [ ] <https://attack.mitre.org/techniques/T1048/003/>  
+- [ ] <https://attack.mitre.org/techniques/T1203/>  
+- [ ] <https://attack.mitre.org/techniques/T1564/001/>  
+- [ ] <https://attack.mitre.org/techniques/T1564/003/>  
+- [ ] <https://attack.mitre.org/techniques/T1562/001/>  
+- [ ] <https://attack.mitre.org/techniques/T1105/>  
+- [ ] <https://attack.mitre.org/techniques/T1056/001/>  
+- [ ] <https://attack.mitre.org/techniques/T1112/>  
+- [ ] <https://attack.mitre.org/techniques/T1027/>
+
+Want to plug this into a checklist or toolset next? I can help with that too.
 
 ---
 
