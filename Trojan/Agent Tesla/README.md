@@ -28,8 +28,6 @@
 - [ ] <https://attack.mitre.org/techniques/T1112/>  
 - [ ] <https://attack.mitre.org/techniques/T1027/>
 
-Want to plug this into a checklist or toolset next? I can help with that too.
-
 ---
 
 ## Threat Overview
