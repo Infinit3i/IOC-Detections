@@ -1,4 +1,4 @@
-# <Agent Tesla>
+# Agent Tesla
 
 ## Executive Summary
 <Insert high-level summary of the malware type, attack vectors, and impact.>
