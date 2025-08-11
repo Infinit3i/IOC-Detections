@@ -90,50 +90,69 @@ Monitor executed commands and arguments for actions that could be taken to chang
 
 Remote access to the registry can be achieved via Windows API function RegConnectRegistry, command line via reg.exe, or graphically via regedit.exe. All of these behaviors call into the Windows API, which uses the NamedPipe WINREG over SMB to handle the protocol information.
 
-Analytic 1 - Remote Registry  
+Analytic 1 - Remote Registry 
+```spl
 source="Zeek:" (dest_port="445" AND proto_info.pipe="WINREG") OR (proto_info.function="Create" OR proto_info.function="SetValue")
+
+```
 
 Monitor for API calls associated with concealing Registry keys, such as Reghide. Inspect and cleanup malicious hidden Registry entries using Native Windows API calls and/or tools such as Autoruns and RegDelNull. Relevant API calls include RegOpenKeyExA, RegCreateKeyExA, RegDeleteKeyExA, RegDeleteValueExA, RegEnumKeyExA, RegEnumValueExA.
 
 Monitor processes and command-line arguments for actions that could be taken to change, conceal, and/or delete information in the Registry (e.g. reg.exe, regedit.exe).
 
 Analytic 1 - Registry Edit with Modification of Userinit, Shell or Notify  
+```spl
 (source="WinEventLog:Microsoft-Windows-Sysmon/Operational" EventCode="1") OR  
 (source="WinEventLog:Security" EventCode="4688")  
 ((CommandLine="reg" CommandLine="add" CommandLine="/d") OR ((CommandLine="Set-ItemProperty" OR CommandLine="New-ItemProperty") AND CommandLine="-value"))  
 CommandLine="\Microsoft\Windows NT\CurrentVersion\Winlogon" (CommandLine="Userinit" OR CommandLine="Shell" OR CommandLine="Notify")
-
+```
 Analytic 2 - Modification of Default Startup Folder in the Registry Key 'Common Startup'  
+```spl
 (source="WinEventLog:Microsoft-Windows-Sysmon/Operational" EventCode="1") OR  
 (source="WinEventLog:Security" EventCode="4688")  
 (CommandLine="reg" AND CommandLine="add" AND CommandLine="/d") OR  
 (CommandLine="Set-ItemProperty" AND CommandLine="-value")  
 CommandLine="Common Startup"
+```
+
 
 Analytic 3 - Registry Edit with Creation of SafeDllSearchMode Key Set to 0  
+```spl
 (source="WinEventLog:Microsoft-Windows-Sysmon/Operational" EventCode="1") OR  
 (source="WinEventLog:Security" EventCode="4688")  
 ((CommandLine="reg" CommandLine="add" CommandLine="/d") OR  
 (CommandLine="Set-ItemProperty" CommandLine="-value"))  
 (CommandLine="00000000" OR CommandLine="0") CommandLine="SafeDllSearchMode")
 
+```
+
 Monitor for newly constructed registry keys or values, such as HKEY_LOCAL_MACHINE\...\SafeDllSearchMode set to 0.
 
-Analytic 1 - Registry Edit with Creation of SafeDllSearchMode Key Set to 0  
+Analytic 1 - Registry Edit with Creation of SafeDllSearchMode Key Set to 0 
+```spl
 ((source="WinEventLog:Security" EventCode="4657")(ObjectValueName="SafeDllSearchMode" value="0")) OR  
 ((source="WinEventLog:Microsoft-Windows-Sysmon/Operational" EventCode="13") EventType="SetValue" TargetObject="*SafeDllSearchMode" Details="DWORD (0x00000000)")
+
+```
 
 Monitor for unexpected deletion of windows registry keys.
 
 Monitor for changes made to registry keys or values. Enable Registry Auditing on specific keys to produce alertable events (Event ID 4657).
 
 Analytic 1 - Registry Edit with Modification of Userinit, Shell or Notify  
+```spl
 source="WinEventLog:Security" EventCode="4657" (ObjectValueName="Userinit" OR ObjectValueName="Shell" OR ObjectValueName="Notify") OR  
 source="WinEventLog:Microsoft-Windows-Sysmon/Operational" EventCode="13" (TargetObject="Userinit" OR TargetObject="Shell" OR TargetObject="*Notify")
+```
 
-Analytic 2 - Modification of Default Startup Folder in the Registry Key 'Common Startup'  
+
+Analytic 2 - Modification of Default Startup Folder in the Registry Key 'Common Startup' 
+```spl
 (source="WinEventLog:Security" EventCode="4657" ObjectValueName="Common Startup") OR  
 (source="WinEventLog:Microsoft-Windows-Sysmon/Operational" EventCode="13" TargetObject="*Common Startup")
+
+```
 
 
 ---
@@ -151,9 +170,12 @@ Monitor for API calls (such as NetUserEnum()) that may attempt to gather local a
 Monitor for processes that can be used to enumerate user accounts and groups such as net.exe and net1.exe, especially when executed in quick succession. Information may also be acquired through Windows system management tools such as WMI and PowerShell.
 
 Analytic 1 - Net Discovery Commands  
+```spl
 (source="WinEventLog:Microsoft-Windows-Sysmon/Operational" EventCode="1") OR  
 (source="WinEventLog:Security" EventCode="4688")  
 Image="net.exe" OR Image="net1.exe"
+
+```
 
 
 ---
