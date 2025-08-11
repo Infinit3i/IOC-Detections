@@ -3,7 +3,7 @@
 ## Executive Summary
 <Insert high-level summary of the malware type, attack vectors, and impact.>
 
-![Attack Path Diagram](<insert-image-or-diagram-link-here>)
+![Attack Path Diagram](<[insert-image-or-diagram-link-here](https://mitre-attack.github.io/attack-navigator//#layerURL=https%3A%2F%2Fattack.mitre.org%2Fsoftware%2FS0331%2FS0331-enterprise-layer.json)>)
 
 ---
 
