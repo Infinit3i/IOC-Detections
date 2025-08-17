@@ -22,12 +22,13 @@
 - Simple structure. Easy to copy, diff, and automate.
 
 
-
-### Next Malware Families
-
-* EvilProxy
+## Malware
 * Agent Tesla
 * Lumma
+
+
+### Next Malware Families
+* EvilProxy
 * Mamba 2FA
 * XWorm
 * AsyncRAT
