@@ -9,3 +9,4 @@
 * MFA fatigue / push bombing
 * OAuth/SAML token theft
 * DNS tunneling C2
+* windows macros
