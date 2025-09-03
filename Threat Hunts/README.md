@@ -5,6 +5,3 @@
 * Webshell drop in web app
 * SQLi → deserialization RCE
 * VPN credential stuffing
-* MFA fatigue / push bombing
-* OAuth/SAML token theft
-* DNS tunneling C2
