@@ -1,52 +1,87 @@
 ---
-layout: default
+title: <THREAT NAME>
 ---
 
-# <MALWARE CATEGORY NAME>
-
 ## Executive Summary
-<Insert high-level summary of the malware type, attack vectors, and impact.>
 
-![Attack Path Diagram](<insert-image-or-diagram-link-here>)
+<High-level summary of the threat. Describe what the malware/phishing kit/tool is, who it targets, and its primary impact.>
 
-date of earliest attack in the wild
-date of latest attack in the wild
+---
+
+### Overview
+
+<Type of threat: malware family / phishing kit / RAT / loader / ransomware / etc.>
+
+**Delivery:**  
+<How the threat reaches victims: phishing email, exploit, drive-by download, malicious attachment, etc.>
+
+**Capabilities:**  
+<Key behaviors such as credential harvesting, persistence, lateral movement, C2 communication, etc.>
+
+**Notable Characteristics:**  
+<Unique traits, infrastructure patterns, evasion methods, or operational characteristics.>
+
+---
+
+### Attack Flow
+
+Example flow:
+
+```
+
+Initial Access → Execution → Payload Delivery → Persistence → Command & Control
+
+```
+
+Detailed sequence:
+
+- `<Step 1>`
+- `<Step 2>`
+- `<Step 3>`
+- `<Step 4>`
 
 ---
 
 ## MITRE ATT&CK Techniques
-- [x] <https://attack.mitre.org/techniques/TXXXX/>
 
----
-
-## Threat Overview
-
-### Threat Family 1
-Insert overview of malware family, origin, delivery method, and unique features.
-
-### Threat Family 2
-Insert similar details for any related or emerging variants.
-
----
-
-## User Training & Awareness
-- 
+* [TXXXX – Technique Name](https://attack.mitre.org/)
+* [TXXXX – Technique Name](https://attack.mitre.org/)
+* [TXXXX – Technique Name](https://attack.mitre.org/)
+* [TXXXX – Technique Name](https://attack.mitre.org/)
 
 ---
 
 ## Mitigations
-- 
+
+* **Identity protections:** <Example mitigation>
+* **Endpoint controls:** <Example mitigation>
+* **Network monitoring:** <Example mitigation>
+* **User awareness:** <Example mitigation>
 
 ---
 
 ## Detections
-- [IOCs](<insert-ioc-list-link>)
-- [Yara](<insert-yara-rules-link>)
-- [Suricata](<insert-yara-rules-link>)
-- [Sigma](<insert-detection-rules-link>)
-- [Splunk](<insert-detection-rules-link>)
+
+### Indicators of Compromise (IOCs)
+
+* [IPs](<link>)
+* [Domains](<link>)
+* [URLs](<link>)
+* [MD5](<link>)
+* [SHA1](<link>)
+* [SHA256](<link>)
+
+### Detection Rules
+
+* [YARA](<link>)
+* [Suricata](<link>)
+* [Sigma](<link>)
+* [Splunk](<link>)
 
 ---
 
 ## Research & References
-- [ ] https://example.com/article-1
+
+- <https://example.com/article>
+- <https://example.com/research>
+- <https://example.com/report>
