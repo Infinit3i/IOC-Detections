@@ -1,0 +1,65 @@
+name: Build Combined IOCs
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-combined-iocs:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Build combined IOC files
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          mkdir -p downloads
+
+          combine_files() {
+            local pattern="$1"
+            local output="$2"
+
+            find . -type f -iname "*${pattern}*" \
+              ! -path "./.git/*" \
+              ! -path "./.github/*" \
+              ! -path "./_site/*" \
+              ! -path "./downloads/*" \
+              ! -path "./RULES/*" \
+              -print0 | \
+            xargs -0 cat 2>/dev/null | \
+            sed 's/\r$//' | \
+            sed '/^[[:space:]]*$/d' | \
+            sort -u > "${output}"
+
+            echo "Built ${output}"
+          }
+
+          combine_files "ip" "downloads/all_ips.txt"
+          combine_files "domain" "downloads/all_domains.txt"
+          combine_files "md5" "downloads/all_md5.txt"
+          combine_files "sha1" "downloads/all_sha1.txt"
+          combine_files "sha256" "downloads/all_sha256.txt"
+          combine_files "url" "downloads/all_urls.txt"
+
+      - name: Commit updated combined IOC files
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add downloads/
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update combined IOC downloads"
+            git push
+          fi
