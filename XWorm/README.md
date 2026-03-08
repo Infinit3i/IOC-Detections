@@ -1,3 +1,8 @@
+---
+layout: default
+title: XWorm
+---
+
 # <MALWARE CATEGORY NAME>
 
 ## Executive Summary
