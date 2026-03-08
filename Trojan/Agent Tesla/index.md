@@ -84,16 +84,6 @@ Stolen data is periodically transmitted to attacker-controlled infrastructure.
 
 ---
 
-## STRENGTH: 9/10
-
-The section only needed clarification and replacement of placeholders with an accurate Agent Tesla infection chain.
-
----
-
-# ANSWER
-
-Replace your **Attack Flow** section with this:
-
 ### Attack Flow
 
 Example flow:
