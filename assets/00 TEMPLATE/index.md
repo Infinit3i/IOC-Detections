@@ -21,11 +21,11 @@ date of latest attack in the wild
 
 ## Threat Overview
 
-### <Threat Family 1>
-<Insert overview of malware family, origin, delivery method, and unique features.>
+### Threat Family 1
+Insert overview of malware family, origin, delivery method, and unique features.
 
-### <Threat Family 2>
-<Insert similar details for any related or emerging variants.>
+### Threat Family 2
+Insert similar details for any related or emerging variants.
 
 ---
 
@@ -49,4 +49,4 @@ date of latest attack in the wild
 ---
 
 ## Research & References
-- [ ] <https://example.com/article-1>
+- [ ] https://example.com/article-1

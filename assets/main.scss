@@ -3,38 +3,95 @@
 
 @import "minima";
 
+html, body {
+    min-height: 100%;
+}
+
 body {
     font-family: Arial, sans-serif !important;
-    background-color: #111 !important;
     color: #eee !important;
-    margin: 40px !important;
+    margin: 0 !important;
+    background: linear-gradient(135deg, #000000 0%, #1f1f1f 100%) !important;
 }
 
-h1, h2, h3, h4 {
-    color: #00d9ff !important;
+.wrapper,
+.page-content,
+.site-header,
+.site-footer {
+    background: transparent !important;
 }
 
-ul {
-    line-height: 1.8em;
+.wrapper {
+    max-width: 1100px;
+}
+
+.site-header {
+    border-bottom: 1px solid rgba(255,255,255,0.08) !important;
+    background: rgba(0, 0, 0, 0.35) !important;
+    backdrop-filter: blur(10px);
+}
+
+.site-footer {
+    border-top: 1px solid rgba(255,255,255,0.08) !important;
+    background: rgba(0, 0, 0, 0.25) !important;
+}
+
+.site-title,
+.page-link,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    background: linear-gradient(45deg, #00d9ff 0%, #9dff00 45%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+p, li, td, th, .post-meta, .footer-col, .site-nav {
+    color: #e6e6e6 !important;
 }
 
 a {
-    color: #00d9ff !important;
     text-decoration: none;
 }
 
 a:hover {
+    filter: brightness(1.15);
     text-decoration: underline;
 }
 
-.site-header,
-.site-footer,
-.page-content,
-.wrapper,
-.site-nav,
-.post-content,
-.post-list,
-.page-heading {
-    background-color: #111 !important;
-    color: #eee !important;
+pre, code {
+    background: rgba(255,255,255,0.06) !important;
+    color: #f5f5f5 !important;
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 10px;
+}
+
+pre {
+    padding: 14px;
+    overflow-x: auto;
+}
+
+table {
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+th, td {
+    border: 1px solid rgba(255,255,255,0.08) !important;
+    padding: 10px;
+}
+
+blockquote {
+    border-left: 4px solid #00d9ff;
+    background: rgba(255,255,255,0.04);
+    padding: 10px 16px;
+    border-radius: 8px;
+    color: #ddd !important;
 }
