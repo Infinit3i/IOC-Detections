@@ -1,4 +1,6 @@
-# Phishingkit / AiTM — **Tycoon 2FA**
+---
+title: Tycoon 2FA
+---
 
 ## Executive Summary
 

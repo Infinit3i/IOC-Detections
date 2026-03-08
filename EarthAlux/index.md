@@ -1,7 +1,11 @@
-# <MALWARE CATEGORY NAME>
+---
+title: Earth Alux
+---
 
 ## Executive Summary
-will invariably reference this article that did most of the work https://www.trendmicro.com/en_us/research/25/c/the-espionage-toolkit-of-earth-alux.html
+will invariably reference this article that did most of the work https://www.trendmicro.com/en_us/research/25/c/the-espionage-toolkit-of-earth-alux.html Both Earth Alux and APT41 are advanced, China-linked threat actors that employ multi-stage, modular toolkits, utilizing techniques like fileless execution, web shell exploitation, and diverse command-and-control channels to bypass traditional defenses. They target strategic sectors—such as government, technology, and industrial enterprises—and leverage a mix of espionage and financially motivated tactics in their campaigns.
+
+However, they differ significantly in their operational history and tactical focus. APT41 is a well-established group with a wide-ranging portfolio, engaging in both espionage and cybercrime over an extended period, which has allowed them to develop a versatile and evolving attack playbook. In contrast, Earth Alux is a relatively newer adversary known for its specialized toolkit (e.g., Godzilla, VARGEIT, COBEACON) and unorthodox techniques, such as fileless tool loading into processes like mspaint.exe, which may indicate a more focused, niche approach rather than the broad, multifaceted tactics seen with APT41.
 
 ![Attack Path Diagram](<insert-image-or-diagram-link-here>)
 
