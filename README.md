@@ -24,12 +24,11 @@
 ## Malware
 * Agent Tesla
 * Lumma
-
+* XWorm
 
 ### Next Malware Families
 * EvilProxy
 * Mamba 2FA
-* XWorm
 * AsyncRAT
 * Vidar
 * Smoke Loader
