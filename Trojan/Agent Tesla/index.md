@@ -1,156 +1,183 @@
-# Agent Tesla
+---
+title: Agent Tesla
+---
 
 ## Executive Summary
-(will make better one later)
-Agent Tesla is a remote access trojan (RAT) written in .NET that has been actively targeting users with Microsoft Windows OS-based systems since 2014. It is a versatile malware with a wide range of capabilities, including sensitive information stealing, keylogging and screenshot capture. Since its release, this malicious software has received regular updates. It is sold as a malware-as-a-service, with several subscription options available for purchase. Campaigns involving Agent Tesla often start with phishing emails, masquerading as legitimate messages from trusted sources.(wikipedia)
 
-(will change this to follow hyperlink format)
-https://mitre-attack.github.io/attack-navigator//#layerURL=https%3A%2F%2Fattack.mitre.org%2Fsoftware%2FS0331%2FS0331-enterprise-layer.json
----
-
-## MITRE ATT&CK Techniques
-- [ ] <https://attack.mitre.org/techniques/T1087/001/>  
-- [ ] <https://attack.mitre.org/techniques/T1071/001/>  
-- [ ] <https://attack.mitre.org/techniques/T1071/003/>  
-- [ ] <https://attack.mitre.org/techniques/T1560/>  
-- [ ] <https://attack.mitre.org/techniques/T1547/001/>  
-- [ ] <https://attack.mitre.org/techniques/T1185/>  
-- [ ] <https://attack.mitre.org/techniques/T1115/>  
-- [ ] <https://attack.mitre.org/techniques/T1555/>  
-- [ ] <https://attack.mitre.org/techniques/T1555/003/>  
-- [ ] <https://attack.mitre.org/techniques/T1140/>  
-- [ ] <https://attack.mitre.org/techniques/T1048/003/>  
-- [ ] <https://attack.mitre.org/techniques/T1203/>  
-- [ ] <https://attack.mitre.org/techniques/T1564/001/>  
-- [ ] <https://attack.mitre.org/techniques/T1564/003/>  
-- [ ] <https://attack.mitre.org/techniques/T1562/001/>  
-- [ ] <https://attack.mitre.org/techniques/T1105/>  
-- [ ] <https://attack.mitre.org/techniques/T1056/001/>  
-- [ ] <https://attack.mitre.org/techniques/T1112/>  
-- [ ] <https://attack.mitre.org/techniques/T1027/>
+Agent Tesla is a remote access trojan (RAT) written in .NET that has been actively targeting users with Microsoft Windows OS-based systems since 2014. It is a versatile malware with a wide range of capabilities, including sensitive information stealing, keylogging and screenshot capture. Since its release, this malicious software has received regular updates. It is sold as a malware-as-a-service, with several subscription options available for purchase. Campaigns involving Agent Tesla often start with phishing emails, masquerading as legitimate messages from trusted sources.
 
 ---
+
+### Overview
+
+**Type of threat:**  
+Information-stealing Remote Access Trojan (RAT) sold as Malware-as-a-Service (MaaS).
+
+**Delivery:**  
+Primarily distributed through phishing campaigns using malicious attachments such as:
+
+- `.zip` / `.rar` archives
+- malicious Office documents with macros
+- `.img` / `.iso` disk images
+- `.exe`, `.js`, `.vbs`, or `.lnk` droppers
+
+The payload is often delivered through **multi-stage loaders** such as:
+
+- GuLoader
+- Snake Keylogger loaders
+- .NET downloaders
+- PowerShell download chains
+
+Attachments frequently impersonate invoices, purchase orders, shipping notices, or financial documents.
+
+**Capabilities:**  
+
+Agent Tesla is primarily an **information stealer and surveillance RAT** with features including:
+
+- Credential harvesting from web browsers (Chrome, Firefox, Edge, Opera)
+- Email credential theft from clients such as Outlook and Thunderbird
+- FTP credential extraction
+- Keylogging of user keystrokes
+- Clipboard monitoring
+- Screenshot capture
+- System reconnaissance (hostname, IP, OS version)
+- Data exfiltration via SMTP, FTP, HTTP, or Telegram APIs
+- Persistence via registry Run keys or startup folders
+
+Stolen data is periodically transmitted to attacker-controlled infrastructure.
+
+**Notable Characteristics:**  
+
+- Written in **.NET**, making it easy to modify and recompile
+- Widely sold on underground forums as a **subscription-based MaaS tool**
+- Often delivered through **commodity malware loaders**
+- Heavy use of **string obfuscation, Base64 encoding, and packing**
+- Frequent **variant churn** due to builder kits used by different operators
+- Exfiltration frequently uses **SMTP or Telegram bots**, which helps evade traditional C2 detection
 
 ## Threat Overview
 
-### <Threat Family 1>
-- Appeared in 2014 as MaaS
-- Primarily spread through phishing emails (.zip, .rar, office docs / macros, .vbs steganography)
+### <Threat Family Name>
 
-#### Harvest:
+- Appeared in <year> as <MaaS / malware family / toolkit>
+- Primary delivery methods: <phishing, exploit kits, drive-by, etc>
+
+#### Harvest
+
 - Browser credentials and cookies
-- Clipboard data, desktop screenshots
+- Clipboard data
+- Desktop screenshots
 - Keystrokes
 
-#### Obfuscation:
-- Steganography with payloads, primarily images
+#### Obfuscation
+
+- Steganography with payloads (images)
 - Anti-debugging
 - Base64 / XOR layering
 
-#### Persistence:
-- Appdata
-- Registry, run keys
-- Temp
-- ADS (Zone.Identifier removal)
+#### Persistence
 
-### <Threat Family 2>
-<Insert similar details for any related or emerging variants.>
+- `%APPDATA%`
+- Registry Run Keys
+- Temp directories
+- Alternate Data Streams (Zone.Identifier removal)
 
 ---
 
-## User Training & Awareness
-- 
+## STRENGTH: 9/10
+
+The section only needed clarification and replacement of placeholders with an accurate Agent Tesla infection chain.
+
+---
+
+# ANSWER
+
+Replace your **Attack Flow** section with this:
+
+### Attack Flow
+
+Example flow:
+
+```dark
+
+Phishing Email → Word Attachment → Embedded RTF / Excel Object → Macro Execution → PowerShell Download → .NET Loader → Process Injection (RegSvcs.exe / RegAsm.exe) → Agent Tesla Execution → Credential Harvesting → SMTP / HTTP Exfiltration
+
+```
+
+Detailed sequence:
+
+* **Phishing Email:** Victim receives an email impersonating invoices, shipping notices, or purchase orders.
+* **Malicious Attachment:** Email contains a Word document or archive containing the malicious file.
+* **Embedded Object Execution:** Document loads an embedded RTF or Excel object that triggers macro execution.
+* **PowerShell Downloader:** Macro launches PowerShell to retrieve a remote payload.
+* **.NET Loader Execution:** A .NET loader (often GuLoader or similar) downloads and decrypts the Agent Tesla payload.
+* **Process Injection:** The loader injects the payload into legitimate Windows processes such as `RegSvcs.exe` or `RegAsm.exe`.
+* **Agent Tesla Activation:** Malware begins credential harvesting and system reconnaissance.
+* **Data Exfiltration:** Stolen credentials and system data are transmitted to attacker infrastructure via SMTP, FTP, HTTP, or Telegram APIs.
+```
+
+---
+
+## [MITRE ATT&CK Techniques](https://mitre-attack.github.io/attack-navigator//#layerURL=https%3A%2F%2Fattack.mitre.org%2Fsoftware%2FS0331%2FS0331-enterprise-layer.json)
+
+- <https://attack.mitre.org/techniques/T1087/001/>  
+- <https://attack.mitre.org/techniques/T1071/001/>  
+- <https://attack.mitre.org/techniques/T1071/003/>  
+- <https://attack.mitre.org/techniques/T1560/>  
+- <https://attack.mitre.org/techniques/T1547/001/>  
+- <https://attack.mitre.org/techniques/T1185/>  
+- <https://attack.mitre.org/techniques/T1115/>  
+- <https://attack.mitre.org/techniques/T1555/>  
+- <https://attack.mitre.org/techniques/T1555/003/>  
+- <https://attack.mitre.org/techniques/T1140/>  
+- <https://attack.mitre.org/techniques/T1048/003/>  
+- <https://attack.mitre.org/techniques/T1203/>  
+- <https://attack.mitre.org/techniques/T1564/001/>  
+- <https://attack.mitre.org/techniques/T1564/003/>  
+- <https://attack.mitre.org/techniques/T1562/001/>  
+- <https://attack.mitre.org/techniques/T1105/>  
+- <https://attack.mitre.org/techniques/T1056/001/>  
+- <https://attack.mitre.org/techniques/T1112/>  
+- <https://attack.mitre.org/techniques/T1027/>
 
 ---
 
 ## Mitigations
-- 
+
+* **Identity protections:** <Example mitigation>
+* **Endpoint controls:** <Example mitigation>
+* **Network monitoring:** <Example mitigation>
+* **User awareness:** <Example mitigation>
 
 ---
 
 ## Detections
-- [IOCs](<insert-ioc-list-link>)
-- [Yara](<insert-yara-rules-link>)
-- [Suricata](<insert-yara-rules-link>)
-- [Sigma](<insert-detection-rules-link>)
-- [Splunk](<insert-detection-rules-link>)
 
----
+### Indicators of Compromise (IOCs)
 
-## Browser Locations to detect 
+* [IPs](<link>)
+* [Domains](<link>)
+* [URLs](<link>)
+* [MD5](<link>)
+* [SHA1](<link>)
+* [SHA256](<link>)
 
-```
-"Firefox", "%APPDATA%\\Mozilla\\Firefox\\"  
-"IceCat", "%APPDATA%\\Mozilla\\icecat\\"  
-"PaleMoon", "%APPDATA%\\Moonchild Productions\\Pale Moon\\"  
-"SeaMonkey", "%APPDATA%\\Mozilla\\SeaMonkey\\"  
-"Flock", "%APPDATA%\\Flock\\Browser\\"  
-"K-Meleon", "%APPDATA%\\K-Meleon\\"  
-"Postbox", "%APPDATA%\\Postbox\\"  
-"Thunderbird", "%APPDATA%\\Thunderbird\\"  
-"IceDragon", "%APPDATA%\\Comodo\\IceDragon\\"  
-"WaterFox", "%APPDATA%\\Waterfox\\"  
-"BlackHawk", "%APPDATA%\\NETGATE Technologies\\BlackHawk\\"  
-"CyberFox", "%APPDATA%\\8pecxstudios\\Cyberfox\\"  
-"Opera Browser", "%APPDATA%\\Opera Software\\Opera Stable"  
-"Yandex Browser", "%APPDATA%\\Yandex\\YandexBrowser\\User Data"  
-"Iridium Browser", "%APPDATA%\\Iridium\\User Data"
-"Chromium", "%APPDATA%\\Chromium\\User Data"
-"7Star", "%APPDATA%\\7Star\\7Star\\User Data"
-"Torch Browser", "%APPDATA%\\Torch\\User Data"
-"Cool Novo", "%APPDATA%\\MapleStudio\\ChromePlus\\User Data"
-"Kometa", "%APPDATA%\\Kometa\\User Data"
-"Amigo", "%APPDATA%\\Amigo\\User Data"
-"Brave", "%APPDATA%\\BraveSoftware\\Brave-Browser\\User Data"
-"CentBrowser", "%APPDATA%\\CentBrowser\\User Data"
-"Chedot", "%APPDATA%\\Chedot\\User Data"
-"Orbitum", "%APPDATA%\\Orbitum\\User Data"
-"Sputnik", "%APPDATA%\\Sputnik\\Sputnik\\User Data"
-"Comodo Dragon", "%APPDATA%\\Comodo\\Dragon\\User Data"
-"Vivaldi", "%APPDATA%\\Vivaldi\\User Data"
-"Citrio", "%APPDATA%\\CatalinaGroup\\Citrio\\User Data"
-"360 Browser", "%APPDATA%\\360Chrome\\Chrome\\User Data"
-"Uran", "%APPDATA%\\uCozMedia\\Uran\\User Data"
-"Liebao Browser", "%APPDATA%\\liebao\\User Data"
-"Elements Browser", "%APPDATA%\\Elements Browser\\User Data"
-"Epic Privacy", "%APPDATA%\\Epic Privacy Browser\\User Data"
-"Coccoc", "%APPDATA%\\CocCoc\\Browser\\User Data"
-"Sleipnir 6", "%APPDATA%\\Fenrir Inc\\Sleipnir5\\setting\\modules\\ChromiumViewer"
-"Opera", "%APPDATA%\\Opera Software\\Opera Stable"
-"Comodo Dragon", "%APPDATA%\\"Comodo\\Dragon\\User Data"
-"Chrome", "%APPDATA%\\Google\\Chrome\\User Data"
-"Yandex", "%APPDATA%\\"Yandex\\YandexBrowser\\User Data"
-"SRWare Iron", "%APPDATA%\\"Chromium\\User Data"
-"Torch Browser", "%APPDATA%\\"Torch\\User Data"
-"Brave Browser", "%APPDATA%\\"BraveSoftware\\Brave-Browser\\User Data"
-"CoolNovo", "%APPDATA%\\"MapleStudio\\ChromePlus\\User Data"
-"7Star", "%APPDATA%\\"7Star\\7Star\\User Data"
-"Epic Privacy Browser", "%APPDATA%\\"Epic Privacy Browser\\User Data"
-"Amigo", "%APPDATA%\\"Amigo\\User Data"
-"CentBrowser", "%APPDATA%\\"CentBrowser\\User Data"
-"CocCoc", "%APPDATA%\\"CocCoc\\Browser\\User Data"
-"Chedot", "%APPDATA%\\"Chedot\\User Data"
-"Elements Browser", "%APPDATA%\\"Elements Browser\\User Data"
-"Kometa", "%APPDATA%\\"Kometa\\User Data"
-"Citrio", "%APPDATA%\\"CatalinaGroup\\Citrio\\User Data"
-"Coowon", "%APPDATA%\\"Coowon\\Coowon\\User Data"
-"Liebao Browser", "%APPDATA%\\"liebao\\User Data"
-"QIP Surf", "%APPDATA%\\"QIP Surf\\User Data"
-"QQ Browser", "%APPDATA%\\"Tencent\\QQBrowser\\User Data"
-"UC Browser", "%APPDATA%\\"UCBrowser\\"
-"Orbitum", "%APPDATA%\\"Orbitum\\User Data"
-"Sputnik", "%APPDATA%\\"Sputnik\\Sputnik\\User Data"
-"uCozMedia", "%APPDATA%\\"uCozMedia\\Uran\\User Data"
-"Vivaldi", "%APPDATA%\\"Vivaldi\\User Data"
-"QIP Surf", "%APPDATA%\\QIP Surf\\User Data"
-"Coowon", "%APPDATA%\\Coowon\\Coowon\\User Data"
-```
+### Detection Rules
+
+* [YARA](<link>)
+* [Suricata](<link>)
+* [Sigma](<link>)
+* [Splunk](<link>)
 
 ---
 
 ## Research & References
-- [ ] <https://example.com/article-1>
-- [ ] https://any.run/malware-trends/agenttesla/
-- [ ] https://attack.mitre.org/software/S0331/
-- [ ] https://www.fortinet.com/blog/threat-research/agent-tesla-variant-spread-by-crafted-excel-document
-- [ ] https://malpedia.caad.fkie.fraunhofer.de/details/win.agent_tesla
+
+## Research & References
+- <https://example.com/article-1>
+- https://any.run/malware-trends/agenttesla/
+- https://attack.mitre.org/software/S0331/
+- https://www.fortinet.com/blog/threat-research/agent-tesla-variant-spread-by-crafted-excel-document
+- https://malpedia.caad.fkie.fraunhofer.de/details/win.agent_tesla
+
+
