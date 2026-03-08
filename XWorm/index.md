@@ -3,7 +3,7 @@ layout: default
 title: XWorm
 ---
 
-# <MALWARE CATEGORY NAME>
+# XWorm
 
 ## Executive Summary
 <Insert high-level summary of the malware type, attack vectors, and impact.>
