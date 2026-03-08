@@ -1,5 +1,4 @@
-
-**Authors**: [DEEJ1721]([https://github.com/Net-Doge](https://github.com/deej1721)) & [Infinit3i](https://https://github.com/Infinit3i)
+**Authors**: [DEEJ1721](https://github.com/deej1721) & [INFINIT3I](https://github.com/Infinit3i)
 
 <br/>
 
