@@ -19,10 +19,10 @@ However, they differ significantly in their operational history and tactical foc
 ## Threat Overview
 
 ### <Threat Family 1>
-<Insert overview of malware family, origin, delivery method, and unique features.>
+Insert overview of malware family, origin, delivery method, and unique features.
 
 ### <Threat Family 2>
-<Insert similar details for any related or emerging variants.>
+Insert similar details for any related or emerging variants.
 
 ---
 

@@ -8,22 +8,9 @@ Tycoon 2FA is an Adversary-in-the-Middle (AiTM) **phishing kit** sold as PhaaS. 
 
 ---
 
-## MITRE ATT\&CK Techniques
+### Overview
 
-* [x] **T1566.002 – Spearphishing Link** [https://attack.mitre.org/techniques/T1566/002/](https://attack.mitre.org/techniques/T1566/002/)
-* [x] **T1204.001 – User Execution: Malicious Link** [https://attack.mitre.org/techniques/T1204/001/](https://attack.mitre.org/techniques/T1204/001/)
-* [x] **T1557 – Adversary-in-the-Middle** [https://attack.mitre.org/techniques/T1557/](https://attack.mitre.org/techniques/T1557/)
-* [x] **T1550.004 – Use of Web Session Cookie** [https://attack.mitre.org/techniques/T1550/004/](https://attack.mitre.org/techniques/T1550/004/)
-* [x] **T1078 – Valid Accounts** [https://attack.mitre.org/techniques/T1078/](https://attack.mitre.org/techniques/T1078/)
-* [x] **T1583.001 – Acquire Infrastructure: Domains** [https://attack.mitre.org/techniques/T1583/001/](https://attack.mitre.org/techniques/T1583/001/)
-
----
-
-## Threat Overview
-
-### Tycoon 2FA
-
-**Overview:** PhaaS AiTM platform targeting M365/Gmail. Uses reverse-proxy pages to relay live logins, capture credentials + MFA challenges, and harvest session tokens for replay.
+PhaaS AiTM platform targeting M365/Gmail. Uses reverse-proxy pages to relay live logins, capture credentials + MFA challenges, and harvest session tokens for replay.
 **Delivery:** Email lures (links/QRs) to branded landing pages; often fronted with CAPTCHA/traffic-filtering.
 **Unique features:** Operator dashboards, rotating domains, obfuscation/link-gating to evade filters.
 
@@ -32,6 +19,17 @@ Tycoon 2FA is an Adversary-in-the-Middle (AiTM) **phishing kit** sold as PhaaS. 
 ### Steps
 
 - `loading screen` -> `Captcha (w/ .ru website address)` -> `email login` -> `password`
+
+---
+
+## MITRE ATT\&CK Techniques
+
+* [**T1566.002 – Spearphishing Link**](https://attack.mitre.org/techniques/T1566/002/)
+* [**T1204.001 – User Execution: Malicious Link**](https://attack.mitre.org/techniques/T1204/001/)
+* [**T1557 – Adversary-in-the-Middle**](https://attack.mitre.org/techniques/T1557/)
+* [**T1550.004 – Use of Web Session Cookie**](https://attack.mitre.org/techniques/T1550/004/)
+* [**T1078 – Valid Accounts**](https://attack.mitre.org/techniques/T1078/)
+* [**T1583.001 – Acquire Infrastructure: Domains**](https://attack.mitre.org/techniques/T1583/001/)
 
 ---
 
@@ -67,17 +65,17 @@ Tycoon 2FA is an Adversary-in-the-Middle (AiTM) **phishing kit** sold as PhaaS. 
 
 ### References
 
-<https://www.darktrace.com/blog/mfa-under-attack-aitm-phishing-kits-abusing-legitimate-services>
-<https://blog.barracuda.com/2025/01/22/threat-spotlight-tycoon-2fa-phishing-kit>
-<https://any.run/malware-trends/tycoon/>
-<https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/phaas-the-secrets-the-hidden-ties-between-tycoon2fa-and-dadsecs-operations/>
-<https://blogs.blackberry.com/en/2020/06/threat-spotlight-tycoon-ransomware-targets-education-and-software-sectors>
-<https://blog.sekoia.io/tycoon-2fa-an-in-depth-analysis-of-the-latest-version-of-the-aitm-phishing-kit/>
-<https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/tycoon2fa-new-evasion-technique-for-2025/>
-<https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/breakdown-of-tycoon-phishing-as-a-service-system/>
-<https://any.run/cybersecurity-blog/tycoon2fa-evasion-analysis/>
-<https://www.esentire.com/blog/phish-chips-serving-up-tycoon-2fas-secrets>
-<https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/tycoon2fa-new-evasion-technique-for-2025/>
-<https://github.com/eSentire/iocs/tree/main/Tycoon2FA>
-https://pastebin.com/dguFhccj
-https://github.com/NoMorePhish/Tycoon2FADomains/blob/main/MaliciousDomains
+- <https://www.darktrace.com/blog/mfa-under-attack-aitm-phishing-kits-abusing-legitimate-services/>
+- <https://blog.barracuda.com/2025/01/22/threat-spotlight-tycoon-2fa-phishing-kit/>
+- <https://any.run/malware-trends/tycoon/>
+- <https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog-phaas-the-secrets-the-hidden-ties-between-tycoon2fa-and-dadsecs-operations/>
+- <https://blogs.blackberry.com/en/2020/06/threat-spotlight-tycoon-ransomware-targets-education-and-software-sectors/>
+- <https://blog.sekoia.io/tycoon-2fa-an-in-depth-analysis-of-the-latest-version-of-the-aitm-phishing-kit/>
+- <https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/tycoon2fa-new-evasion-technique-for-2025/>
+- <https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/breakdown-of-tycoon-phishing-as-a-service-system/>
+- <https://any.run/cybersecurity-blog/tycoon2fa-evasion-analysis/>
+- <https://www.esentire.com/blog/phish-chips-serving-up-tycoon-2fas-secrets/>
+- <https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/tycoon2fa-new-evasion-technique-for-2025/>
+- <https://github.com/eSentire/iocs/tree/main/Tycoon2FA>
+- <https://pastebin.com/dguFhccj/>
+- <https://github.com/NoMorePhish/Tycoon2FADomains/blob/main/MaliciousDomains/>
