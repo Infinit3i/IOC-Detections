@@ -85,10 +85,11 @@ Detailed sequence:
 
 ### Detection Rules
 
-* [YARA](<link>)
-* [Suricata](<link>)
-* [Sigma](<link>)
-* [Splunk](<link>)
+| Rule | View | Download |
+|-----|-----|-----|
+| YARA | [View](github like) | <a href="./RULES/LOCAL.yara" download>Download</a> |
+| Suricata | [View](https://github.com/Infinit3i/IOC-Detections/blob/main/REMOTE.rules) | <a href="./RULES/LOCAL.rules" download>Download</a> |
+| Splunk | [View](https://github.com/Infinit3i/IOC-Detections/blob/main/REMOTE.spl) | <a href="./RULES/LOCAL.spl" download>Download</a> |
 
 ---
 
