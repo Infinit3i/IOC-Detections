@@ -1,0 +1,48 @@
+---
+---
+
+@import "minima";
+
+body {
+  background-color: #0d1117;
+  color: #c9d1d9;
+}
+
+.site-header {
+  background-color: #161b22;
+  border-bottom: 1px solid #30363d;
+}
+
+.site-title, .site-nav a {
+  color: #58a6ff;
+}
+
+a {
+  color: #58a6ff;
+}
+
+a:hover {
+  color: #79c0ff;
+}
+
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4 {
+  color: #00d9ff;
+}
+
+pre, code {
+  background: #161b22;
+  color: #c9d1d9;
+  border: 1px solid #30363d;
+}
+
+table {
+  background-color: #161b22;
+  border: 1px solid #30363d;
+}
+
+th, td {
+  border: 1px solid #30363d;
+}
