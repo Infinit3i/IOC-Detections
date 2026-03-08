@@ -82,6 +82,7 @@ Detailed sequence:
 * [MD5](<link>)
 * [SHA1](<link>)
 * [SHA256](<link>)
+* [Files](<link>)
 
 ### Detection Rules
 
