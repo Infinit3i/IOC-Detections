@@ -1,12 +1,5 @@
-
-````yara
 import "pe"
 
-// ─────────────────────────────────────────────
-// 🛡️ AgentTesla Detection Rules (Combined)
-// ─────────────────────────────────────────────
-
-// Rule 1: AgentTesla V3 by BlackBerry
 rule Mal_InfoStealer_Win32_AgentTesla_2021 {
     meta:
         description = "Detects AgentTesla V3"
@@ -29,7 +22,6 @@ rule Mal_InfoStealer_Win32_AgentTesla_2021 {
         all of ($x*)
 }
 
-// Rule 2: AgentTesla .NET sequences by govcert_ch
 rule win_agent_tesla_w1 {
     meta:
         description = "Detect Agent Tesla based on common .NET code sequences"
@@ -51,7 +43,6 @@ rule win_agent_tesla_w1 {
         any of them
 }
 
-// Rule 3: AgentTesla string indicators by InQuest Labs
 rule win_agent_tesla_w0 {
     meta:
         author = "InQuest Labs"
@@ -112,9 +103,7 @@ rule win_agent_tesla_w0 {
             $pdb
         )
 }
-````
 
-```yara
 rule AgentTesla
 {
     meta:
@@ -169,4 +158,3 @@ rule AgentTesla
             $pdb
         )
 }
-```
