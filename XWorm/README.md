@@ -4,6 +4,16 @@
 <Insert high-level summary of the malware type, attack vectors, and impact.>
 
 ![Attack Path Diagram](<insert-image-or-diagram-link-here>)
+- phishing email
+- attached excel file
+- ole object that has executable inside
+- CVE-2018-0802 *downloaded HTA file
+- executes powershell
+- downloads fileless .net
+-download xworm payload
+- process hollow payload
+- load xworm RAT
+- connect to C2
 
 date of earliest attack in the wild
 date of latest attack in the wild
