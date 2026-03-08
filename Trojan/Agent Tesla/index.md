@@ -10,10 +10,15 @@ Agent Tesla is a remote access trojan (RAT) written in .NET that has been active
 
 ### Overview
 
+<details markdown="1">
+<summary><strong>description</strong></summary>
+
+<br/>
+
 **Type of threat:**  
 Information-stealing Remote Access Trojan (RAT) sold as Malware-as-a-Service (MaaS).
 
-**Delivery:**  
+#### **Delivery:**  
 Primarily distributed through phishing campaigns using malicious attachments such as:
 
 - `.zip` / `.rar` archives
@@ -30,7 +35,7 @@ The payload is often delivered through **multi-stage loaders** such as:
 
 Attachments frequently impersonate invoices, purchase orders, shipping notices, or financial documents.
 
-**Capabilities:**  
+#### **Capabilities:**  
 
 Agent Tesla is primarily an **information stealer and surveillance RAT** with features including:
 
@@ -46,7 +51,7 @@ Agent Tesla is primarily an **information stealer and surveillance RAT** with fe
 
 Stolen data is periodically transmitted to attacker-controlled infrastructure.
 
-**Notable Characteristics:**  
+#### **Notable Characteristics:**  
 
 - Written in **.NET**, making it easy to modify and recompile
 - Widely sold on underground forums as a **subscription-based MaaS tool**
@@ -55,45 +60,22 @@ Stolen data is periodically transmitted to attacker-controlled infrastructure.
 - Frequent **variant churn** due to builder kits used by different operators
 - Exfiltration frequently uses **SMTP or Telegram bots**, which helps evade traditional C2 detection
 
-## Threat Overview
+</details>
 
-### <Threat Family Name>
-
-- Appeared in <year> as <MaaS / malware family / toolkit>
-- Primary delivery methods: <phishing, exploit kits, drive-by, etc>
-
-#### Harvest
-
-- Browser credentials and cookies
-- Clipboard data
-- Desktop screenshots
-- Keystrokes
-
-#### Obfuscation
-
-- Steganography with payloads (images)
-- Anti-debugging
-- Base64 / XOR layering
-
-#### Persistence
-
-- `%APPDATA%`
-- Registry Run Keys
-- Temp directories
-- Alternate Data Streams (Zone.Identifier removal)
+<br/>
 
 ---
 
 ### Attack Flow
 
-Example flow:
+<details markdown="1">
+<summary><strong>Flow</strong></summary>
 
 ```dark
 
 Phishing Email → Word Attachment → Embedded RTF / Excel Object → Macro Execution → PowerShell Download → .NET Loader → Process Injection (RegSvcs.exe / RegAsm.exe) → Agent Tesla Execution → Credential Harvesting → SMTP / HTTP Exfiltration
 
 ```
-
 Detailed sequence:
 
 * **Phishing Email:** Victim receives an email impersonating invoices, shipping notices, or purchase orders.
@@ -104,11 +86,18 @@ Detailed sequence:
 * **Process Injection:** The loader injects the payload into legitimate Windows processes such as `RegSvcs.exe` or `RegAsm.exe`.
 * **Agent Tesla Activation:** Malware begins credential harvesting and system reconnaissance.
 * **Data Exfiltration:** Stolen credentials and system data are transmitted to attacker infrastructure via SMTP, FTP, HTTP, or Telegram APIs.
-```
+
+</details>
+
+<br/>
 
 ---
 
-## [MITRE ATT&CK Techniques](https://mitre-attack.github.io/attack-navigator//#layerURL=https%3A%2F%2Fattack.mitre.org%2Fsoftware%2FS0331%2FS0331-enterprise-layer.json)
+### [MITRE ATT&CK Techniques](https://mitre-attack.github.io/attack-navigator//#layerURL=https%3A%2F%2Fattack.mitre.org%2Fsoftware%2FS0331%2FS0331-enterprise-layer.json)
+
+
+<details markdown="1">
+<summary><strong>Techniques</strong></summary>
 
 - <https://attack.mitre.org/techniques/T1087/001/>  
 - <https://attack.mitre.org/techniques/T1071/001/>  
@@ -130,9 +119,13 @@ Detailed sequence:
 - <https://attack.mitre.org/techniques/T1112/>  
 - <https://attack.mitre.org/techniques/T1027/>
 
+</details>
+
+<br/>
+
 ---
 
-## Mitigations
+### Mitigations
 
 * **Identity protections:** <Example mitigation>
 * **Endpoint controls:** <Example mitigation>
@@ -141,9 +134,9 @@ Detailed sequence:
 
 ---
 
-## Detections
+### Detections
 
-### Indicators of Compromise (IOCs)
+#### Indicators of Compromise (IOCs)
 
 * [IPs](<link>)
 * [Domains](<link>)
@@ -152,22 +145,21 @@ Detailed sequence:
 * [SHA1](<link>)
 * [SHA256](<link>)
 
-### Detection Rules
+#### Detection Rules
 
-* [YARA](<link>)
-* [Suricata](<link>)
-* [Sigma](<link>)
-* [Splunk](<link>)
+| Rule | View | Download |
+|-----|-----|-----|
+| YARA | [View](https://github.com/Infinit3i/IOC-Detections/blob/main/Trojan/Agent%20Tesla/RULES/Agent_Tesla.yara) | <a href="./RULES/Agent_Tesla.yara" download>Download</a> |
+| Suricata | [View](https://github.com/Infinit3i/IOC-Detections/blob/main/Trojan/Agent%20Tesla/RULES/Agent_Tesla.rules) | <a href="./RULES/Agent_Tesla.rules" download>Download</a> |
+| Splunk | [View](https://github.com/Infinit3i/IOC-Detections/blob/main/Trojan/Agent%20Tesla/RULES/Agent_Tesla.spl) | <a href="./RULES/Agent_Tesla.spl" download>Download</a> |
 
 ---
 
-## Research & References
-
-## Research & References
+### Research & References
 - <https://example.com/article-1>
-- https://any.run/malware-trends/agenttesla/
-- https://attack.mitre.org/software/S0331/
-- https://www.fortinet.com/blog/threat-research/agent-tesla-variant-spread-by-crafted-excel-document
-- https://malpedia.caad.fkie.fraunhofer.de/details/win.agent_tesla
+- <https://any.run/malware-trends/agenttesla/>
+- <https://attack.mitre.org/software/S0331/>
+- <https://www.fortinet.com/blog/threat-research/agent-tesla-variant-spread-by-crafted-excel-document>
+- <https://malpedia.caad.fkie.fraunhofer.de/details/win.agent_tesla>
 
 

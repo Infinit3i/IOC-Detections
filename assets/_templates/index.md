@@ -10,6 +10,11 @@ title: Malware
 
 ### Overview
 
+<details markdown="1">
+<summary><strong>description</strong></summary>
+
+<br/>
+
 <Type of threat: malware family / phishing kit / RAT / loader / ransomware / etc.>
 
 **Delivery:**  
@@ -21,11 +26,16 @@ title: Malware
 **Notable Characteristics:**  
 <Unique traits, infrastructure patterns, evasion methods, or operational characteristics.>
 
+</details>
+
 ---
 
 ### Attack Flow
 
-Example flow:
+<details markdown="1">
+<summary><strong>Flow</strong></summary>
+
+<br/>
 
 ```
 
@@ -40,9 +50,11 @@ Detailed sequence:
 - `<Step 3>`
 - `<Step 4>`
 
+</details>
+
 ---
 
-## MITRE ATT&CK Techniques
+### MITRE ATT&CK Techniques
 
 * [TXXXX – Technique Name](https://attack.mitre.org/)
 * [TXXXX – Technique Name](https://attack.mitre.org/)
