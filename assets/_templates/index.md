@@ -1,5 +1,5 @@
 ---
-title: <THREAT NAME>
+title: Malware
 ---
 
 ## Executive Summary
