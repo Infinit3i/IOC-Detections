@@ -1,0 +1,40 @@
+---
+---
+
+@import "minima";
+
+body {
+    font-family: Arial, sans-serif !important;
+    background-color: #111 !important;
+    color: #eee !important;
+    margin: 40px !important;
+}
+
+h1, h2, h3, h4 {
+    color: #00d9ff !important;
+}
+
+ul {
+    line-height: 1.8em;
+}
+
+a {
+    color: #00d9ff !important;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.site-header,
+.site-footer,
+.page-content,
+.wrapper,
+.site-nav,
+.post-content,
+.post-list,
+.page-heading {
+    background-color: #111 !important;
+    color: #eee !important;
+}
