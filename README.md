@@ -18,12 +18,6 @@
 - Focus on families that actually show up in the wild.
 - Simple structure. Easy to copy, diff, and automate.
 
-
-## Malware
-* Agent Tesla
-* Lumma
-* XWorm
-
 ### Next Malware Families
 * EvilProxy
 * Mamba 2FA

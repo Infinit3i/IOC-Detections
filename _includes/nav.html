@@ -1,0 +1,33 @@
+<nav class="top-nav">
+  <div class="top-nav-left">
+    <a href="{{ '/' | relative_url }}" class="top-nav-brand">IOC-Detections</a>
+  </div>
+
+  <ul class="top-nav-menu">
+    <li class="top-nav-item">
+      <a href="#" class="top-nav-link">Malware</a>
+      <ul class="top-nav-dropdown">
+        {% assign malware_pages = site.pages | where: "nav_section", "malware" | sort: "nav_order" %}
+        {% for p in malware_pages %}
+          {% if p.title %}
+          <li><a href="{{ p.url | relative_url }}">{{ p.title }}</a></li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </li>
+
+    <li class="top-nav-item">
+      <a href="#" class="top-nav-link">APT</a>
+      <ul class="top-nav-dropdown">
+        {% assign apt_pages = site.pages | where: "nav_section", "apt" | sort: "nav_order" %}
+        {% for p in apt_pages %}
+          {% if p.title %}
+          <li><a href="{{ p.url | relative_url }}">{{ p.title }}</a></li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </li>
+  </ul>
+
+  <div class="top-nav-right"></div>
+</nav>

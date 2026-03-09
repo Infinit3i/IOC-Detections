@@ -44,7 +44,13 @@ layout: default
 
 <ul>
 {% for tool in page.tools %}
-<li>{{ tool }}</li>
+
+{% if tool.link %}
+<li><a href="{{ tool.link }}">{{ tool.name }}</a></li>
+{% else %}
+<li>{{ tool.name }}</li>
+{% endif %}
+
 {% endfor %}
 </ul>
 

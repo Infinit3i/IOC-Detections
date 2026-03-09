@@ -1,10 +1,12 @@
 ---
 layout: apt
 title: Earth Alux
+nav_section: apt
+nav_order: 20
 
 aliases: EarthAlux
 country: China
-start_date: 2023
+start_date: 2025
 last_activity: 2025
 
 summary: >
@@ -16,9 +18,12 @@ summary: >
 mitre: https://attack.mitre.org/groups/GXXXX/
 
 tools:
-  - Godzilla Webshell
-  - VARGEIT
-  - COBEACON
+  - name: Godzilla
+    link: /malware/godzilla
+
+  - name: VARGEIT
+
+  - name: COBEACON
 
 targets:
   - Government
@@ -27,4 +32,5 @@ targets:
 
 references:
   - https://www.trendmicro.com/en_us/research/25/c/the-espionage-toolkit-of-earth-alux.html
+  - https://cyble.com/threat-actor-profiles/earth-alux/
 ---

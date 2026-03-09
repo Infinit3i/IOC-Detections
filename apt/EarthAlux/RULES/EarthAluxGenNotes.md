@@ -56,23 +56,6 @@ copl: This rule examines Sysmon network events to detect when `mspaint.exe`—a 
 
 ---
 
-```ad-faq
-title: my wip rules based on above
-```
-**splunk saved search detecting strange mspaint activities**
-```SPL
-index=win_sysmon EventCode=10 ParentUser="NT AUTHORITY\\SYSTEM" process_name=*
-| stats count by _time, ParentUser, ParentImage, process_name, EventCode 
-| where ParentImage!="C:\\Windows\\explorer.exe" AND ParentImage!="C:\\Windows\\System32\\cmd.exe" 
-| rename process_name as ProcessName 
-| table _time, ParentUser, ParentImage, ProcessName, EventCode
-
-```
-
-```ad-info
-title: suggested copilot change to above
-```
-
 ```SPL
 index=win_sysmon EventCode=* ParentUser="NT AUTHORITY\\SYSTEM" process_name=*
 | where ParentImage!="C:\\Windows\\explorer.exe" AND ParentImage!="C:\\Windows\\System32\\cmd.exe"
