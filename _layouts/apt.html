@@ -1,0 +1,75 @@
+---
+layout: default
+---
+
+<h1>{{ page.title }}</h1>
+
+{% if page.aliases %}
+<p><strong>Aliases:</strong> {{ page.aliases }}</p>
+{% endif %}
+
+{% if page.country %}
+<p><strong>Country:</strong> {{ page.country }}</p>
+{% endif %}
+
+{% if page.start_date %}
+<p><strong>First Observed:</strong> {{ page.start_date }}</p>
+{% endif %}
+
+{% if page.last_activity %}
+<p><strong>Most Recent Activity:</strong> {{ page.last_activity }}</p>
+{% endif %}
+
+{% if page.summary %}
+<hr>
+<h2>Overview</h2>
+<p>{{ page.summary }}</p>
+{% endif %}
+
+{% if page.mitre %}
+<hr>
+<h2>MITRE ATT&CK Profile</h2>
+
+<ul>
+<li>
+<a href="{{ page.mitre }}">View MITRE ATT&CK Group Page</a>
+</li>
+</ul>
+
+{% endif %}
+
+{% if page.tools and page.tools.size > 0 %}
+<hr>
+<h2>Known Malware / Tooling</h2>
+
+<ul>
+{% for tool in page.tools %}
+<li>{{ tool }}</li>
+{% endfor %}
+</ul>
+
+{% endif %}
+
+{% if page.targets and page.targets.size > 0 %}
+<hr>
+<h2>Common Targets</h2>
+
+<ul>
+{% for t in page.targets %}
+<li>{{ t }}</li>
+{% endfor %}
+</ul>
+
+{% endif %}
+
+{% if page.references and page.references.size > 0 %}
+<hr>
+<h2>Research & References</h2>
+
+<ul>
+{% for ref in page.references %}
+<li><a href="{{ ref }}">{{ ref }}</a></li>
+{% endfor %}
+</ul>
+
+{% endif %}
