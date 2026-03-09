@@ -1,9 +1,4 @@
 
-```
-# ─────────────────────────────────────────────
-# 🛡️ AgentTesla C2 Communication Detection
-# ─────────────────────────────────────────────
-
 # Rule 1: Detect response from ams.stablehost.com (sets flowbit)
 alert tcp any 587 -> any any (
     msg:"Data Exfiltration to AgentTesla C2 — Communication with ams.stablehost.com";
@@ -23,10 +18,6 @@ alert tcp any any -> any 587 (
     sid:1000002;
 )
 
-# ─────────────────────────────────────────────
-# 🧰 Suspicious Ingress Tool Transfer Detection
-# ─────────────────────────────────────────────
-
 # Rule 3: Detect outbound HTTPS connection to didaktik-labor.de
 alert tcp any any -> any 443 (
     msg:"Suspicious for Ingress Tool Transfer — Communication with didaktik-labor.de";
@@ -34,4 +25,3 @@ alert tcp any any -> any 443 (
     content:"|64 69 64 61 6b 74 69 6b 2d 6c 61 62 6f 72 2e 64 65|";
     sid:1000000;
 )
-```
