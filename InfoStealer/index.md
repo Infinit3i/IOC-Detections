@@ -44,7 +44,7 @@ Lumma Stealer (aka LummaC2 Stealer) is an information stealer that has been avai
 
 ### Peaklight [2]
 
-Mandiant identified a new memory-only dropper using a complex, multi-stage infection process. This memory-only dropper decrypts and executes a PowerShell-based downloader. This PowerShell-based downloader is being tracked as PEAKLIGHT.
+Mandiant identified a new memory-only dropper using a complex, multi-stage infection process. This fileless dropper decrypts and executes a PowerShell-based downloader.
 
 ### Other Common Stealers
 
@@ -55,7 +55,17 @@ Mandiant identified a new memory-only dropper using a complex, multi-stage infec
 
 
 ### T-Codes
-[T0882](https://attack.mitre.org/techniques/T0882/) [T1204.002](https://attack.mitre.org/techniques/T1204/002/) [T1115](https://attack.mitre.org/techniques/T1115) [T1112](https://attack.mitre.org/techniques/T1112) [T1010](https://attack.mitre.org/techniques/T1010) [T1012](https://attack.mitre.org/techniques/T1012) [T1129](https://attack.mitre.org/techniques/T1129) [T1497.001](https://attack.mitre.org/techniques/T1497/001) [T1055.003](https://attack.mitre.org/techniques/T1055/003) [T1027](https://attack.mitre.org/techniques/T1027) [T1140](https://attack.mitre.org/techniques/T1140)
+- [T0882](https://attack.mitre.org/techniques/T0882/) 
+- [T1204.002](https://attack.mitre.org/techniques/T1204/002/) 
+- [T1115](https://attack.mitre.org/techniques/T1115) 
+- [T1112](https://attack.mitre.org/techniques/T1112) 
+- [T1010](https://attack.mitre.org/techniques/T1010) 
+- [T1012](https://attack.mitre.org/techniques/T1012) 
+- [T1129](https://attack.mitre.org/techniques/T1129) 
+- [T1497.001](https://attack.mitre.org/techniques/T1497/001) 
+- [T1055.003](https://attack.mitre.org/techniques/T1055/003) 
+- [T1027](https://attack.mitre.org/techniques/T1027) 
+- [T1140](https://attack.mitre.org/techniques/T1140)
 
 # user training
 - Users should verify URLs in emails, especially from unknown or unexpected sources.
@@ -64,7 +74,12 @@ Mandiant identified a new memory-only dropper using a complex, multi-stage infec
 - Users should adopt strong password practices: change passwords regularly, use unique and robust passwords for each online account, and include a combination of uppercase and lowercase letters, numbers, and symbols. And use 2FA when it is supported.
 - Users should not store or save passwords in web browsers, clear text files, windows credential managers. Use password managers instead.
 
-# Mitigations - G6
+# Mitigations
+
+<details>
+
+<summary>Mitigations</summary>
+
 - Organizations should implement advanced endpoint detection and response (EDR) solutions that use behavior-based detection techniques to identify and block malicious activities. Ensure AV and/or EDR perform sandboxing of the executable files downloaded from the internet.
 - Implement multi-factor authentication (MFA) across all account types, including default, local, domain, and cloud accounts, to prevent unauthorized access, even if credentials are compromised. MFA provides a critical layer of security by requiring multiple forms of verification beyond just a password. This measure significantly reduces the risk of adversaries abusing valid accounts to gain initial access, escalate privileges, maintain persistence, or evade defenses within your network.
 - Organizations should conduct regular training sessions to educate users about social engineering tactics and new phishing schemes.
@@ -80,6 +95,7 @@ Mandiant identified a new memory-only dropper using a complex, multi-stage infec
 - Web proxies can be used to enforce an external network communication policy that prevents use of unauthorized external services.
 - Network intrusion detection and prevention systems that use network signatures to identify traffic for specific adversary malware or unusual data transfer over known protocols like FTP can be used to mitigate activity at the network level. Signatures are often for unique indicators within protocols and may be based on the specific obfuscation technique used by a particular adversary or tool, and will likely be different across various malware families and versions. Adversaries will likely change tool C2 signatures over time or construct protocols in such a way as to avoid detection by common defensive tools.
 
+</details>
 
 # Detections - DCO
 
