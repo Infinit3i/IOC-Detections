@@ -16,6 +16,7 @@
 0ar4fv4[.]luncileummt[.]es
 0lEg[.]itelentho[.]com
 0q5e0[.]nemen9[.]com
+0qbwh6hprn[.]localto[.]net
 11234jkhfkujhs[.]online,domain,fakebat infostealer,medium,
 11234jkhfkujhs[.]site,domain,fakebat infostealer,medium,
 11234jkhfkujhs[.]top,domain,fakebat infostealer,medium,
@@ -26,15 +27,23 @@
 1212stars[.]xyz,domain,fakebat infostealer,medium,
 147M[.]jemivarnen[.]ru
 14pbv[.]izmnpdzc[.]es
+19[.]tcp[.]cpolar[.]top
 1GoI[.]xriaep[.]es
 1NospMVBVJCkf8M5VPQx[.]vkcjpv[.]ru
 1Pz4aeE8mKO8rTAbeAb6[.]uhtmdu[.]ru
 1V[.]bonoicoma[.]ru
 1Vrh[.]beqrid7vn[.]com
 1Zd[.]pnydnuf[.]es
+1[.]tcp[.]ap[.]cpolar[.]io
+1[.]tcp[.]cpolar[.]cn
+1[.]tcp[.]cpolar[.]top
+1[.]tcp[.]zaf[.]cpolar[.]io
 1ea0o[.]gvpjm[.]es
+1hitclub[.]eu[.]com
 1oo7[.]net,domain,X-Agent,C2,fancy-bear
 1q[.]dkzbqj[.]es
+1t7qbrm9t[.]localto[.]net
+2011-57970[.]portmap[.]host
 2025-11-19-email-pushing-xworm[.]eml[.]zip
 2025-11-19-iocs-from-xworm-infection[.]txt[.]zip
 2025-11-19-malware-from-xworm-infection[.]zip
@@ -42,7 +51,9 @@
 2026-01-20-iocs-for-xworm-activity[.]txt[.]zip
 2026-01-20-xworm-email-and-malware[.]zip
 2026-01-20-xworm-infection-traffic[.]pcap[.]zip
+21[.]tcp[.]vip[.]cpolar[.]cn
 21centuryart[.]com,domain,infostealer Exploiting CVE-2024-21412,infostealer,
+22[.]tcp[.]cpolar[.]top
 2311foreign[.]xyz,domain,fakebat infostealer,medium,
 2311forget[.]online,domain,fakebat infostealer,medium,
 2311forget[.]site,domain,fakebat infostealer,medium,
@@ -57,7 +68,10 @@
 2610kjhsda[.]site,domain,fakebat infostealer,medium,
 2610kjhsda[.]top,domain,fakebat infostealer,medium,
 2610kjhsda[.]xyz,domain,fakebat infostealer,medium,
+26[.]tcp[.]cpolar[.]top
+28[.]tcp[.]cpolar[.]top
 2E7lYM88pKRrEyj9vRqT[.]kudldq[.]es
+2[.]tcp[.]cpolar[.]cn
 2auso[.]djvanct[.]com
 2bJeXMfbySv5CaNbv5L5[.]zojbmal[.]es
 2bl[.]yoiglri[.]es
@@ -72,9 +86,13 @@
 3010offers[.]site,domain,fakebat infostealer,medium,
 3010offers[.]top,domain,fakebat infostealer,medium,
 3010offers[.]xyz,domain,fakebat infostealer,medium,
+305v33-40382[.]portmap[.]host
+30[.]tcp[.]cpolar[.]top
 343-ads-info[.]top,domain,fakebat infostealer,medium,
+35[.]tcp[.]cpolar[.]top
 35fu2[.]ouchar[.]ru
 364klhjsfsl[.]top,domain,fakebat infostealer,medium,
+37[.]tcp[.]cpolar[.]top
 3AP[.]sivenater[.]com
 3ESWVkOaBtOTsWyZQrXg[.]bbisgfjjx[.]es
 3NgSq00IS3zbvIkapjMg[.]itodbpo[.]es
@@ -92,6 +110,8 @@
 40g1[.]igailgabl[.]ru
 4343w[.]jgu0[.]com
 43rw98nop8[.]m1p8z[.]com
+444444444440-37173[.]portmap[.]host
+444444444440-58418[.]portmap[.]host
 465jsdlkd[.]top,domain,fakebat infostealer,medium,
 4793MVdKwIt2Ph1bt2[.]qvmrq[.]es
 4GbA[.]wwrqsddc[.]ru
@@ -110,12 +130,14 @@
 56L9UtNOCWwwEbDVv6Tc[.]quezeutnt[.]com
 57EU0OQ19SkWBUYggEYc[.]hutzwehkyov[.]es
 57m088j6[.]hsekrdkw[.]es
+58winvina[.]com
 5Gp[.]trotimit[.]ru
 5Twm4CWeVoXPQbTmbmhr[.]isoopqlzsp[.]es
 5cvbRC3UFbg56X1E1IVp[.]cdyhngtligvu[.]ru
 5fBukf0si7XCDclsDAys[.]podbxh[.]es
 5lP3hDLdhYFdBzWVAFNj[.]bavdaea[.]es
 5me78[.]methw[.]ru
+5mux6rtj8[.]localto[.]net
 62[.]yrqwvevbjcfv[.]es
 661p[.]visijonframe[.]ru
 691sfgrz[.]tnihwnyiq[.]es
@@ -143,7 +165,9 @@
 7ZMnjRvHz8FEXEaCwffk[.]ngysqq[.]es
 7geq6[.]dedyewbw[.]ru
 7hcmWK813aqUHajv8yRH[.]jqpmfrius[.]ru
+7mgtwzocu[.]localto[.]net
 7ouMUHlrizX05yg4ckf2[.]pxeeryhlvn[.]es
+7v4hd5u6r[.]localto[.]net
 8000n[.]uqin[.]ru
 80[.]neusifra[.]com
 81hz1nXrzyI7JAo6hqFI[.]hszzqfx[.]es
@@ -157,6 +181,7 @@
 8d[.]gohxe[.]es
 8enYgwvi3fHH634mFoR0[.]xhamks[.]es
 8fti[.]arbenealptyr[.]com
+8i5lypxm6[.]localto[.]net
 8l[.]legogrand[.]ru
 8nCksY8YJIzSlNqM03Q3[.]dnnwvk[.]es
 8uecv[.]gnornamb[.]com
@@ -170,7 +195,9 @@
 9MA[.]ztbnpnidkxt[.]es
 9T2T0P5m9Ykm4wBDEXmo[.]dryjidwyoy[.]es
 9U[.]hubstabla[.]ru
+9[.]tcp[.]cpolar[.]top
 9c43r[.]theq0[.]com
+9ju3rdlvz[.]localto[.]net
 9jxmbDggDGpm7OChnQAB[.]txtvkn[.]com
 9m1y7[.]xndikcwr[.]ru
 9oc0y2isa27[.]demur3[.]com
@@ -183,7 +210,9 @@ ARC[.]puoemq[.]es
 AZut[.]wxfamo[.]es
 Aj[.]accessdnsl[.]com
 Alaricxw[.]es
+Anonykous-54240[.]portmap[.]host
 Ao6ZJcX6fFr8JrbGsIWL[.]vimqcsnulbk[.]es
+ArenalExperience[.]com
 Axc2iXn84W7Gy0RwNWnT[.]fzfwhfzvo[.]es
 Aylaxw[.]es
 B1[.]rameptica[.]ru
@@ -194,27 +223,37 @@ BPIL4TsAZFL628HBShnA[.]caoop[.]es
 Betterdirectit[.]com/,domain,Fake Captcha Websites,infoStealers,
 Betterdirectit[.]com/go/67fe87ca-a2d4-48ae-9352-c5453156df67,domain,Fake Captcha Websites,infoStealers,
 Bi[.]naglante[.]ru
+Bleededer-41468[.]portmap[.]host
+Boosterman22q1-33740[.]portmap[.]host
+Boosterman22q1-42479[.]portmap[.]host
 BrightNetk[.]ru
 By[.]tribuna[.]com/extreme/blogs/3143511-black-myth-wukong-full-unlock/,domain,Websites Containing Malicious URLsmd5,infoStealers,
 C9A[.]rimtoz8sd[.]com
 CDnFmfX9qyQ82zlXIomX[.]hixtvgskmynz[.]es
 CNio1RNmzxIA6ktXp1Fq[.]xqoho[.]es
+CRINGEASFASLTO-34920[.]portmap[.]host
 Ce49[.]flxowtrack[.]ru
 Celestexw[.]es
 Cj7Q7Fgva5iXgiKp8SC9[.]myeaowz[.]ru
 CjoxdmlA0D5BW5yuJY[.]xufulikiji[.]es
+Clawless-42349[.]portmap[.]host
+Clawless-42512[.]portmap[.]host
 Clickthistogo[.]com/go/67fe87ca-a2d4-48ae-9352-c5453156df67?var_3=F60A0050-6F56-11EF-AA98-FFC33B7D3D59,domain,Fake Captcha Websites,infoStealers,
 D3UaCJseVIcAsSyM9YGa[.]lpyezq[.]ru
 DCyAPPRnHAjZ8P1P68KC[.]eqlfwlenw[.]es
 DInB[.]undivandiumi[.]ru
 DL[.]radmanim[.]com
 DVdc[.]lkagt[.]es
+DaMonke43453-59818[.]portmap[.]host
 DcQ[.]woutryo[.]es
 DkkqkE7F0qBg1dlMU7U5[.]hbsnq[.]es
+Dldo3-53471[.]portmap[.]host
+Doghan-52372[.]portmap[.]host
 Downloadsbeta[.]com/go/08a742f2-0a36-4a00-a979-885700e3028c,domain,Fake Captcha Websites,infoStealers,
 Downloadstep[.]com/go/08a742f2-0a36-4a00-a979-885700e3028c,domain,Fake Captcha Websites,infoStealers,
 Downloadstep[.]com/go/79553157-f8b8-440b-ae81-0d81d8fa17c4,domain,Fake Captcha Websites,infoStealers,
 DqZ[.]bglvsl[.]es
+Dreem-45850[.]portmap[.]host
 DsS[.]acyclonkp[.]ru
 DscxWADCU3PnylhGDPvP[.]tcixqnccy[.]es
 DvMVXauIZbWbfmGPttxx[.]qwzxxcs[.]es
@@ -222,6 +261,7 @@ E2RNK1MFrb23sL9nYoMs[.]vaxmywqdyio[.]es
 E679EcSkxQRm0sywxVg0[.]olzaon[.]ru
 EM1K1SBXOrKordFdcALl[.]yvtqqzxuvd[.]es
 EUF[.]buudyvr[.]es
+Egornigga-61525[.]portmap[.]host
 EqARjAYVvf7HuNsdnLTm[.]azpbc[.]es
 Et6xfEEf2PNJ0FUxunAW[.]zfjvds[.]es
 Exk8FP61xzCLVKmxJaQf[.]kqykjxdq[.]es
@@ -241,6 +281,7 @@ FmMpJhGlM1dR4wqULmQk[.]utnzchtjgwi[.]es
 Fuq[.]dmzvjsngnrx[.]es
 G1VMOcI1g6JEUGOVleYJ[.]uenkemzeebwz[.]es
 GGShS30XDr7DExZ3TV1Z[.]xwagu[.]es
+GGmenP120-43957[.]portmap[.]host
 GK[.]sovimarnex[.]ru
 GN[.]mersodeneumv[.]ru
 GO[.]erouscletali[.]ru
@@ -265,8 +306,10 @@ HwQPAeNXIzYSwRw4oadE[.]tvuwtqbzp[.]es
 I9Qk[.]logrebald[.]com
 IH[.]maschantenis[.]ru
 INH[.]qvfgu[.]es
+Iao-43691[.]portmap[.]host
 IdGRXsXX8Scq7gfsCqik[.]zwuvyerpl[.]es
 Innerverdanytiresw[.]shop,domain,Command Servers -md5,infoStealers,
+ItzJrx-35702[.]portmap[.]host
 IvZGGPGz4ZNk7iQOGdlF[.]zybbowxgmvi[.]ru
 J2[.]sovilax[.]ru
 JK[.]ievintwayt[.]com
@@ -287,7 +330,10 @@ LwTxGbKkoOdGTnnSytq8[.]tbougknbizjn[.]ru
 ME8I[.]xelidornor[.]ru
 ML[.]dedrix4xw[.]com
 MZ[.]bzpshrcdkepx[.]es
+Matvey-41302[.]portmap[.]host
 Me[.]lunaraven[.]ru
+Mikey12325Ja1-31716[.]portmap[.]host
+Mitch275-37737[.]portmap[.]host
 MqQVUF2MbSGgLV1uBWan[.]amasfzc[.]es
 Msq[.]kervan2qh[.]com
 MssX[.]tovimor[.]ru
@@ -295,11 +341,13 @@ Multicanais[.]love,domain,streamingmd5,infoStealers,
 N3w[.]jelorath[.]ru
 N4G4[.]vfmrgf[.]es
 NE[.]duwdkebl[.]es
+NIGGERINMYBUTHOLE-56571[.]portmap[.]host
 NRXs07BuaXmoojFzK6kk[.]xcbbkmgk[.]es
 NTMN[.]bomivornex[.]ru
 Nee69YlpFKX2G6Hnv9uS[.]bptdebwxr[.]ru
 Netovrema[.]pw,domain,LummaStealer C2,infostealer,
 Newvideozones[.]click/veri[.]html,domain,Fake Captcha Websites,infoStealers,
+Nexit-62461[.]portmap[.]host
 Nh[.]htspuaecjfnx[.]es
 NiyS[.]jdzhrjo[.]es
 Nr00pBrynhBgBLbGNXwC[.]alxkrgoy[.]es
@@ -330,15 +378,18 @@ Qj46AbXPx6sGWMW5LLgr[.]ronmuggt[.]es
 QmfE[.]eharymerneb[.]com
 QqfS4b72lbRmITdyKm7W[.]kosatyburst[.]es
 QtfO[.]ownskupen[.]com
+Queijoz-38545[.]portmap[.]host
 QusgUZk5W871iv1AE34F[.]hiqdbp[.]es
 Qx[.]ciurivfvobt[.]es
 QzgDqdbfthkQ9qwrP0U8[.]jklmjga[.]com
 R5r4gSy41vf2EixuTvBO[.]egfoqtc[.]ru
+R7J-44928[.]portmap[.]host
 REjxrm2f2SVpssfWC3sb[.]krisaox[.]es
 RRv[.]shembargon[.]ru
 RUw5[.]dgpfsz[.]es
 RZB[.]bijandice[.]ru
 Rafexw[.]es
+RealTopka-50211[.]portmap[.]host
 Rungamepc[.]ru/?load=Black-Myth-Wukong-crack,domain,Redirectingmd5,infoStealers,
 Rungamepc[.]ru/?load=Dragons-Dogma-2-Crack,domain,Redirectingmd5,infoStealers,
 Rungamepc[.]ru/?load=Dying-Light-2-Crack,domain,Redirectingmd5,infoStealers,
@@ -361,6 +412,7 @@ T9[.]spoeventr[.]com
 TTrBwrhEIF76kFoupU10[.]ndrrsbgz[.]ru
 TavV[.]borouseburba[.]ru
 Te3ZjFLrNz7founLJaZf[.]hpzjbhjnqt[.]es
+Th3Hunt3r-53504[.]portmap[.]host
 TrMaylrKDKtnFxCUApdn[.]qeqcpu[.]es
 Tu3K[.]mkmeyyo[.]es
 UC6d[.]bavyfnab[.]es
@@ -370,6 +422,8 @@ UTv286SHsVMKivzr81Sy[.]dcovykq[.]es
 UW[.]hjjntmj[.]es
 UbllhJA01ZhYpQA6BanN[.]xccnlkstyv[.]com
 UhVK[.]flarianty[.]ru
+UnknownRazer-39100[.]portmap[.]host
+UserRD1pre-46688[.]portmap[.]host
 V090qVwywM6EIMRzF7[.]cllhcnc[.]es
 V59GsIfMrRKOMRy4gQiy[.]iblkliycd[.]es
 V6Un0j3ImDdZcGawQUsW[.]vyrdnzj[.]es
@@ -377,6 +431,7 @@ VD[.]ownronthy[.]com
 VSUF9HB9Ps11sqNxzDFi[.]ynhkgtrfjz[.]es
 Va[.]BrightNetk[.]ru
 VentIOnYs[.]rrtussgb[.]es
+Verlyx12345-41388[.]portmap[.]host
 Vkz[.]gancitypunou[.]ru
 VwloqGURRKEK1NESqrzE[.]lyyybhgjuqp[.]ru
 W3HIWfPWT2C68icben5E[.]wzqxo[.]es
@@ -419,13 +474,17 @@ ZR[.]keliron[.]ru
 ZSeC0XfUvdKQNAbiUOjj[.]mqzhhwujs[.]es
 Zanexw[.]es
 Zl[.]rhickysti[.]ru
+ZobyYog3nyah123-35769[.]portmap[.]hostdomainsdomainsxworm[.]verifysmartgmail[.]com
 ZzBaegU70dKn6QsLBKzh[.]ykpwwxd[.]es
+a[.]pinggy[.]io
 aahdbd[.]es
 aalmuubxx[.]com
 aaoepshsq[.]es
 aardxff[.]com
+aaslooria[.]com
 aaukaxi[.]es
 abdmxxw[.]es
+abdulraheem6-50903[.]portmap[.]host
 abeanethw[.]ru
 abjkpvyp[.]es
 ablamongh[.]com
@@ -436,6 +495,7 @@ ablesculdwi[.]com
 ablevenbe[.]com
 ablinglor[.]ru
 ablomholti[.]ru
+abo7seshaelmkatel-50598[.]portmap[.]host
 abowry[.]es
 abpvpmcweqyb[.]es
 abqstvg[.]es
@@ -451,6 +511,7 @@ achrokera[.]com
 achroughi[.]com
 acmuutdcn[.]es
 acostypti[.]ru
+act-tingly[.]gl[.]at[.]ply[.]gg
 activeeife[.]ru
 actranor[.]com
 acultope[.]ru
@@ -462,6 +523,8 @@ adecturac[.]com
 adfldjxtt[.]es
 adjptuw[.]es
 adnpzlllp[.]es
+adobe-cdn[.]duckdns[.]org
+adobecreativecloud[.]duckdns[.]org
 adobeincorp[.]com,domain,X-Agent,C2,fancy-bear
 adobeincorp[.]net,domain,X-Agent-iOS,C2,fancy-bear
 adpgpbz[.]es
@@ -545,6 +608,7 @@ agetasti[.]ru
 aghjgyjtgkgb[.]es
 aginatorw[.]com
 agjgeo[.]es
+agn121-46042[.]portmap[.]host
 agnograyo[.]com
 aguawkyas[.]com
 agveku[.]es
@@ -555,9 +619,11 @@ aholahp[.]es
 ahoriticl[.]ru
 aiiktdadgnqr[.]ru
 ailshiel[.]ru
+aimbotfr-43342[.]portmap[.]host
 ainfoismac[.]com
 aipanelnew[.]ru,domain,fakebat infostealer,medium,
 aipanelnew[.]site,domain,fakebat infostealer,medium,
+aizenespada[.]ddns[.]net
 ajcffp[.]ru
 ajfuku[.]es
 ajkbzhltuven[.]es
@@ -582,6 +648,7 @@ alhljmdxk[.]ru
 aliyun-agent[.]com,domain,,,
 aljpnblooo[.]es
 allonstructionnewproject[.]info
+allwheelwealth[.]duckdns[.]org
 almmhgihp[.]es
 alnucresc[.]com
 alqpulm[.]es
@@ -592,12 +659,14 @@ alxkrgoy[.]es
 amaraxw[.]es
 amasfzc[.]es
 amayaxw[.]es
+amazon-mini[.]gl[.]at[.]ply[.]gg
 ambitagent[.]ru
 aminericiva[.]ru
 amitensenc[.]ru
 ammtec[.]info
 ammxrutuwa[.]es
 amncyuoejk[.]ru
+among-publisher[.]gl[.]at[.]ply[.]gg
 amoribles[.]com
 amponarifeto[.]ru
 amszzsknlrcl[.]es
@@ -612,6 +681,7 @@ andleamag[.]ru
 andmalmi[.]ru
 andrumbe[.]com
 aneraleche[.]ru
+angelorichards-54208[.]portmap[.]host
 angstine[.]ru
 anguistifol[.]ru
 angymenc[.]ru
@@ -645,6 +715,7 @@ api[.]web-search-agent[.]com,domain,,,
 aplomb9[.]com
 aplorywast[.]com
 apmsvvehaes[.]ru
+app-google3[.]duckdns[.]org
 app[.]getmess[.]io,domain,FakeBat Social engineering schemes on social networks,high,
 appexrv[.]com,domain,X-Agent,C2,fancy-bear
 apple-checker[.]org,domain,X-Agent,C2,fancy-bear
@@ -661,6 +732,7 @@ aqtgkkwlksr[.]es
 aquansons[.]ru
 arbarouscu[.]ru
 arbenealptyr[.]com
+archive-common[.]gl[.]at[.]ply[.]gg
 arcionec[.]ru
 arcticxpeditions[.]ru
 arcxticvision[.]ru
@@ -676,6 +748,7 @@ arghicadventures[.]ru
 argwkmwttx[.]es
 arhbohjy[.]es
 aritrhxduasv[.]es
+arklen-64027[.]portmap[.]host
 arlerthelex[.]com
 arlinarmar[.]ru
 armoly/Discord-Bot,domain,infostealer,infostealer,
@@ -696,6 +769,8 @@ arymbanern[.]ru
 arympanco[.]com
 arystion[.]ru
 arzzelyvhxad[.]es
+asfdavsdgkas-37221[.]portmap[.]host
+asfegfrwg4t42t-58664[.]portmap[.]host
 ashibraps[.]com
 asimbisi[.]com
 asmingescho[.]com
@@ -726,6 +801,7 @@ atitinthen[.]ru
 ativarcuor[.]com
 ativoltermo[.]ru
 atlendown[.]ru
+atlnewmedia[.]com
 atpch[.]es
 atricartion[.]ru
 atuctackempo[.]com
@@ -736,11 +812,13 @@ aunoyrf[.]es
 auoranest[.]ru
 aurgenter[.]com
 aurlecoga[.]com
+aurmouse-30157[.]portmap[.]host
 auscarict[.]com
 australasianline[.]com,domain,,,
 auzqltgrmeze[.]es
 avalyosced[.]ru
 avarice5[.]com
+avatarcoder[.]ddns[.]net
 avciuac[.]es
 avelaypo[.]ru
 averageorganicfallfaw[.]shop,domain,Command Servers -md5,infoStealers,
@@ -757,6 +835,7 @@ awfvhhz[.]es
 awqfktr[.]ru
 awtzni[.]es
 awubar[.]ru
+ax8h9m7lf[.]localto[.]net
 axdhcg[.]es
 aybxfcmy[.]es
 aykikrthc[.]ru
@@ -855,7 +934,7 @@ bgjlul[.]es
 bgktfx[.]es
 bglvsl[.]es
 bgojspfn[.]es
-bgojspfn[.]esdomainsdomainsxworm[.]verifysmartgmail[.]com
+bgojspfn[.]es007ryan[.]duckdns[.]org
 bgpldwe[.]es
 bgpxunxrph[.]ru
 bgxptmloa[.]com
@@ -871,6 +950,7 @@ bightypefu[.]ru
 biijvi[.]ru
 bijandice[.]ru
 bijfssfuarfw[.]es
+bill-lu[.]gl[.]at[.]ply[.]gg
 bilmanzago[.]com
 biniml[.]es
 biodjhy[.]com
@@ -957,7 +1037,9 @@ bqkzemkntqp[.]es
 br-izeffs[.]ru
 braqsp[.]ru
 bravolix[.]es
+brechjebritt[.]duckdns[.]org
 breprentive[.]ru
+breur44[.]duckdns[.]org
 brfistqzd[.]es
 brfzxsvzry[.]es
 brielfuseq[.]com
@@ -1080,7 +1162,9 @@ cdn-new-dwnl[.]ru,domain,fakebat infostealer,medium,
 cdswfdg[.]es
 cdtvet[.]es
 cduhnfl[.]es
+ceaps-158-173-23-8[.]a[.]free[.]pinggy[.]link
 ceativebloom[.]ru
+ceee[.]zapto[.]org
 cegddu[.]es
 cehbgeifcxx[.]es
 cehtjmtpzdy[.]ru
@@ -1125,6 +1209,7 @@ chmonith[.]ru
 chogdc[.]com
 choradiol[.]com
 chrntk[.]es
+chromewi99000-49071[.]portmap[.]host
 cianierem[.]ru
 cillflm[.]es
 cinflondetic[.]com
@@ -1152,6 +1237,7 @@ cktoyuh[.]es
 clanifter[.]com
 clarview[.]ru
 clasimpique[.]com
+classes-cap[.]gl[.]joinmc[.]link
 clementas1[.]com
 clentert[.]ru
 click[.]checklistseo[.]top,domain,phishing,high,
@@ -1162,6 +1248,7 @@ clk-info[.]ru,domain,fakebat infostealer,medium,
 clk-info[.]site,domain,fakebat infostealer,medium,
 cllhcnc[.]es
 cloudbrush[.]ru
+cloudshape[.]us[.]com
 cloudymhgig[.]es
 cludburcomb[.]com
 clzablh[.]es
@@ -1185,10 +1272,13 @@ coibnea[.]com
 colatimplan[.]com
 colmicrosys[.]com
 colorfulequalugliess[.]shop,domain,LummaStealer C2,infostealer,
+combining-melbourne[.]with[.]playit[.]plus
 cometshlpping[.]com,domain,,,
 comleilomer[.]com
 complaintsipzzx[.]shop,domain,Lumma Stealer,infoStealers,
 complaintsipzzx[.]shop,domain,LummaStealer C2,infostealer,
+condor90-50240[.]portmap[.]host
+conference-protect[.]gl[.]at[.]ply[.]gg
 connect[.]ngrok-agent[.]com,domain,AsyncRAT,,
 conormerg[.]com
 considerrycurrentyws[.]shop,domain,LUMMAC[.]V2 C2s,infoStealers,
@@ -1203,6 +1293,8 @@ cornbascet[.]ru,domain,fakebat infostealer,medium,
 cornbascet[.]site,domain,fakebat infostealer,medium,
 corpsecurityadviser[.]com,domain,X-Agent,C2,fancy-bear
 corpsecurityprotecting[.]org,domain,X-Agent,C2,fancy-bear
+coscoshippingjp[.]duckdns[.]org
+cou369ppsh[.]localto[.]net
 cowfinduct[.]ru
 cpcioelub[.]ru
 cpewyx[.]es
@@ -1291,6 +1383,7 @@ cxhcvx[.]ru
 cxprnvhh[.]es
 cxxeuod[.]es
 cxyibq[.]es
+cyaiylzj6[.]localto[.]net
 cybxersphere[.]ru
 cyeiae[.]es
 cyfpwokt[.]ru
@@ -1309,6 +1402,7 @@ czujey[.]es
 czuxm[.]es
 czyxref[.]es
 d0P[.]outantand[.]com
+d1[.]qwertyx[.]host
 dGc[.]ybqeukj[.]es
 dHDoiQMAha0faauvLiQP[.]ydgykdl[.]ru
 dN5MsLxkAkaQVJaozxT6[.]avdpxynn[.]ru
@@ -1316,9 +1410,11 @@ dN[.]zjdkexme[.]es
 da-agent-64[.]dll,domain,CryptBot,Delivery, ActionOnObjectives,
 dacremuse[.]com
 daendwy[.]es
+dal-business-20[.]duckdns[.]org
 dalbrelek[.]ru
 dalcart[.]info
 daluestingoln[.]ru
+danaloids-38924[.]portmap[.]host
 danicentr[.]com
 dantergent[.]ru
 dantherevin[.]ru
@@ -1327,11 +1423,15 @@ darfeistud[.]ru
 dariusxw[.]es
 darmackingis[.]ru
 darvix8uh[.]com
+darwin151-36102[.]portmap[.]host
+darwin151-51782[.]portmap[.]host
 dastivering[.]ru
 dasypewdijse[.]es
 dataatrix[.]ru
 datentiontio[.]ru
 datxacraft[.]ru
+dawdawf-32460[.]portmap[.]host
+dawdawf-45472[.]portmap[.]host
 dawnrier[.]ru
 daystyro[.]com
 dbcbztujn[.]es
@@ -1355,6 +1455,7 @@ ddmnpxrrmlav[.]es
 ddmyrgfd[.]es
 deallerospfosu[.]shop,domain,Lumma Stealer,infoStealers,
 deallerospfosu[.]shop,domain,LummaStealer C2,infostealer,
+dedefoenumnigga-58553[.]portmap[.]host
 dedrix4xw[.]com
 definda[.]io
 defwbe853v[.]unjvffnltx[.]es
@@ -1377,6 +1478,7 @@ detailbaconroollyws[.]shop,domain,LUMMAC[.]V2 C2s,infoStealers,
 detectordiscusser[.]shop,domain,LummaStealer C2,infostealer,
 deugi[.]es
 devcraftingsolutions[.]com
+devyus[.]in[.]net
 dezceccc[.]ru
 dfahpt[.]es
 dfeyudyxd[.]es
@@ -1404,6 +1506,7 @@ dhrnvzu[.]es
 dhvbduchjjtg[.]es
 dhzxhfooss[.]es
 diNF6jyx1bjoPW7GGgfx[.]fibwfw[.]es
+dianganadores[.]duckdns[.]org
 diaryyx[.]es
 diasz[.]ru
 diblethe[.]com
@@ -1411,6 +1514,7 @@ diboachand[.]ru
 dicheejif[.]com
 dicksterow[.]com
 diclende[.]ru
+diddyong123-58385[.]portmap[.]host
 diethrify[.]ru
 difecuste[.]com
 dighagnerme[.]com
@@ -1421,6 +1525,7 @@ dinnyrii[.]es
 diprxbztpf[.]es
 diqumrn[.]es
 directs-freights[.]com,domain,,,
+disco222222-31929[.]portmap[.]host
 discoxverrussia[.]ru
 disigieta[.]com
 diskarghthe[.]com
@@ -1456,6 +1561,7 @@ dltetndmh[.]ru
 dlvpzw[.]es
 dmdtu[.]es
 dmffjzt[.]es
+dmkuswt341-49475[.]portmap[.]host
 dmpvaa[.]es
 dmrbmtp[.]es
 dmrpo[.]es
@@ -1537,6 +1643,7 @@ duvzrf[.]ru
 duwdkebl[.]es
 duyecg[.]es
 dvaaeicquvx[.]es
+dvd-directly[.]gl[.]at[.]ply[.]gg
 dvfdiv[.]es
 dvkdnsiysmg[.]ru
 dvmyn[.]es
@@ -1602,6 +1709,7 @@ eceezbjhecdq[.]es
 eceropheve[.]ru
 echietribe[.]ru
 eckmaives[.]ru
+ecolombia2026[.]kozow[.]com
 ecomporidej[.]com
 ecomrknce[.]ru
 ecorptic[.]ru
@@ -1613,6 +1721,7 @@ eddiezn[.]es
 edfmans[.]com,domain,,,
 edgeplayer[.]online,domain,NorthStarC2,C2,refined-kitten
 edistolygrag[.]ru
+edition-pulled[.]gl[.]at[.]ply[.]gg
 edivcqtp[.]ru
 edmanguagma[.]ru
 edosws[.]com
@@ -1625,6 +1734,7 @@ eeogdlfbcomd[.]es
 eetxjzrqtmma[.]es
 efbvnzis[.]es
 efchhinx[.]es
+efebudaktr[.]duckdns[.]org
 efjktgowvdv[.]es
 eflwhskoqvvj[.]es
 efrlf[.]es
@@ -1632,6 +1742,8 @@ efswpuy[.]es
 egehtflnj[.]es
 egirmxldbru[.]ru
 egixcf[.]ru
+egor917383-47506[.]portmap[.]host
+egtwax65c[.]localto[.]net
 eguestionto[.]ru
 egurvr[.]es
 egvmlyta[.]ru
@@ -1716,6 +1828,7 @@ enternegn[.]com
 enthealfo[.]ru
 enthuncench[.]com
 entitivesp[.]com
+envi2026fe[.]duckdns[.]org
 enwrimide[.]ru
 enyzfmdfzbz[.]es
 eobmizoiqc[.]es
@@ -1780,6 +1893,7 @@ escochartzone[.]com,domain,X-Agent,,fancy-bear
 esdgkag[.]es
 eservicesystems[.]net,domain,X-Agent,C2,fancy-bear
 esgahg[.]es
+espada[.]ddns[.]net
 esprosidw[.]ru
 essgggqk[.]es
 establesist[.]ru
@@ -1813,6 +1927,7 @@ eusheupswa[.]com
 evacksund[.]ru
 evenxtgalaxy[.]ru
 eviabj[.]es
+evidence-different[.]gl[.]at[.]ply[.]gg
 evionicha[.]ru
 evkpv[.]es
 evnxpapsu[.]es
@@ -1821,6 +1936,7 @@ evuyjvnlogkb[.]ru
 evvhgltqyxv[.]es
 evzehrnj[.]es
 evzuqmoxsnyj[.]ru
+ewaewaeawwe-47532[.]portmap[.]host
 ewaliala[.]com
 ewayeles[.]ru
 ewbufld[.]es
@@ -1835,6 +1951,7 @@ ex1uo[.]rhknt[.]ru
 examdsg[.]ru
 examzl[.]es
 exazlhcsjv[.]es
+excellentxtrablessings[.]duckdns[.]org
 exfwkwc[.]es
 exlhdpvztwm[.]es
 expearmatrone[.]ru
@@ -1844,8 +1961,10 @@ exqtyuqd[.]ru
 exquchf[.]es
 extairlaski[.]com
 extmydjwdvvy[.]ru
+exveyra-52557[.]portmap[.]host
 exxntertdia[.]ru
 exzlum[.]es
+eyadking[.]linkpc[.]net
 eyasofxugct[.]es
 eydtuwvg[.]es
 eymbngokh[.]es
@@ -1871,6 +1990,7 @@ ezvhdvohk[.]es
 ezxuega[.]es
 ezyvfgc[.]es
 f2TKsDM4tSmQ5wkzVNYO[.]witethfur[.]com
+f3en305f3en-35578[.]portmap[.]host
 fC[.]batenuckitil[.]ru
 fFVIzCsdFr8PKB2imNl4[.]tenotskaopl[.]es
 fFho5LCy4Jp8RAmtjkmH[.]dwaynciah[.]com
@@ -1879,12 +1999,16 @@ fZB6[.]openifera[.]com
 faasbom[.]es
 fackaguerf[.]ru
 fafkjgs[.]es
+fahadx700-50129[.]portmap[.]host
+fahadx700-53150[.]portmap[.]host
+fall-cj[.]gl[.]at[.]ply[.]gg
 falseaudiencekd[.]shop,domain,Lumma C2 domain,infoStealers,
 fapxoxwp7ubprrcx4n[.]wsauerokap[.]es
 faqzpo[.]es
 farioting[.]com
 fastdataexchange[.]org,domain,X-Agent,C2,fancy-bear
 faststoragefiles[.]org,domain,X-Agent,C2,fancy-bear
+father-map[.]gl[.]at[.]ply[.]gg
 fbeuokv[.]es
 fbilsjf[.]es
 fboialfkp[.]es
@@ -1893,12 +2017,14 @@ fbsomitnub[.]es
 fbwmkkb[.]es
 fcjqfn[.]es
 fclcbwhxz[.]es
+fdasfsd-51675[.]portmap[.]host
 fdesfmvizp[.]es
 fdfbexu[.]es
 fdipidh[.]es
 fdmssqa[.]es
 febIG4Mx7GWtycf8pO6X[.]idrvlqvkov[.]es
 febousawkno[.]ru
+february-authors[.]gl[.]at[.]ply[.]gg
 fectgkpet[.]es
 fectualvi[.]com
 feeds-wars-sensor-agent[.]trycloudflare[.]com,domain,Ichnite,ActionOnObjectives,primitive-bear
@@ -1946,6 +2072,7 @@ fiq75d[.]rexj[.]ru
 fiqqyz[.]es
 fisaca[.]trodeckh[.]com
 fiserboate[.]ru
+fish-needed[.]gl[.]at[.]ply[.]gg
 fivdmqoyeox[.]es
 five0cean[.]com,domain,,,
 fizsocnce[.]es
@@ -1960,6 +2087,10 @@ fjwkpgvua[.]es
 fjwtib[.]es
 fjzheeb[.]es
 fkPms9EXp8yUzF8GeLky[.]gbzhvdra[.]ru
+fkeasfodsfkefoapdsofkp-33083[.]portmap[.]host
+fkeasfodsfkefoapdsofkp-45692[.]portmap[.]host
+fkeasfodsfkefoapdsofkp-64203[.]portmap[.]host
+fkeasfodsfkefoapdsofkp-64534[.]portmap[.]host
 fkiganrx[.]es
 fkwmyhn[.]es
 flarianty[.]ru
@@ -1967,6 +2098,7 @@ flcphc[.]es
 fleduhx[.]es
 flektari[.]es
 flhrxz[.]es
+fljdslfjdsf-57814[.]portmap[.]host
 flkzwaajwseo[.]es
 flonvultian[.]com
 flowsereve[.]com
@@ -2002,6 +2134,7 @@ fomitane[.]ru
 fomitine[.]ru
 foneolnue[.]com
 fonpmtg[.]es
+foranother1337[.]publicvm[.]com
 formatoinglobal[.]com
 forsietatch[.]com
 forteiant[.]ru
@@ -2026,10 +2159,13 @@ frgwpjz[.]es
 fribiangyn[.]ru
 froxstpeak[.]ru
 frxyp[.]es
+fsocietyserver-38405[.]portmap[.]host
+fsocietyserver-63331[.]portmap[.]host
 fsportal[.]net,domain,X-Agent,C2,fancy-bear
 fsqgvhm[.]es
 fsqpmlmn[.]es
 fsrceax[.]es
+fssop-77-91-148-5[.]a[.]free[.]pinggy[.]link
 fswdniq[.]es
 ft[.]xelivor[.]ru
 ftchesiondw[.]com
@@ -2045,6 +2181,7 @@ fulanige[.]com
 fulumsta[.]ru
 fuojczwwkmdm[.]es
 furniturelaeders[.]com
+fusldhtp5[.]localto[.]net
 futureddospzmvq[.]shop,domain,LummaStealer C2,infostealer,
 futxx[.]ru
 fvI6[.]pyitze[.]es
@@ -2089,10 +2226,13 @@ galptimic[.]com
 galryeaman[.]ru
 galume[.]aricente[.]com
 game02-com[.]ru/?load=Cities-Skylines-2-Crack-Setup,domain,Redirectingmd5,infoStealers,
+gamewinners[.]in[.]net
 ganalytics-api[.]com,domain,fakebat infostealer,medium,
 ganaxi[.]ru
 gancitypunou[.]ru
 gapsgsdk[.]es
+gardian0mar1on-64077[.]portmap[.]host
+garellla-30563[.]portmap[.]host
 garoudygo[.]ru
 garrulous3[.]com
 gaugorrndyz[.]es
@@ -2121,7 +2261,10 @@ gekkomzkzm[.]es
 genconeo[.]ru
 generalscaningcorp[.]org,domain,X-Agent,C2,fancy-bear
 gentrackengagement[.]org,domain,X-Agent,C2,fancy-bear
+george-broke[.]gl[.]at[.]ply[.]gg
 georgia-travel[.]org,domain,X-Agent,,fancy-bear
+get-comp[.]gl[.]at[.]ply[.]gg
+getting-acquisitions[.]gl[.]at[.]ply[.]gg
 gevertedger[.]com
 gfbwes[.]es
 gfgbknn[.]es
@@ -2136,6 +2279,8 @@ ghfxqea[.]com
 ghjigclbopy[.]es
 ghjqjh[.]ru
 ghlpgf[.]es
+ghostglocks-45443[.]portmap[.]host
+ghostisrealll-39376[.]portmap[.]host
 ghsonrptwrw[.]es
 ghtwestrusc[.]com
 ghtwistaye[.]ru
@@ -2167,6 +2312,8 @@ glassmuysa/Ytb-Dwnld,domain,infostealer,infostealer,
 glatrcisfx[.]ru
 glgixbnf[.]es
 gligandiu[.]com
+globalbusinessinc[.]duckdns[.]org
+globalbusinesstradings[.]duckdns[.]org
 globalclearsolutions[.]com
 globalsacus[.]ru
 globaltch[.]ru
@@ -2187,6 +2334,7 @@ gnexenguene[.]com
 gng0ceanshipping[.]com,domain,,,
 gnirkmjx[.]es
 gnitaregai[.]com
+gnjmmlrgp[.]localto[.]net
 gnrwusew[.]es
 gobalsphere[.]ru
 gobalvision[.]ru
@@ -2197,6 +2345,7 @@ gogpvdvap[.]es
 gohxe[.]es
 gomitore[.]ru
 gonougeono[.]ru
+goodnessger-50564[.]portmap[.]host
 gooles54/Rison-Raid-Bot,domain,infostealer,infostealer,
 gooles54/Rison-Trading-Bot,domain,infostealer,infostealer,
 gooles54/WPscn,domain,infostealer,infostealer,
@@ -2218,12 +2367,17 @@ gqzxtn[.]ru
 gradredecta[.]ru
 gralrate[.]com
 grambpypkky[.]es
+gramskate[.]camdvr[.]org
+gramskate[.]ddns[.]net
+grannyboosted-38861[.]portmap[.]host
 granousecom[.]com
 granxzuz[.]es
 graphtie-arch[.]com
 gratkinki[.]ru
 gratzeware[.]ru
+gravefrnothere-40108[.]portmap[.]host
 grawyadmoni[.]com
+greatxwill7009[.]duckdns[.]org
 greenfxxture[.]ru
 greentastellesqwm[.]shop,domain,Command Servers -md5,infoStealers,
 grenplanet[.]ru
@@ -2304,11 +2458,13 @@ gzuawnk[.]es
 gzuturd[.]es
 gzwnj[.]es
 gzymxip[.]ru
+h1utmdojg[.]localto[.]net
 h2c1[.]upuqf[.]es
 h60iPJrxpZeR9ypw1EPJ[.]eetxjzrqtmma[.]es
 h6stmy[.]xxkzbqvz[.]es
 hDRNjp8IevnC8s89tVDO[.]ndrrsbgz[.]ru
 hF[.]owsnari[.]es
+hL2k-32291[.]portmap[.]host
 hSWL[.]aazabomycid[.]ru
 hTu[.]fzpoqs[.]es
 hakhourital[.]com
@@ -2316,6 +2472,7 @@ halagifts[.]com,domain,SystemBC C2 domain,infoStealers,
 halculowhec[.]ru
 halitorkn[.]ru
 halrov[.]es
+hamo1221-54107[.]portmap[.]host
 handsomelydicrwop[.]shop,domain,samples -md5,infoStealers,
 hannjin[.]com,domain,,,
 haoocffav[.]es
@@ -2347,6 +2504,7 @@ hdfariy[.]es
 hdhdet[.]es
 hdqsbtk[.]es
 heagentunc[.]com
+hebasix[.]duckdns[.]org
 hefwlcrujeog[.]es
 hegzdppkaqno[.]es
 hejeecds[.]ru
@@ -2357,6 +2515,7 @@ helimir[.]ru
 helivane[.]ru
 helivarath[.]ru
 helixarnor[.]ru
+hellofriend[.]exfrp[.]space
 hemvyiycoruq[.]es
 henaitours[.]com
 henplpivka[.]ru
@@ -2384,6 +2543,7 @@ hhxhblsvv[.]es
 hieaflfq[.]es
 hihgkd[.]es
 hikpve[.]es
+hill-modern[.]gl[.]at[.]ply[.]gg
 hiptivaptions[.]ru
 hiqdbp[.]es
 hisotv[.]com,domain,streamingmd5,infoStealers,
@@ -2403,7 +2563,9 @@ hkawaxw[.]es
 hkiqvgoser[.]es
 hkoaptzf[.]es
 hkqnnng[.]es
+hkr9915-57340[.]portmap[.]host
 hkvhts[.]es
+hlgzssmbz[.]localto[.]net
 hllxuvly[.]es
 hlnhcvy[.]es
 hlpeholq[.]es
@@ -2421,6 +2583,7 @@ hodtghuui[.]es
 hoeaytkful[.]es
 hoioobihf[.]es
 holcuramp[.]com
+homes-scan[.]gl[.]at[.]ply[.]gg
 homivarnor[.]ru
 homivine[.]ru
 honcfd[.]ru
@@ -2433,6 +2596,7 @@ horgenyrompyr[.]ru
 horizon[.]sologerg[.]com
 horkyrown[.]com
 horsedwollfedrwos[.]shop,domain,LUMMAC[.]V2 C2s,infoStealers,
+horus65-58899[.]portmap[.]host
 hostsvcnet[.]com,domain,X-Agent,C2,fancy-bear
 houtcang[.]ru
 hpjxalewiyl[.]es
@@ -2519,6 +2683,7 @@ humposode[.]com
 hunkyerdicti[.]ru
 hurfkgaukt[.]es
 hurtrusts[.]com
+hustleathem[.]duckdns[.]org
 hutzwehkyov[.]es
 hv[.]9yncxjknx[.]ru
 hvcjwebl[.]es
@@ -2558,6 +2723,7 @@ hxxps://rtattack[.]baqebei1[.]online/df/tt,domain,ClearFake PowerShell Payload,i
 hxyspai[.]es
 hxyxznede[.]es
 hy7kloDwhtxHQsHVE3fK[.]ehowbncrj[.]es
+hyblazemc[.]myddns[.]me
 hydringthap[.]com
 hygeoustr[.]com
 hypehqwrwuwp[.]es
@@ -2579,6 +2745,7 @@ iakiretenfinad[.]mkvwjqhuygx[.]es
 ialeahed[.]com
 ialgenjes[.]com
 ialtaleci[.]com
+iamg7bh-58861[.]portmap[.]host
 iataqmkojkp[.]es
 ibignuctic[.]ru
 ibnkrvatpg[.]es
@@ -2609,6 +2776,7 @@ idemyediv[.]com
 iderctiont[.]ru
 idermista[.]com
 idgxm[.]es
+idk123456789012-51385[.]portmap[.]host
 idmalminethe[.]ru
 idrvlqvkov[.]es
 idrynnxeg[.]es
@@ -2690,8 +2858,11 @@ in[.]Rafexw[.]es
 inanditer[.]com
 inanforneu[.]ru
 inariteryp[.]ru
+incelcuck[.]duckdns[.]org
 incredibleextedwj[.]shop,domain,BitRAT and Lumma Stealer,infostealer,
+indahoodd[.]ddns[.]net
 indefatigable9[.]com
+indeliberately-buckleless-bell[.]ngrok-free[.]dev
 indernolyp[.]com
 indlegilecum[.]com
 indulfwand[.]com
@@ -2715,6 +2886,7 @@ ingymeldo[.]ru
 inhandodic[.]com
 inklexhu[.]ru
 inksswx[.]es
+inn-ht[.]gl[.]at[.]ply[.]gg
 innovtesolutions[.]ru
 innuvuguy[.]es
 inobraviet[.]ru
@@ -2723,7 +2895,9 @@ inputs-transparent-execute-agent[.]trycloudflare[.]com,domain,Ichnite,ActionOnOb
 inqeedj[.]es
 inqjmfkgq[.]es
 insibulac[.]ru
+inside-alt[.]gl[.]at[.]ply[.]gg
 insiounsors[.]com
+integral2048-47645[.]portmap[.]host
 inteldrv64[.]com,domain,X-Agent,C2,fancy-bear
 intelsupportcenter[.]com,domain,X-Agent,C2,fancy-bear
 intelsupportcenter[.]net,domain,X-Agent,C2,fancy-bear
@@ -2857,9 +3031,12 @@ jaavztajjefi[.]ru
 jabxvbll[.]es
 jacpbrllejn[.]es
 jadefrot[.]ru
+jaheya5849-64670[.]portmap[.]host
 janisover[.]ru
+jari25u777-33269[.]portmap[.]host
 jarotexa[.]com
 jaxdtmj[.]es
+jaxonsmith22-49703[.]portmap[.]host
 jazluma[.]es
 jbagdpl[.]es
 jbfonx[.]es
@@ -2874,6 +3051,7 @@ jcdfxrxwlhls[.]es
 jchzmqcs[.]ru
 jcqvyzrgq[.]es
 jcukcd[.]es
+jcy98d7wk[.]localto[.]net
 jcywqoo[.]es
 jdamre[.]es
 jdgifa[.]es
@@ -2935,6 +3113,7 @@ jkzj[.]mnqdje[.]es
 jlaancyfaw[.]es
 jldgaevhrc[.]es
 jlgcejl[.]es
+jlgwbfxtol[.]a[.]pinggy[.]link
 jlmrztv[.]es
 jlmvmuz[.]es
 jlnzbh[.]ru
@@ -3023,9 +3202,11 @@ k348d[.]venti71[.]com
 k9mg6LxZfljBTMz4FTtn[.]nyptiphyd[.]com
 kaaqd[.]es
 kahncu[.]es
+kai22222-32133[.]portmap[.]host
 kairoxw[.]es
 kaloc[.]ru
 kansinulang[.]ru
+karlinhosdauva-30182[.]portmap[.]host
 kawlmfwixsdz[.]es
 kaxilzlgkprm[.]ru
 kayatbqdqg[.]es
@@ -3041,6 +3222,7 @@ kcrqud[.]es
 kcvrbamm[.]es
 kcvroax[.]es
 kcxebdkb[.]ru
+kde-exe[.]with[.]playit[.]plus
 kdlefvhfqqt[.]es
 kdnjgfd[.]es
 kdnrutm[.]es
@@ -3061,6 +3243,7 @@ kestergates[.]ru
 ketalevig[.]com
 ketaticen[.]com
 kevhlf[.]es
+key-bath[.]gl[.]at[.]ply[.]gg
 kfgaoowip[.]es
 kfjibe[.]es
 kfjky[.]es
@@ -3088,6 +3271,7 @@ kiidbavv[.]es
 kikcgaai[.]es
 kikywym[.]es
 kinyrycrsz[.]es
+kittyland[.]gg
 kivqpq[.]com
 kjatmprz[.]es
 kjblgnmqh[.]es
@@ -3119,6 +3303,8 @@ kngjoebz[.]es
 kngmm[.]ru
 knkyzewg[.]es
 koacicvj[.]es
+koky[.]hopto[.]org
+kokymrgy[.]hopto[.]org
 kolfjriiv[.]es
 kolivane[.]ru
 kolivorth[.]ru
@@ -3149,6 +3335,7 @@ krpowuzkop[.]es
 krqnbpcesto[.]es
 krwronpfdlb[.]ru
 ksaagx[.]es
+kshxfr[.]sa[.]com
 ksifxwmzhop[.]es
 ksvqb[.]es
 ksypzqzomnr[.]es
@@ -3207,17 +3394,20 @@ lCy7ecbUIsqCOc8gB9v3[.]mdwlrs[.]ru
 lF[.]qbzkmz[.]ru
 lF[.]tfcxzk[.]es
 lXY[.]dmuzurqwz[.]ru
+lacemeup-64707[.]portmap[.]host
 lackmarjeotg[.]ru
 ladmakelde[.]ru
 lainegili[.]com
 lamantatio[.]ru
 lamentablegapingkwaq[.]shop,domain,Command Servers -md5,infoStealers,
 lamiumpub[.]com
+lamon[.]ddns[.]net
 langagepath[.]ru
 languagedscie[.]shop,domain,Lumma Stealer,infoStealers,
 languagedscie[.]shop,domain,LummaStealer C2,infostealer,
 languid12[.]com
 lantecomin[.]ru
+laohen29[.]myvnc[.]com
 lapnqdqbmcj[.]es
 larbutdomedi[.]ru
 lardioncom[.]ru
@@ -3253,7 +3443,9 @@ ldstingtor[.]ru
 learnonlsne[.]ru
 learnsmxart[.]ru
 leconetripho[.]ru
+leehoi02[.]duckdns[.]org
 legehagar[.]com
+legendify-42335[.]portmap[.]host
 legogrand[.]ru
 legqol[.]es
 lentimporous[.]ru
@@ -3366,6 +3558,8 @@ lomixor[.]ru
 lonetorta[.]ru
 lonoreste[.]com
 loquestricen[.]ru
+losespada[.]ddns[.]net
+losespadadz[.]myftp[.]biz
 losocvxr[.]es
 lovagcvwydkx[.]es
 lowadjecerg[.]com
@@ -3382,6 +3576,7 @@ lq23JXHIPafWtkYHvEod[.]gxlkzhdqrygw[.]es
 lqeximplzc[.]es
 lqfiutxndyum[.]es
 lqpkfrnjksn[.]es
+lqpoartdg[.]localto[.]net
 lqpunptnj[.]es
 lqvbznpfxgb[.]es
 lqzxhthfxvf[.]es
@@ -3416,6 +3611,7 @@ lumentavit[.]ru
 lunaraven[.]ru
 lunardrift[.]ru
 luncileummt[.]es
+lund[.]0cusign[.]com
 luoutchn[.]ru
 lurcoltfouvf[.]es
 lurwormyri[.]ru
@@ -3448,6 +3644,7 @@ lxgsryb[.]com
 lxqhjliy[.]es
 lyapgm[.]es
 lymzfh[.]es
+lynx1test111-35010[.]portmap[.]host
 lyoqzb[.]es
 lyraxw[.]es
 lzabplu[.]ru
@@ -3466,6 +3663,7 @@ mZD[.]moxejhk[.]es
 mZp[.]mewiize[.]es
 mablohnstio[.]com
 macabrecondfucews[.]shop,domain,Command Servers -md5,infoStealers,
+made-recruitment[.]gl[.]at[.]ply[.]gg
 mademysi[.]com
 magochvstpzt[.]es
 maherpor[.]ru
@@ -3474,6 +3672,7 @@ mail[.]broadmessedubai[.]com,domain,AgentTesla,C2,
 mail[.]reservecorpind[.]com,domain,X-Agent,Delivery, C2,fancy-bear
 mail[.]serrador[.]com,domain,AgentTesla,C2,
 mail[.]windowofficeupdate[.]com,domain,X-Agent,Delivery, C2,fancy-bear
+makeway3[.]hopto[.]org
 makeydricep[.]com
 malbonio[.]ru
 manathshr[.]com
@@ -3493,14 +3692,18 @@ marmhoked[.]ru
 maschantenis[.]ru
 masemwg[.]es
 mashilys[.]ru
+mashina1000-7-57230[.]portmap[.]host
 masivend[.]ru
+masonratopngga-51671[.]portmap[.]host
 materephomic[.]ru
 matereption[.]ru
 materono[.]com
+matidiax1-58523[.]portmap[.]host
 matmasters[.]ru
 matmdx[.]es
 matsmodi[.]ru
 mawtwbxd[.]ru
+max-acknowledge[.]gl[.]at[.]ply[.]gg
 mb37H5P23Zhj6JzCWFuq[.]kaxilzlgkprm[.]ru
 mbdxdpg[.]es
 mbernique[.]ru
@@ -3532,6 +3735,7 @@ mdkcgixctywg[.]es
 mdnkb[.]es
 mdskcuhwh[.]com
 meaiilxx[.]ru
+mean-unharmed[.]gl[.]at[.]ply[.]gg
 mebosprosth[.]ru
 medatenind[.]ru
 medicalfixer[.]pro,domain,c2,medium,
@@ -3563,6 +3767,7 @@ mfairqvssx[.]es
 mfhvfwuq[.]ru
 mfjmtie[.]es
 mfjueqnfr[.]com
+mflk332-50294[.]portmap[.]host
 mgaycvdrqv[.]es
 mghqj[.]es
 mgpwpnl[.]es
@@ -3580,6 +3785,8 @@ mideciando[.]ru
 miealktyrrdi[.]es
 mifkab[.]es
 mifloea[.]es
+milkai2002-61901[.]portmap[.]host
+million-acc[.]gl[.]at[.]ply[.]gg
 mineribro[.]com
 minervamarime[.]com,domain,,,
 mintyaregcho[.]es
@@ -3593,6 +3800,7 @@ mjbfubx[.]es
 mjgcck[.]es
 mjigzt[.]es
 mjlftterqn[.]es
+mjnd[.]sa[.]com
 mkgzkyhcs[.]es
 mkmeyyo[.]es
 mktkkwiha[.]com
@@ -3625,6 +3833,7 @@ mocjch[.]es
 mofocorpa[.]tk,domain,SolarMarker,Delivery,
 mofxmdfh[.]es
 mograstiv[.]com
+mohamed1231-31554[.]portmap[.]host
 molirax[.]ru
 molisrandras[.]ru
 molouscre[.]com
@@ -3710,6 +3919,7 @@ my0fficeauth[.]com
 myftpv[.]es
 myhtwa[.]es
 myjtqx[.]es
+myleingg[.]ddns[.]net
 mylittlecabbage[.]net,domain,DarkGate C2,infostealer,17 May 2024
 mylstdman1[.]com
 mypL[.]eptinveref[.]ru
@@ -3735,7 +3945,9 @@ nH5O[.]imineckledc[.]ru
 nT9H4AA41jRF81ORTXS7[.]vaxvyyyasxvz[.]es
 nYmC[.]mmgokf[.]es
 naglante[.]ru
+nahsus123-62025[.]portmap[.]host
 nalcovernar[.]com
+namit4321-47603[.]portmap[.]host
 nanjbar[.]es
 naoasch[.]com,domain,X-Agent,C2,fancy-bear
 napiou[.]es
@@ -3745,6 +3957,7 @@ nartrairo[.]com
 nastrante[.]com
 nateritlev[.]ru
 nathijande[.]ru
+nature-gabriel[.]gl[.]at[.]ply[.]gg
 naturepict[.]com,domain,X-Agent,C2,fancy-bear
 naudhngxwpfh[.]es
 naverydans[.]com
@@ -3767,6 +3980,7 @@ nceyp[.]ru
 ncfdhmq[.]es
 ncwxjoy[.]es
 ndalvarvas[.]ru
+ndbf79ap3[.]localto[.]net
 ndgwni[.]es
 ndhsgaip[.]es
 ndiereocksh[.]com
@@ -3784,19 +3998,24 @@ nelacmuli[.]com
 nelixorne[.]ru
 nendarcis[.]ru
 neoderb[.]com,domain,X-Agent,C2,fancy-bear
+nepedag445-41040[.]portmap[.]host
+nepedag445-42672[.]portmap[.]host
 neplneuzlfa[.]es
 nercomeni[.]com
 nereteneup[.]ru
 nestervir[.]com
 netcloselysecure[.]org,domain,X-Agent,C2,fancy-bear
 nethostnet[.]com,domain,X-Agent,C2,fancy-bear
+netrunner456-63694[.]portmap[.]host
 netvoom[.]org
 netwebsiteslist[.]ru,domain,fakebat infostealer,medium,
+network000[.]ddns[.]net
 networkconfig[.]org,domain,X-Agent,C2,fancy-bear
 neusifra[.]com
 new-prok[.]ru,domain,fakebat infostealer,medium,
 new-prok[.]site,domain,fakebat infostealer,medium,
 newfilmts[.]com,domain,X-Agent,C2,fancy-bear
+newincomes[.]minhaempresa[.]tv
 news[.]agent[.]tw,domain,Ixeshe,Delivery,numbered-panda
 newtorpan[.]ru,domain,fakebat infostealer,medium,
 newtorpan[.]site,domain,fakebat infostealer,medium,
@@ -3804,6 +4023,7 @@ nexavixbex[.]ru
 nexorable2[.]com
 nexpouxion[.]com
 nexrkn[.]es
+next-dance[.]gl[.]at[.]ply[.]gg
 nextvisiona[.]ru
 nextwavxe[.]ru
 neyoUTERNATINcIoVASySICKn[.]tepzyozff[.]ru
@@ -3826,6 +4046,7 @@ ngovji[.]ru
 ngysqq[.]es
 ngztsuib[.]ru
 ngzzy[.]es
+nhasmi67-47935[.]portmap[.]host
 nhhmzipaj[.]com
 nhiewgr[.]es
 nhiys[.]es
@@ -3836,6 +4057,9 @@ nialustel[.]com
 niarketul[.]ru
 nifpi[.]es
 nigahiqsj[.]es
+niggerbigertrigger-40627[.]portmap[.]host
+nightkill3r[.]publicvm[.]com
+nightspace-57464[.]portmap[.]host
 niisfjoy[.]es
 nimp[.]nolixirathen[.]ru
 nipmayar[.]ru
@@ -3872,6 +4096,7 @@ nntgd[.]es
 nnylzsovr[.]es
 nnzdbgffpvda[.]es
 nobilvei[.]ru
+nobrains[.]localto[.]net
 nofirathor[.]ru
 noigxh[.]ru
 nolbru4ym[.]com
@@ -3881,6 +4106,8 @@ nolivor[.]ru
 nolixane[.]ru
 nolixor[.]ru
 nomaho[.]es
+noone5123-52149[.]portmap[.]host
+noone5123-59078[.]portmap[.]host
 noppm[.]es
 norhernflare[.]ru
 norsousthew[.]com
@@ -3917,6 +4144,7 @@ nqegnlhh[.]es
 nqrdsxapfsd[.]es
 nqsiysg[.]es
 nqtpw[.]ru
+nrafth[.]za[.]com
 nrbbiazju[.]es
 nrjuhdnxv[.]com
 nrpaapj[.]es
@@ -3955,6 +4183,7 @@ nuttygfanon[.]es
 nuxydm[.]es
 nv[.]mancelynxt[.]com
 nvanzgn[.]es
+nvd9pk2u4h[.]localto[.]net
 nvdbhf[.]es
 nvdvmjx[.]es
 nvewwxntsomj[.]es
@@ -3992,6 +4221,7 @@ nysukpu[.]es
 nyswkspf[.]es
 nyuhtq[.]es
 nyzebtvo[.]es
+nz5umskcf[.]localto[.]net
 nzbsmnygv[.]es
 nzdrab[.]ru
 nzeftv[.]es
@@ -4025,6 +4255,7 @@ ockermol[.]ru
 ockinamplet[.]ru
 oclefeykq[.]es
 oclshykpddvi[.]es
+odayrifaii-37201[.]portmap[.]host
 odkyvoay[.]ru
 odpeot[.]es
 odrfnnhan[.]es
@@ -4042,6 +4273,8 @@ oezuircd[.]ru
 ofcOOo9aV2sQpXJ46uVY[.]xlxxma[.]es
 offical-trusts[.]com
 officc36[.]de
+office001[.]duckdns[.]org
+often-richmond[.]gl[.]at[.]ply[.]gg
 ofycuqc[.]com
 ogatenumba[.]ru
 ogierfebu[.]com
@@ -4079,6 +4312,7 @@ ojmxwuvjo[.]ru
 ojvjxa[.]es
 ojzkqsael[.]es
 okaola[.]es
+okayshwh-38943[.]portmap[.]host
 okbeaunch[.]com
 okpztwirsrju[.]es
 okuus[.]es
@@ -4117,6 +4351,7 @@ onLhFEkM2VDBurbNNo4Q[.]rjjsbrs[.]ru
 onadntq[.]ru
 onddgkvkrogb[.]es
 ondelarsh[.]ru
+onebigbucks2026[.]duckdns[.]org
 onegimers[.]com
 onevx[.]es
 ongbq[.]es
@@ -4148,6 +4383,7 @@ oplhutvir[.]es
 opmobmw[.]es
 opposesicknessopw[.]pw,domain,LummaStealer C2,infostealer,
 opriangh[.]com
+optrn[.]com
 oqgriud[.]es
 oqhjqcmb[.]es
 oqitjjf[.]es
@@ -4276,9 +4512,11 @@ panel-xworm[.]xyz
 pangdolmon[.]ru
 paramanama[.]com,domain,CobaltStrike,Delivery, C2,
 pariteting[.]com
+park-sarah[.]gl[.]at[.]ply[.]gg
 parwolab[.]com
 parysempe[.]com
 pasivenwi[.]ru
+pastebin[.]com
 pathpoints[.]info
 patternapplauderw[.]shop,domain,LUMMAC[.]V2 C2s,infoStealers,
 pbaytiona[.]ru
@@ -4325,8 +4563,12 @@ pemithorne[.]ru
 pemitore[.]ru
 pemitranor[.]ru
 penavic0lyg[.]com,domain,,,
+penguin16342-43860[.]portmap[.]host
+penidi8413-47021[.]portmap[.]host
+penispro8ty2-54766[.]portmap[.]host
 pentinisiou[.]com
 pentuark[.]ru
+people-joyce[.]gl[.]at[.]ply[.]gg
 peqhoz[.]ru
 peramplysi[.]com
 perimetered[.]info
@@ -4363,8 +4605,10 @@ photography-agent[.]gl[.]at[.]ply[.]gg,domain,Xworm,,
 phuuq[.]es
 phyakarnksgr[.]ru
 piaterso[.]ru
+pidoras6742-56928[.]portmap[.]host
 pidzbist[.]es
 pihculywe[.]es
+pinklemonade-53074[.]portmap[.]host
 pipiew[.]es
 piukstsau[.]es
 pixelwizard[.]ru
@@ -4380,6 +4624,7 @@ plagompsy[.]com
 plarazityp[.]ru
 plawsoru[.]ru
 playaxndstream[.]ru
+players-jr[.]gl[.]at[.]ply[.]gg
 pleasurenarrowsdla[.]shop,domain,Lumma C2 domain,infoStealers,
 plencent[.]ru
 plipistera[.]com
@@ -4392,6 +4637,7 @@ pmdjvby[.]es
 pmhxhizo[.]es
 pmistwiadiw[.]es
 pmjzvpg[.]es
+pmmnv-158-173-23-8[.]a[.]free[.]pinggy[.]link
 pmqawqui[.]es
 pmqruqofhrik[.]es
 pmrhk[.]es
@@ -4413,6 +4659,7 @@ pokbyadgg[.]com
 polarfoge[.]ru
 poleanch[.]ru
 policenearaggressiveprogram[.]com,domain,PocoDown, X-Agent,C2,fancy-bear
+policy-russia[.]gl[.]at[.]ply[.]gg
 politefrightenpowoa[.]pw,domain,LummaStealer C2,infostealer,
 politicweekend[.]com,domain,X-Agent,C2,fancy-bear
 polixaroth[.]ru
@@ -4420,6 +4667,7 @@ pooahfhc[.]es
 pooreveningfuseor[.]pw,domain,LummaStealer C2,infostealer,
 popdancestream[.]com,domain,X-Agent,C2,fancy-bear
 porazygentia[.]ru
+porfs[.]servehalflife[.]com
 porixaneth[.]ru
 poruigayb[.]es
 posioncify[.]ru
@@ -4449,6 +4697,7 @@ preessence[.]ru
 preinnovation[.]ru
 preptgeqn[.]es
 preservedmoment[.]com,domain,Cobalt Strike domain,infoStealers,
+press-shuttle[.]gl[.]at[.]ply[.]gg
 prime-marines[.]net,domain,,,
 primengftures[.]ru
 prismnlick[.]es
@@ -4465,6 +4714,7 @@ promialedin[.]com
 prophousein[.]com
 propreolu[.]ru
 protectingcorpind[.]com,domain,TimeStealerTrigger, X-Agent, XMRig,C2,fancy-bear
+proud-dawn-88929[.]pktriot[.]net
 proulybor[.]com
 prsqyyunl[.]es
 prximesolutions[.]ru
@@ -4557,6 +4807,7 @@ qbzkmz[.]ru
 qciflpwybqg[.]es
 qciz[.]hfoujg[.]es
 qcmar[.]ru
+qdasvwggwt24t2wdw-57582[.]portmap[.]host
 qdgekfr[.]es
 qdkmauwvxvzi[.]es
 qdnwvfmto[.]es
@@ -4569,6 +4820,7 @@ qeszhnsp[.]es
 qevitran[.]ru
 qevwjt[.]es
 qeweaihogqzp[.]es
+qewrwsad-42180[.]portmap[.]host
 qeyehfnykfn[.]es
 qeylpmplwty[.]es
 qfipebd[.]es
@@ -4714,6 +4966,7 @@ qzztapgv[.]es
 r298y[.]sem01[.]com
 r6yo[.]diethrify[.]ru
 r7e[.]khomesealky[.]ru
+r8bw6dylh[.]localto[.]net
 rNoV[.]zvptaird[.]ru
 rO[.]fjwtib[.]es
 rSbmF6TAiJ6O0FWFEW9a[.]mboameadhk[.]es
@@ -4730,6 +4983,8 @@ railitzeni[.]ru
 raindli[.]ru
 raiseboltskdlwpow[.]shop,domain,Lumma C2 domain,infoStealers,
 raiterse[.]ru
+rajkumarred[.]ddnsgeek[.]com
+rajkumarred[.]duckdns[.]org
 rajthpbtznf[.]ru
 ralateonymo[.]com
 ralivex[.]ru
@@ -4749,6 +5004,7 @@ raphabeth[.]com
 ratescaph[.]com
 ratgdd[.]es
 ravquncwpgsl[.]es
+rawr986-54931[.]portmap[.]host
 rbjyrrjhefi[.]com
 rbodiater[.]ru
 rbouskyancep[.]ru
@@ -4773,13 +5029,16 @@ redighan[.]ru
 redsample[.]net,domain,X-Agent,C2,fancy-bear
 refkcir[.]es
 registnum[.]com,domain,X-Agent,Delivery, C2,fancy-bear
+registration-irc[.]gl[.]at[.]ply[.]gg
 reitilc[.]es
 rejepn[.]es
 relaxtionflouwerwi[.]shop,domain,LUMMAC[.]V2 C2s,infoStealers,
+releases-scale[.]gl[.]at[.]ply[.]gg
 relevantvoicelesskw[.]shop,domain,LummaStealer C2,infostealer,
 relimisclac[.]com
 relitore[.]ru
 relivornath[.]ru
+rem0te[.]servep2p[.]com
 remidorn[.]ru
 reminece[.]ru
 remitran[.]ru
@@ -4787,6 +5046,7 @@ remivor[.]ru
 remotepx[.]net,domain,LoJack,Delivery, C2,fancy-bear
 rendipit3[.]com
 rendyburipa[.]com
+rentals-hidden[.]gl[.]at[.]ply[.]gg
 rentudifer[.]ru
 reonylkem[.]ru
 repmxgdgll[.]es
@@ -4879,6 +5139,7 @@ rlvtcy[.]es
 rlwvxse[.]es
 rlyxcgt[.]es
 rlzmopwnx[.]es
+rmaa7-37443[.]portmap[.]host
 rmenegildop[.]com
 rmidaknkflg[.]ru
 rmmjyei[.]es
@@ -4894,6 +5155,8 @@ robfxr[.]es
 rockudxdhfk[.]es
 rodenstocik[.]com
 roidialige[.]ru
+roles-38825[.]portmap[.]host
+roles-40374[.]portmap[.]host
 rolivex[.]ru
 rolivine[.]ru
 romedfliorcy[.]es
@@ -4903,6 +5166,8 @@ roniumbl[.]ru
 ronmuggt[.]es
 ronomistyce[.]com
 rontelien[.]ru
+roofingman2022-61912[.]portmap[.]host
+rooms-traveller[.]gl[.]at[.]ply[.]gg
 rophequir[.]com
 roposcofo[.]ru
 rordiplouti[.]ru
@@ -4913,6 +5178,7 @@ rowgahsi[.]es
 rowofjcz[.]es
 roytnate[.]com
 rpdupw[.]ru
+rpfivemgta[.]ddns[.]net
 rphyton[.]ru
 rpiky[.]es
 rpldcamxezd[.]es
@@ -4926,6 +5192,7 @@ rqavvasymofk[.]es
 rqhxiwok[.]es
 rqhyedw[.]es
 rqnfdwcky[.]es
+rqtankvea[.]localto[.]net
 rqtumewex[.]es
 rquorgtmegi[.]es
 rqusdb[.]es
@@ -5026,15 +5293,18 @@ samranebate[.]ru
 samusaneu[.]com
 sanktiouseli[.]ru
 saoirse4[.]com
+saqir[.]world
 sartideas[.]ru
 sasW2DmriM8Kkuc8kXfv[.]mkypyxk[.]es
 satervicar[.]ru
 saunceptilt[.]ru
 savefrom[.]net,domain,streamingmd5,infoStealers,
 saxgrjheim[.]es
+sayfalse-33597[.]portmap[.]host
 saymqyl[.]es
 sbexrnv[.]es
 sblndawrowaf[.]com
+scamkiller[.]loseyourip[.]com
 sccyih[.]ru
 scenicroutxes[.]ru
 scenseakes[.]ru
@@ -5051,6 +5321,7 @@ scyqiuzs[.]es
 sdcaznbe[.]es
 sddlknsyc[.]es
 sddwot[.]ru
+sdfgfhj[.]ddns[.]net
 sdlmsuo[.]es
 sdnikgj[.]es
 sdqsg[.]ru
@@ -5069,6 +5340,7 @@ seinhsvod[.]es
 selenexw[.]es
 selimor[.]ru
 sellartech[.]ru
+seller-editions[.]gl[.]at[.]ply[.]gg
 semaphoren[.]com
 sentinel-one[.]s3[.]us-east-005[.]backblazeb2[.]com,domain,,,scattered-spider
 sequilasisla[.]ru
@@ -5076,6 +5348,7 @@ seraphinaxw[.]es
 serphothy[.]com
 serrador[.]com,domain,,,
 serveriii[.]org
+service[.]hsjyxx[.]com
 serviceshost[.]net,domain,X-Agent,C2,fancy-bear
 sespolpitia[.]com
 set121[.]com,domain,,Reconnaissance,fancy-bear
@@ -5095,6 +5368,7 @@ sgppjmmgawqv[.]es
 sgsmqu[.]es
 sgxcliuahzf[.]es
 shaceshrov[.]ru
+shadowlogikov-33583[.]portmap[.]host
 sharkendwy[.]com
 sharyousnicky[.]ru
 shatestire[.]ru
@@ -5108,6 +5382,7 @@ shikmck[.]ru
 shnapanake[.]com
 sholivager[.]ru
 shortsvelventysjo[.]shop,domain,BitRAT and Lumma Stealer,infostealer,
+shown-mario[.]gl[.]at[.]ply[.]gg
 shuthoramet[.]ru
 shuxlnl[.]es
 si9tvene[.]com
@@ -5139,19 +5414,24 @@ sjlhund[.]es
 sjzkyi[.]es
 skalecist[.]com
 skcnqze[.]ru
+skdlfsd-56502[.]portmap[.]host
 skehodlbqxa[.]es
 skillsxet[.]ru
+skin-greece[.]gl[.]at[.]ply[.]gg
 skispotle[.]ru
 skoqzrzopqg[.]es
 skvmfuwnr[.]es
 skyeekk[.]es
 skyvaulyt[.]ru
 skzyuo[.]ru
+slayieure-62635[.]portmap[.]host
 slgdcbgsdvgq[.]es
 slgesx[.]ru
 slmeuxoe[.]com
 slpooqsr[.]es
 slpzlbez[.]es
+slrbi356-30384[.]portmap[.]host
+slrbi356-58189[.]portmap[.]host
 slrmmoy[.]es
 slrp-htl[.]com
 slswy[.]es
@@ -5201,6 +5481,8 @@ sonicutialiq[.]ru
 sonoisoate[.]ru
 sonymnate[.]ru
 sopmakd[.]es
+sosato-31557[.]portmap[.]host
+sousssf-39168[.]portmap[.]host
 sovidornex[.]ru
 sovilax[.]ru
 sovimarnex[.]ru
@@ -5210,6 +5492,7 @@ sovirax[.]ru
 sovitone[.]ru
 spaijo[.]es
 spamicrosoft[.]com,domain,Used to make external Microsoft Teams calls after email bombing users[.],infoStealers,
+sparepartstecnam[.]duckdns[.]org
 spdutzluvcpt[.]es
 specialadventurousw[.]shop,domain,samples -md5,infoStealers,
 spesplecu[.]com
@@ -5217,6 +5500,7 @@ spetoran[.]com
 spfcc[.]es
 sphbqymw[.]ru
 sphevtjwa[.]es
+spidrixs-43070[.]portmap[.]host
 spienstop[.]com
 spinmcube[.]ru
 spmfqiuwul[.]es
@@ -5229,6 +5513,7 @@ sqhgrfaurbfg[.]es
 sqomfg[.]es
 squ7uete[.]com
 squesoaneur[.]ru
+squrczybyk-43555[.]portmap[.]host
 sqxmrcmv[.]com
 srfbnz[.]ru
 srmiobpicn[.]com
@@ -5245,9 +5530,11 @@ ssqoa[.]es
 ssyoutube[.]com,domain,streamingmd5,infoStealers,
 standingcomperewhitwo[.]shop,domain,Command Servers -md5,infoStealers,
 starfrge[.]ru
+starmls1234-61151[.]portmap[.]host
 starrypines[.]ru
 stathrictu[.]ru
 stbhpg[.]es
+steinsgroup[.]org
 sterpters[.]ru
 stesibornan[.]ru
 stesoleckap[.]ru
@@ -5255,6 +5542,7 @@ stesumic[.]ru
 steypvaen[.]ru
 sthmu9[.]ru
 stickyyummyskiwffe[.]shop,domain,Command Servers -md5,infoStealers,
+still-resistant[.]gl[.]at[.]ply[.]gg
 stimpleritorh[.]ru
 stioneyea[.]ru
 stlfqrm[.]es
@@ -5270,16 +5558,21 @@ stronggemateraislw[.]shop,domain,samples -md5,infoStealers,
 strwawrunnygjwu[.]shop,domain,Lumma C2 domain,infoStealers,
 stsermic[.]ru
 stuanitio[.]com
+student56[.]ru[.]com
 sturdyregularrmsnhw[.]shop,domain,Command Servers -md5,infoStealers,
+subdomain[.]minhaempresa[.]tv
 suiofftjyf[.]es
+suitingwarriors[.]org
 suixca[.]es
 sujkrln[.]es
 sulobahlutht[.]es
 sumperbeabol[.]ru
 sumxnmspy[.]es
 sunhavenfoundation[.]org
+sunsu[.]xyz
 superyupp[.]fun,domain,LummaStealer C2,infostealer,
 supiantate[.]com
+support-prospect[.]gl[.]at[.]ply[.]gg
 support[.]fortimoniteam[.]com,domain,c2,medium,
 suqvxhdi[.]es
 susegrelo[.]ru
@@ -5302,11 +5595,14 @@ sxlzcsrwvl[.]es
 sxnaows[.]ru
 sxuanyxids[.]es
 sxxnckyeaij[.]es
+sxxpv-193-25-251-10[.]a[.]free[.]pinggy[.]link
 sychotomimeed[.]ru
 syncentouse[.]com
 synctphelper[.]com,domain,X-Agent,C2,fancy-bear
 synergia-bdc[.]com
 syoogxbosucr[.]es
+system[.]vx[.]ink
+system[.]yg[.]ink
 systemlowcheck[.]com,domain,X-Agent,C2,fancy-bear
 syyxmr[.]es
 syzksmjtssha[.]es
@@ -5324,6 +5620,7 @@ t1gn297[.]vukcaibekpo[.]es
 t1hds[.]coibnea[.]com
 t4NBSOlUg1BG7AyiRPGk[.]jpbouqfk[.]es
 t61QHCOV6SgS4JwQkzIe[.]xycepbyg[.]es
+t72k-30675[.]portmap[.]host
 t73H9EIltW8COlET3DdY[.]wqcbpylew[.]es
 t8T[.]komirith[.]ru
 tG7[.]8tum9awoz[.]ru
@@ -5336,6 +5633,7 @@ tadrystopru[.]com
 tagalogdubbed[.]com,domain,streamingmd5,infoStealers,
 tageshous[.]com
 tahylro[.]ru
+take-districts[.]gl[.]at[.]ply[.]gg
 talpardi[.]com
 tamol[.]es
 tamxihfu[.]es
@@ -5348,6 +5646,7 @@ tarwdu[.]es
 tatcharc[.]ru
 taurialy[.]ru
 tavihxtbcsmv[.]es
+tax-fc[.]gl[.]at[.]ply[.]gg
 tazuwu[.]es
 tbhnpjc[.]es
 tbixjwb[.]ru
@@ -5365,6 +5664,7 @@ tchbloom[.]ru
 tchouchfimb[.]com
 tcixqnccy[.]es
 tcjdl[.]ru
+tcpport333-38897[.]portmap[.]host
 tcrpi[.]es
 tdcfeejtlp[.]es
 tdgojspxq[.]com
@@ -5376,6 +5676,7 @@ tecctruckservice[.]com
 techfdews[.]ru
 technebula[.]ru
 technoogyf[.]ru
+teens-resource[.]gl[.]at[.]ply[.]gg
 tegloom[.]ru
 teimorcf[.]es
 temvra9ql[.]com
@@ -5424,6 +5725,9 @@ tfwnbbn[.]es
 tfwqlcmbncu[.]es
 tfzpwrlmq[.]es
 tgxvitl[.]es
+th3hunt3r-48288[.]portmap[.]host
+than-named[.]gl[.]at[.]ply[.]gg
+the-banned[.]gl[.]at[.]ply[.]gg
 therifitan[.]com
 thermarmand[.]ru
 theronis[.]ru
@@ -5456,6 +5760,7 @@ tiousinst[.]ru
 tipgqe[.]es
 tiraklzazt[.]es
 titbrlu[.]es
+title-ratios[.]gl[.]at[.]ply[.]gg
 titodupli[.]com
 titoneyhela[.]ru
 tivacuerwach[.]com
@@ -5522,6 +5827,7 @@ tonileanti[.]com
 tontricint[.]ru
 tonversit[.]ru
 tonzarbab[.]com
+top[.]cloudpub[.]ru
 topttr[.]com,domain,fakebat infostealer,medium,
 tormodicap[.]ru
 tortzscowel[.]ru
@@ -5568,16 +5874,20 @@ trolimex[.]ru
 tropicalironexpressiw[.]shop,domain,LUMMAC[.]V2 C2s,infoStealers,
 tropikithai[.]ru
 trotimit[.]ru
+true-baghdad[.]gl[.]at[.]ply[.]gg
+truesir[.]duckdns[.]org
 trujespark[.]ru
 trust-flare[.]ru,domain,fakebat infostealer,medium,
 trust-flare[.]site,domain,fakebat infostealer,medium,
 trustdwnl[.]ru,domain,fakebat infostealer,medium,
 trwgtrp[.]com
+trymeonce-63682[.]portmap[.]host
 trzlofb[.]ru
 tscebtz[.]es
 tsiahec[.]es
 tsmmyuiuzkc[.]es
 tsofterbita[.]ru
+tspmo-40154[.]portmap[.]host
 tsrthdslh[.]es
 tsulgegbij[.]ru
 tsychertibla[.]ru
@@ -5594,10 +5904,13 @@ tumpirent[.]com
 tundex9yb[.]com
 turaerefar[.]ru
 turkeyunlikelyofw[.]shop,domain,LummaStealer C2,infostealer,
+turkialenzi-42249[.]portmap[.]host
+turkirma7-53217[.]portmap[.]host
 turunberyper[.]ru
 tusionicuty[.]com
 tusprouside[.]ru
 tutalw[.]es
+tutr54756754u6-64430[.]portmap[.]host
 tvknzupwbdfg[.]es
 tvppckvhut[.]es
 tvujzzfq[.]es
@@ -5606,6 +5919,7 @@ tvuwtqbzp[.]es
 tvzuwx[.]es
 twcwgbl[.]es
 twirlerbbse[.]es
+twitch[.]cx
 twksrh[.]es
 twnctgc[.]es
 twnijf[.]es
@@ -5731,13 +6045,18 @@ unctuous9[.]com
 undegenarp[.]com
 understanndtytonyguw[.]shop,domain,LUMMAC[.]V2 C2s,infoStealers,
 undivandiumi[.]ru
+unease-liens[.]with[.]playit[.]plus
+unenvied-saskatoon[.]with[.]playit[.]plus
 ungeqt[.]ru
+unhiin2-60345[.]portmap[.]host
 uniedpureevenywjk[.]shop,domain,samples -md5,infoStealers,
 unimarkstamp[.]com,domain,X-Agent,C2,fancy-bear
+unitedclassifiedsourcinginc[.]duckdns[.]org
 uniumentorg[.]ru
 unjig[.]es
 unjvffnltx[.]es
 unjwiatdvcm[.]es
+unknownrazer-33303[.]portmap[.]host
 unkrater[.]ru
 unladcuse[.]com
 unodqi[.]ru
@@ -5749,6 +6068,7 @@ unyjtvoh[.]es
 uobsdb[.]es
 uoesvkh[.]es
 uofemm[.]es
+uogapk7[.]ddns[.]net
 uogfwcwbuu[.]ru
 uogonya[.]es
 uomnmdzpbma[.]ru
@@ -5760,6 +6080,7 @@ uphivusxd[.]com
 uploadfile[.]site,domain,,Delivery,refined-kitten
 uplwllhouy[.]es
 upmonserv[.]net,domain,X-Agent,C2,fancy-bear
+upon-webmaster[.]gl[.]at[.]ply[.]gg
 upposnm[.]es
 upszrezjosso[.]es
 upuqf[.]es
@@ -5791,7 +6112,9 @@ ururh[.]es
 urymenised[.]ru
 urzdbp[.]es
 us[.]Zanexw[.]es
+usb-norm[.]gl[.]at[.]ply[.]gg
 usdunua[.]es
+userrd1pre-56738[.]portmap[.]host
 ushackagea[.]ru
 usiverama[.]com
 uskmrmd[.]es
@@ -5848,6 +6171,7 @@ uyjye[.]es
 uyohhecdk[.]com
 uyvheqryt[.]es
 uywagn[.]es
+uz8vz5cpm6[.]localto[.]net
 uz[.]oralydrypord[.]com
 uzbpdd[.]es
 uzclzty[.]es
@@ -5870,9 +6194,12 @@ vaconersan[.]ru
 vaenpyi[.]es
 vajvnna[.]es
 valcondunar[.]com
+valid-witnesses[.]gl[.]at[.]ply[.]gg
 valiso0/Mail-Ac-Generator,domain,infostealer,infostealer,
 valiso0/TwT-Gen,domain,infostealer,infostealer,
 valiso0/Ytb-Dwnld,domain,infostealer,infostealer,
+vallper[.]ddns[.]net
+vanillacakeyoutube-52569[.]portmap[.]host
 vapren6dk[.]com
 varaltion[.]com
 vaxmywqdyio[.]es
@@ -5932,15 +6259,19 @@ vhqteyntrurs[.]ru
 vhwlt[.]es
 vhzqjfhbb[.]com
 viakmz[.]es
+vibeproject776-44233[.]portmap[.]host
 vicxbk[.]ru
 videhousemin[.]ru
 vientinit[.]ru
+views-warming[.]gl[.]at[.]ply[.]gg
 vimqcsnulbk[.]es
 vindanavetr[.]com
 vingiethdi[.]ru
+violation-swagger[.]gl[.]at[.]ply[.]gg
 vioziespitun[.]tk,domain,SolarMarker,Delivery,
 virbutr[.]ru
 virtsvc[.]com,domain,X-Agent,C2,fancy-bear
+viscosity-vertex[.]gl[.]at[.]ply[.]gg
 visijonframe[.]ru
 visqpx[.]es
 viters[.]org,domain,DownRage,Delivery, C2,fancy-bear
@@ -5966,6 +6297,7 @@ vlqlcpi[.]ru
 vlqpbzlfl[.]es
 vltxqdf[.]ru
 vlvxwk[.]es
+vmbot-2601-282-8600-2870-5dd1-8492-7afd-379f[.]a[.]free[.]pinggy[.]link
 vmdlgql[.]es
 vmhafcxjavgs[.]es
 vmiyk[.]es
@@ -6076,6 +6408,7 @@ watetiona[.]com
 watichunt[.]com
 wavwkessda[.]es
 waxawj[.]es
+ways-dental[.]gl[.]at[.]ply[.]gg
 wazqob[.]com
 wazyggmdr[.]es
 wbdutlwc[.]es
@@ -6095,8 +6428,14 @@ wczrqjp[.]es
 wdfmg[.]es
 wdhkzvvnc[.]es
 wdhtf[.]es
+wealthybanks[.]duckdns[.]org
+web[.]vx[.]ink
+web[.]yg[.]ink
 webchartzone[.]com,domain,X-Agent,C2,fancy-bear
 websrcmodule[.]com,domain,X-Agent,C2,fancy-bear
+webxio1231-40781[.]portmap[.]host
+weifang[.]serveftp[.]com
+weifang[.]thddns[.]net
 weiwog[.]es
 wejogrfvkr[.]es
 wejogrfvkr[.]ru
@@ -6111,6 +6450,8 @@ wemkuk[.]es
 wensolsie[.]com
 werathaeg[.]ru
 wersquiv[.]ru
+western-willow[.]gl[.]at[.]ply[.]gg
+wewewewe879s8tws3r-32455[.]portmap[.]host
 wewyzwddlfc[.]es
 wexlir6tb[.]com
 wfdzhcsj[.]es
@@ -6119,6 +6460,7 @@ wfkfqmmk[.]es
 wfquvemp[.]es
 wfulyogjxuo[.]es
 wfuxsnwjnjb[.]es
+wgDV1FDEQGBTBTRBh3-35046[.]portmap[.]host
 wgakednu[.]es
 wgfnv[.]es
 wggofqp[.]es
@@ -6155,6 +6497,8 @@ wiscrablurge[.]ru
 wisdomlines-asia[.]com,domain,,,
 wisdomlines-tw[.]com,domain,,,
 wisemassiveharmonious[.]shop,domain,LummaStealer C2,infostealer,
+wish-carefully[.]gl[.]at[.]ply[.]gg
+without-gibraltar[.]gl[.]at[.]ply[.]gg
 withsoulbrand[.]ru
 wittazuvtxbb[.]es
 witvshi[.]es
@@ -6168,6 +6512,7 @@ wkigeyv[.]es
 wkngmw[.]es
 wlgrovx[.]es
 wlqklsmojc[.]ru
+wlzssic9u[.]localto[.]net
 wmadtibsuyg[.]es
 wmgbaflx[.]es
 wmhjedgbus[.]es
@@ -6187,6 +6532,7 @@ wobxfwfxhlwm[.]es
 woiroxw[.]es
 wokdxbfkaodv[.]es
 woltnq[.]es
+womanless-assurance[.]gl[.]at[.]ply[.]gg
 womitax[.]ru
 woodztfctup[.]es
 wordownspy[.]com
@@ -6206,6 +6552,7 @@ wqvvxve[.]es
 wrbooq[.]es
 wrgjjauvbcmt[.]es
 wrhkngj[.]es
+wri[.]uk[.]com
 writerospzm[.]shop,domain,Lumma Stealer,infoStealers,
 writerospzm[.]shop,domain,LummaStealer C2,infostealer,
 wrrhynolvf[.]es
@@ -6265,6 +6612,7 @@ wxrrdtn[.]es
 wxthhsjidr[.]ru
 wxvudkwdif[.]es
 wxzkehqb[.]es
+wyattmouris-47273[.]portmap[.]host
 wydmkyo[.]es
 wyixllwd[.]es
 wyofeec[.]es
@@ -6314,6 +6662,7 @@ xcoriate2[.]com
 xctfbk[.]es
 xdaluktmq[.]es
 xdeawhgbd[.]es
+xdm111-37027[.]portmap[.]host
 xdrhaqese[.]es
 xdvzznj[.]es
 xdyedebgnh[.]ru
@@ -6335,6 +6684,8 @@ xenilornor[.]ru
 xenivax[.]ru
 xentore[.]ru
 xepdun[.]es
+xeribus[.]okonlomon[.]com
+xexezagandon-30432[.]portmap[.]host
 xezxuezl[.]es
 xfyjlsfrs[.]es
 xgeutwlknk[.]es
@@ -6394,6 +6745,8 @@ xnsgmbsw[.]es
 xnsnrfp[.]es
 xnuavcwixub[.]es
 xnzehyq[.]es
+xoeyxsife-33031[.]portmap[.]host
+xoeyxsife-53554[.]portmap[.]host
 xolimathor[.]ru
 xomitore[.]ru
 xomitran[.]ru
@@ -6464,9 +6817,11 @@ xwmhtd[.]es
 xwmzgz[.]es
 xwnfyykpokvg[.]ru
 xwocfxll[.]es
+xword5[.]duckdns[.]org
 xworm-0xb[.]zip
 xworm-3[.]1-modded-by-mrpepe-main[.]zip
 xworm-5[.]6-main[.]zip
+xworm2026[.]ddns[.]net
 xworm[.]airdns[.]org
 xworm[.]cloud
 xworm[.]ddns[.]net
@@ -6487,6 +6842,11 @@ xwskld[.]es
 xwtpacs[.]es
 xwzvvabrqk[.]es
 xxafslyykk[.]ru
+xxblessing2026now[.]duckdns[.]org
+xxblessings[.]minhaempresa[.]tv
+xxblessingsbreakthroughs[.]duckdns[.]org
+xxblessingswealths[.]duckdns[.]org
+xxblessingsxtras[.]duckdns[.]org
 xxcdltr[.]es
 xxclrfwbeab[.]es
 xxkzbqvz[.]es
@@ -6513,6 +6873,8 @@ yWL765wGG79t2amNAMZ8[.]skcnqze[.]ru
 yailhoisgqi[.]es
 yakmxfj[.]es
 yandfica[.]ru
+yassinedfe4-39487[.]portmap[.]host
+yassinekjdkfj-42734[.]portmap[.]host
 yaveqe[.]es
 yawtiksd[.]es
 yaxlen0vf[.]com
@@ -6551,6 +6913,7 @@ yehkesm[.]es
 yenovf[.]ru
 yepernarond[.]com
 yeqjjwa[.]ru
+yessigmaurlahhahahfunnytypeshi67[.]wiped-protected[.]xyz
 yeucl[.]es
 yeuoog[.]ru
 yevvchoon[.]com,domain,,,
@@ -6614,9 +6977,14 @@ ymyzpbtxhryt[.]es
 yn[.]zlkqwgpwf[.]es
 ynejihpsdu[.]ru
 ynewb[.]es
+ynhasmi-46863[.]portmap[.]host
 ynhkgtrfjz[.]es
 ynszgm[.]es
+ynvgx9hh15[.]localto[.]net
 yockeh[.]es
+yoenacevedo7-30889[.]portmap[.]host
+yoenacevedo7-38238[.]portmap[.]host
+yoenacevedo7-41744[.]portmap[.]host
 yogeun[.]es
 yoha[.]twksrh[.]es
 yohadbtkxl[.]es
@@ -6627,6 +6995,8 @@ yomixornor[.]ru
 yomnmw[.]es
 yontrexia[.]es
 yoozokdo[.]es
+yoseflikesjujutsukaisen-57011[.]portmap[.]host
+yov1os2mn[.]localto[.]net
 yovpblq[.]es
 yoyoxo[.]ru
 ypaaaqa[.]ru
@@ -6668,6 +7038,7 @@ ytflldqxa[.]es
 ytpflkm[.]es
 ytpzlpw[.]es
 ytrdwh[.]es
+yttt-52788[.]portmap[.]host
 ytwzcxnfy[.]es
 ytzcut[.]es
 ytzgwcd[.]es
@@ -6751,6 +7122,7 @@ zenitore[.]ru
 zenpmwyomhh[.]es
 zenwaxve[.]ru
 zerotnrail[.]ru
+zesir-44796[.]portmap[.]host
 zesvrebula[.]es
 zfjod[.]ru
 zfjvds[.]es
@@ -6787,6 +7159,7 @@ zjfxfgc[.]es
 zjghweovntid[.]ru
 zjjyjmbch[.]es
 zjnzkt[.]es
+zjrhp8su2[.]localto[.]net
 zk6P[.]uukovttv[.]ru
 zkcrvpn[.]es
 zkhzrdxkrg[.]es
